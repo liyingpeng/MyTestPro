@@ -1,0 +1,11 @@
+{
+  "reused" : true,
+  "protocol" : "http\/1.1",
+  "request_duration" : 382,
+  "waiting" : 32,
+  "request" : 0,
+  "before_fetch" : 0,
+  "response" : 36,
+  "redirect_count" : 0,
+  "url" : "https:\/\/sf1-hscdn-tos.pstatp.com\/obj\/ies.fe.effect\/8118fe65455b394c4055e8a2d42cf10a"
+}

@@ -1,0 +1,7 @@
+{
+  "event" : "camera",
+  "params" : {
+    "is_login" : "login",
+    "enter_from" : "plus"
+  }
+}

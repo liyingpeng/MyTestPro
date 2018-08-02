@@ -1,0 +1,15 @@
+{
+  "event" : "pk_time_out",
+  "params" : {
+    "event_belong" : "live",
+    "event_type" : "other",
+    "channel_id" : "6583983696141880072",
+    "room_id" : "6583983696141880072",
+    "match_type" : "random",
+    "title" : "礼物PK",
+    "event_page" : "live_detail",
+    "inviter_id" : "68398478202",
+    "invitee_id" : "86138691654",
+    "pk_time" : 10
+  }
+}

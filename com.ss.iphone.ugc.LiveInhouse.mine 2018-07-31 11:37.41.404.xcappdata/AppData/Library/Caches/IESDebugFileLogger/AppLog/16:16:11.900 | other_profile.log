@@ -1,0 +1,11 @@
+{
+  "event" : "other_profile",
+  "params" : {
+    "page_source" : "live_ending",
+    "event_page" : "other_profile",
+    "event_belong" : "video",
+    "enter_from" : "live_ending",
+    "user_id" : "68398478202",
+    "event_type" : "pv"
+  }
+}

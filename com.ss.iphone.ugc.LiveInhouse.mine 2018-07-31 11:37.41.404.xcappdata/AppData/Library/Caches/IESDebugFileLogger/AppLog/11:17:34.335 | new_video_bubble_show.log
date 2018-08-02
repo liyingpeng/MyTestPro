@@ -1,0 +1,9 @@
+{
+  "event" : "new_video_bubble_show",
+  "params" : {
+    "event_module" : "toast",
+    "event_page" : "",
+    "event_belong" : "video",
+    "event_type" : "other"
+  }
+}

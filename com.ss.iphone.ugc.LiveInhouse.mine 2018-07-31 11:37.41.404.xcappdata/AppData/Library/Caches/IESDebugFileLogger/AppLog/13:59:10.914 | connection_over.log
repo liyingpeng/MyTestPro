@@ -1,0 +1,17 @@
+{
+  "event" : "connection_over",
+  "params" : {
+    "event_page" : "live_detail",
+    "room_id" : "6583884921566464781",
+    "event_type" : "other",
+    "invitee_id" : "68398478202",
+    "inviter_id" : "67199917288",
+    "title" : "礼物PK",
+    "channel_id" : "6583885614700038925",
+    "connection_type" : "pk",
+    "pk_time" : 120,
+    "match_type" : "manual",
+    "connection_time" : 9.8345426250002674,
+    "event_belong" : "live"
+  }
+}

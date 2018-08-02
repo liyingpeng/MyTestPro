@@ -1,0 +1,1 @@
+define("component/Bus/index",function(e,u){function n(e){return e&&e.__esModule?e:{"default":e}}Object.defineProperty(u,"__esModule",{value:!0}),u.default=void 0;var d=n(e("node_modules/vue/dist/vue.runtime.common")),o=new d.default({}),t=o;u.default=t});

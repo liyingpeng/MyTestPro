@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C786CDC20D3984700566B0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C786CDB20D3984700566B0F /* AppDelegate.m */; };
+		9C786CDF20D3984700566B0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C786CDE20D3984700566B0F /* ViewController.m */; };
+		9C786CE220D3984700566B0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C786CE020D3984700566B0F /* Main.storyboard */; };
+		9C786CE420D3984A00566B0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C786CE320D3984A00566B0F /* Assets.xcassets */; };
+		9C786CE720D3984A00566B0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C786CE520D3984A00566B0F /* LaunchScreen.storyboard */; };
+		9C786CEA20D3984A00566B0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C786CE920D3984A00566B0F /* main.m */; };
+		9C786CF420D3984A00566B0F /* TestForDispatchTimerCancelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C786CF320D3984A00566B0F /* TestForDispatchTimerCancelTests.m */; };
+		9C786CFF20D3984A00566B0F /* TestForDispatchTimerCancelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C786CFE20D3984A00566B0F /* TestForDispatchTimerCancelUITests.m */; };
+		9C786D0E20D3986400566B0F /* HTSCountTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C786D0C20D3986300566B0F /* HTSCountTimer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C786CF020D3984A00566B0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C786CCF20D3984700566B0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C786CD620D3984700566B0F;
+			remoteInfo = TestForDispatchTimerCancel;
+		};
+		9C786CFB20D3984A00566B0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C786CCF20D3984700566B0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C786CD620D3984700566B0F;
+			remoteInfo = TestForDispatchTimerCancel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C786CD720D3984700566B0F /* TestForDispatchTimerCancel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestForDispatchTimerCancel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C786CDA20D3984700566B0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C786CDB20D3984700566B0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C786CDD20D3984700566B0F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9C786CDE20D3984700566B0F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9C786CE120D3984700566B0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C786CE320D3984A00566B0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C786CE620D3984A00566B0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C786CE820D3984A00566B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C786CE920D3984A00566B0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C786CEF20D3984A00566B0F /* TestForDispatchTimerCancelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestForDispatchTimerCancelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C786CF320D3984A00566B0F /* TestForDispatchTimerCancelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestForDispatchTimerCancelTests.m; sourceTree = "<group>"; };
+		9C786CF520D3984A00566B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C786CFA20D3984A00566B0F /* TestForDispatchTimerCancelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestForDispatchTimerCancelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C786CFE20D3984A00566B0F /* TestForDispatchTimerCancelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestForDispatchTimerCancelUITests.m; sourceTree = "<group>"; };
+		9C786D0020D3984A00566B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C786D0C20D3986300566B0F /* HTSCountTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSCountTimer.m; sourceTree = "<group>"; };
+		9C786D0D20D3986300566B0F /* HTSCountTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSCountTimer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C786CD420D3984700566B0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C786CEC20D3984A00566B0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C786CF720D3984A00566B0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C786CCE20D3984700566B0F = {
+			isa = PBXGroup;
+			children = (
+				9C786CD920D3984700566B0F /* TestForDispatchTimerCancel */,
+				9C786CF220D3984A00566B0F /* TestForDispatchTimerCancelTests */,
+				9C786CFD20D3984A00566B0F /* TestForDispatchTimerCancelUITests */,
+				9C786CD820D3984700566B0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C786CD820D3984700566B0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C786CD720D3984700566B0F /* TestForDispatchTimerCancel.app */,
+				9C786CEF20D3984A00566B0F /* TestForDispatchTimerCancelTests.xctest */,
+				9C786CFA20D3984A00566B0F /* TestForDispatchTimerCancelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C786CD920D3984700566B0F /* TestForDispatchTimerCancel */ = {
+			isa = PBXGroup;
+			children = (
+				9C786D0D20D3986300566B0F /* HTSCountTimer.h */,
+				9C786D0C20D3986300566B0F /* HTSCountTimer.m */,
+				9C786CDA20D3984700566B0F /* AppDelegate.h */,
+				9C786CDB20D3984700566B0F /* AppDelegate.m */,
+				9C786CDD20D3984700566B0F /* ViewController.h */,
+				9C786CDE20D3984700566B0F /* ViewController.m */,
+				9C786CE020D3984700566B0F /* Main.storyboard */,
+				9C786CE320D3984A00566B0F /* Assets.xcassets */,
+				9C786CE520D3984A00566B0F /* LaunchScreen.storyboard */,
+				9C786CE820D3984A00566B0F /* Info.plist */,
+				9C786CE920D3984A00566B0F /* main.m */,
+			);
+			path = TestForDispatchTimerCancel;
+			sourceTree = "<group>";
+		};
+		9C786CF220D3984A00566B0F /* TestForDispatchTimerCancelTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C786CF320D3984A00566B0F /* TestForDispatchTimerCancelTests.m */,
+				9C786CF520D3984A00566B0F /* Info.plist */,
+			);
+			path = TestForDispatchTimerCancelTests;
+			sourceTree = "<group>";
+		};
+		9C786CFD20D3984A00566B0F /* TestForDispatchTimerCancelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C786CFE20D3984A00566B0F /* TestForDispatchTimerCancelUITests.m */,
+				9C786D0020D3984A00566B0F /* Info.plist */,
+			);
+			path = TestForDispatchTimerCancelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C786CD620D3984700566B0F /* TestForDispatchTimerCancel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C786D0320D3984A00566B0F /* Build configuration list for PBXNativeTarget "TestForDispatchTimerCancel" */;
+			buildPhases = (
+				9C786CD320D3984700566B0F /* Sources */,
+				9C786CD420D3984700566B0F /* Frameworks */,
+				9C786CD520D3984700566B0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestForDispatchTimerCancel;
+			productName = TestForDispatchTimerCancel;
+			productReference = 9C786CD720D3984700566B0F /* TestForDispatchTimerCancel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C786CEE20D3984A00566B0F /* TestForDispatchTimerCancelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C786D0620D3984A00566B0F /* Build configuration list for PBXNativeTarget "TestForDispatchTimerCancelTests" */;
+			buildPhases = (
+				9C786CEB20D3984A00566B0F /* Sources */,
+				9C786CEC20D3984A00566B0F /* Frameworks */,
+				9C786CED20D3984A00566B0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C786CF120D3984A00566B0F /* PBXTargetDependency */,
+			);
+			name = TestForDispatchTimerCancelTests;
+			productName = TestForDispatchTimerCancelTests;
+			productReference = 9C786CEF20D3984A00566B0F /* TestForDispatchTimerCancelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C786CF920D3984A00566B0F /* TestForDispatchTimerCancelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C786D0920D3984A00566B0F /* Build configuration list for PBXNativeTarget "TestForDispatchTimerCancelUITests" */;
+			buildPhases = (
+				9C786CF620D3984A00566B0F /* Sources */,
+				9C786CF720D3984A00566B0F /* Frameworks */,
+				9C786CF820D3984A00566B0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C786CFC20D3984A00566B0F /* PBXTargetDependency */,
+			);
+			name = TestForDispatchTimerCancelUITests;
+			productName = TestForDispatchTimerCancelUITests;
+			productReference = 9C786CFA20D3984A00566B0F /* TestForDispatchTimerCancelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C786CCF20D3984700566B0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "李应鹏";
+				TargetAttributes = {
+					9C786CD620D3984700566B0F = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					9C786CEE20D3984A00566B0F = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 9C786CD620D3984700566B0F;
+					};
+					9C786CF920D3984A00566B0F = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 9C786CD620D3984700566B0F;
+					};
+				};
+			};
+			buildConfigurationList = 9C786CD220D3984700566B0F /* Build configuration list for PBXProject "TestForDispatchTimerCancel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C786CCE20D3984700566B0F;
+			productRefGroup = 9C786CD820D3984700566B0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C786CD620D3984700566B0F /* TestForDispatchTimerCancel */,
+				9C786CEE20D3984A00566B0F /* TestForDispatchTimerCancelTests */,
+				9C786CF920D3984A00566B0F /* TestForDispatchTimerCancelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C786CD520D3984700566B0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C786CE720D3984A00566B0F /* LaunchScreen.storyboard in Resources */,
+				9C786CE420D3984A00566B0F /* Assets.xcassets in Resources */,
+				9C786CE220D3984700566B0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C786CED20D3984A00566B0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C786CF820D3984A00566B0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C786CD320D3984700566B0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C786CDF20D3984700566B0F /* ViewController.m in Sources */,
+				9C786CEA20D3984A00566B0F /* main.m in Sources */,
+				9C786CDC20D3984700566B0F /* AppDelegate.m in Sources */,
+				9C786D0E20D3986400566B0F /* HTSCountTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C786CEB20D3984A00566B0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C786CF420D3984A00566B0F /* TestForDispatchTimerCancelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C786CF620D3984A00566B0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C786CFF20D3984A00566B0F /* TestForDispatchTimerCancelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C786CF120D3984A00566B0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C786CD620D3984700566B0F /* TestForDispatchTimerCancel */;
+			targetProxy = 9C786CF020D3984A00566B0F /* PBXContainerItemProxy */;
+		};
+		9C786CFC20D3984A00566B0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C786CD620D3984700566B0F /* TestForDispatchTimerCancel */;
+			targetProxy = 9C786CFB20D3984A00566B0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C786CE020D3984700566B0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C786CE120D3984700566B0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C786CE520D3984A00566B0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C786CE620D3984A00566B0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C786D0120D3984A00566B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9C786D0220D3984A00566B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C786D0420D3984A00566B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestForDispatchTimerCancel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hello.TestForDispatchTimerCancel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C786D0520D3984A00566B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestForDispatchTimerCancel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hello.TestForDispatchTimerCancel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C786D0720D3984A00566B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestForDispatchTimerCancelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hello.TestForDispatchTimerCancelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestForDispatchTimerCancel.app/TestForDispatchTimerCancel";
+			};
+			name = Debug;
+		};
+		9C786D0820D3984A00566B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestForDispatchTimerCancelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hello.TestForDispatchTimerCancelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestForDispatchTimerCancel.app/TestForDispatchTimerCancel";
+			};
+			name = Release;
+		};
+		9C786D0A20D3984A00566B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestForDispatchTimerCancelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hello.TestForDispatchTimerCancelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestForDispatchTimerCancel;
+			};
+			name = Debug;
+		};
+		9C786D0B20D3984A00566B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestForDispatchTimerCancelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hello.TestForDispatchTimerCancelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestForDispatchTimerCancel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C786CD220D3984700566B0F /* Build configuration list for PBXProject "TestForDispatchTimerCancel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C786D0120D3984A00566B0F /* Debug */,
+				9C786D0220D3984A00566B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C786D0320D3984A00566B0F /* Build configuration list for PBXNativeTarget "TestForDispatchTimerCancel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C786D0420D3984A00566B0F /* Debug */,
+				9C786D0520D3984A00566B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C786D0620D3984A00566B0F /* Build configuration list for PBXNativeTarget "TestForDispatchTimerCancelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C786D0720D3984A00566B0F /* Debug */,
+				9C786D0820D3984A00566B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C786D0920D3984A00566B0F /* Build configuration list for PBXNativeTarget "TestForDispatchTimerCancelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C786D0A20D3984A00566B0F /* Debug */,
+				9C786D0B20D3984A00566B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C786CCF20D3984700566B0F /* Project object */;
+}

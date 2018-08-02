@@ -1,0 +1,14 @@
+{
+  "event" : "live_over",
+  "params" : {
+    "_staging_flag" : 1,
+    "event_belong" : "live",
+    "streaming_type" : "general",
+    "event_type" : "core",
+    "room_id" : "6583938587381271303",
+    "time" : "142435",
+    "event_page" : "live_take_detail",
+    "anchor_id" : "68398478202",
+    "live_type" : "video_live"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "protocol" : "http\/1.1",
+  "url" : "https:\/\/sf1-hscdn-tos.pstatp.com\/obj\/ies.fe.effect\/9abc5677d00575d8c0551f012d83d7c9",
+  "dns" : 1,
+  "tls" : 54,
+  "request_duration" : 606,
+  "redirect_count" : 0,
+  "fetch" : 466,
+  "before_fetch" : 0,
+  "connection" : 75,
+  "reused" : false,
+  "request" : 0,
+  "response" : 40,
+  "waiting" : 21
+}

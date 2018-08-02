@@ -1,0 +1,10 @@
+{
+  "event" : "video_click",
+  "params" : {
+    "video_id" : "6583138827504717063",
+    "event_page" : "video",
+    "event_belong" : "video_view",
+    "image_size" : 576,
+    "event_type" : "other"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "event" : "watch_onemin",
+  "params" : {
+    "log_pb" : "{\"rid\":\"2018073017205401001006403853183C\"}",
+    "_staging_flag" : 1,
+    "event_belong" : "live_view",
+    "streaming_type" : "general",
+    "request_id" : "2018073017205401001006403853183C",
+    "room_id" : "6583935403781262094",
+    "enter_from" : "moment",
+    "event_page" : "live_detail",
+    "anchor_id" : "63378808546",
+    "action_type" : "click",
+    "live_type" : "video_live"
+  }
+}

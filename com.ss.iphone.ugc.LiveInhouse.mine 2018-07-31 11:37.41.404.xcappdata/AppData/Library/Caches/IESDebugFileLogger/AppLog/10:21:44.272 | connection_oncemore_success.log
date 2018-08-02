@@ -1,0 +1,16 @@
+{
+  "event" : "connection_oncemore_success",
+  "params" : {
+    "pk_time" : 120,
+    "event_belong" : "live",
+    "event_type" : "other",
+    "channel_id" : "6584200184669211395",
+    "room_id" : "6584200169712159495",
+    "match_type" : "manual",
+    "title" : "礼物PK",
+    "event_page" : "live_detail",
+    "inviter_id" : "67199917288",
+    "invitee_id" : "68398478202",
+    "connection_type" : "pk"
+  }
+}

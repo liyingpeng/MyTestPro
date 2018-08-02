@@ -1,0 +1,8 @@
+{
+  "uuid" : "C8DE591D-B4FC-406A-8528-42B7AAD5796C",
+  "label" : "is_top",
+  "task" : "HTSOAuthTask",
+  "step" : "DuringLaunch",
+  "type" : "delay_fabric",
+  "duration" : 2
+}

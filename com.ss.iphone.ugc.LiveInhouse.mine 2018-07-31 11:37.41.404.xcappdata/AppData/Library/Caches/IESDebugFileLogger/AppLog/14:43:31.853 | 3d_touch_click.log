@@ -1,0 +1,11 @@
+{
+  "event" : "3d_touch_click",
+  "params" : {
+    "event_type" : "click",
+    "event_page" : "video",
+    "event_belong" : "video",
+    "action_type" : "preview",
+    "video_id" : "6583818039974694148",
+    "event_module" : "video"
+  }
+}

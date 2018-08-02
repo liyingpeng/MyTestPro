@@ -1,0 +1,6 @@
+{
+  "event" : "push_cue_popup_cancel",
+  "params" : {
+    "_staging_flag" : "1"
+  }
+}

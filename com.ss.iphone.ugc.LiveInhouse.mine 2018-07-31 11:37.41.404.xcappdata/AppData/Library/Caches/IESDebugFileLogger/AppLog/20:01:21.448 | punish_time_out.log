@@ -1,0 +1,13 @@
+{
+  "event" : "punish_time_out",
+  "params" : {
+    "event_belong" : "live",
+    "event_type" : "other",
+    "channel_id" : "6583977451733551879",
+    "room_id" : "6583977451733551879",
+    "match_type" : "random",
+    "title" : "礼物PK",
+    "event_page" : "live_detail",
+    "pk_time" : 120
+  }
+}

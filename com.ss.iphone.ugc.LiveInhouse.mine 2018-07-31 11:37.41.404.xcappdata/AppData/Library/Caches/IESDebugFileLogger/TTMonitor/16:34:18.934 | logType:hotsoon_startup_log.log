@@ -1,0 +1,8 @@
+{
+  "uuid" : "3208F8EC-AF9E-446B-86A4-5DCDE331C1D9",
+  "label" : "normal",
+  "task" : "HTSCrashlyticsTask",
+  "step" : "RunLoopIdle",
+  "type" : "delay_fabric",
+  "duration" : 59
+}

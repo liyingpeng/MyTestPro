@@ -1,0 +1,14 @@
+{
+  "protocol" : "http\/1.1",
+  "url" : "http:\/\/sf6-hscdn-tos.pstatp.com\/img\/hotsoon-avatar\/26d9dcbfedeb1276b524e96a657f70be74c3c35cddc91c4f11551f50e795f3ad~100x100.webp",
+  "dns" : 60,
+  "request_duration" : 129,
+  "redirect_count" : 0,
+  "fetch" : 2,
+  "before_fetch" : 1,
+  "reused" : false,
+  "request" : 0,
+  "response" : 0,
+  "connection" : 19,
+  "waiting" : 42
+}

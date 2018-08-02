@@ -1,0 +1,10 @@
+{
+  "category" : "umeng",
+  "is_auto" : "1",
+  "time" : 381,
+  "is_success" : 2,
+  "leave_type" : "skip",
+  "tag" : "refresh_response",
+  "label" : "video",
+  "is_cache" : true
+}

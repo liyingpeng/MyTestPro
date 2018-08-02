@@ -1,0 +1,6 @@
+{
+  "event" : "camera",
+  "params" : {
+    "enter_from" : "live"
+  }
+}

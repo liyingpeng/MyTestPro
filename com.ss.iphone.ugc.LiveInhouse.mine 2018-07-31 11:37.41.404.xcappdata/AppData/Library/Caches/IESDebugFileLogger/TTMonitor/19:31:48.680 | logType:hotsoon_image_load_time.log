@@ -1,0 +1,14 @@
+{
+  "protocol" : "http\/1.1",
+  "url" : "http:\/\/sf1-ttcdn-tos.pstatp.com\/img\/ad.union.api\/9ecad03dd1a917132a01482a87dcc9d4~c1_0x0_q100.jpeg",
+  "dns" : 21,
+  "request_duration" : 118,
+  "redirect_count" : 0,
+  "fetch" : 11,
+  "before_fetch" : 3,
+  "reused" : false,
+  "request" : 0,
+  "response" : 16,
+  "connection" : 26,
+  "waiting" : 36
+}

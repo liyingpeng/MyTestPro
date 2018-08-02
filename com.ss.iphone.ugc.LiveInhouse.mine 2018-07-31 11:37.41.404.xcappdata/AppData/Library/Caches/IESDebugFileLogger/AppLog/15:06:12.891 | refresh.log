@@ -1,0 +1,9 @@
+{
+  "event" : "refresh",
+  "params" : {
+    "event_module" : "bottom_tab",
+    "event_page" : "video",
+    "event_belong" : "video_view",
+    "event_type" : "click"
+  }
+}

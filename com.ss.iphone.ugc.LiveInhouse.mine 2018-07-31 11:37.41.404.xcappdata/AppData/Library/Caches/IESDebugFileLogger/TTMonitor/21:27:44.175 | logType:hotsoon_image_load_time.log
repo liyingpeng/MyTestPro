@@ -1,0 +1,14 @@
+{
+  "protocol" : "http\/1.1",
+  "url" : "http:\/\/p9.pstatp.com\/obj\/30ee0007c3c292ef7fa9",
+  "dns" : 8,
+  "request_duration" : 42,
+  "redirect_count" : 0,
+  "fetch" : 3,
+  "before_fetch" : 0,
+  "reused" : false,
+  "request" : 0,
+  "response" : 0,
+  "connection" : 14,
+  "waiting" : 13
+}

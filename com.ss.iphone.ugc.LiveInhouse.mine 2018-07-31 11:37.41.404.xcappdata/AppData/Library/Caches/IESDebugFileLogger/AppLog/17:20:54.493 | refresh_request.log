@@ -1,0 +1,11 @@
+{
+  "event" : "refresh_request",
+  "params" : {
+    "event_page" : "moment",
+    "event_belong" : "video_view",
+    "is_auto" : "1",
+    "performance_scene" : "cold_start",
+    "time" : -1,
+    "event_type" : "other"
+  }
+}

@@ -1,0 +1,182 @@
+{
+    "parts": {
+        "arrow": {
+            "frameCount": 18,
+            "height": 488,
+            "position": {
+                "positionX": [
+                    {
+                        "index": 74,
+                        "x": 205.322,
+                        "y": 204.687
+                    },
+                    {
+                        "index": 77,
+                        "x": 306.152,
+                        "y": 204.492
+                    }
+                ],
+                "positionY": [
+                ]
+            },
+            "positionRelationType": 1,
+            "positionType": 1,
+            "rotateCenter": [
+                {
+                    "index": 46,
+                    "x": 256.347,
+                    "y": 255.419
+                }
+            ],
+            "scale": {
+                "scaleX": {
+                    "pointA": [
+                        {
+                            "index": 74,
+                            "x": 205.322,
+                            "y": 204.687
+                        }
+                    ],
+                    "pointB": [
+                        {
+                            "index": 77,
+                            "x": 306.152,
+                            "y": 204.492
+                        }
+                    ]
+                },
+                "scaleY": {
+                    "pointA": [
+                    ],
+                    "pointB": [
+                    ]
+                }
+            },
+            "triggerDelay": 0,
+            "triggerLoop": 0,
+            "triggerStop": false,
+            "triggerType": 0,
+            "width": 500,
+            "zPosition": 2
+        },
+        "font": {
+            "frameCount": 18,
+            "height": 120,
+            "position": {
+                "positionX": [
+                    {
+                        "index": 74,
+                        "x": 102.600,
+                        "y": 390.732
+                    },
+                    {
+                        "index": 77,
+                        "x": 297.872,
+                        "y": 390.354
+                    }
+                ],
+                "positionY": [
+                ]
+            },
+            "positionRelationType": 1,
+            "positionType": 1,
+            "rotateCenter": [
+                {
+                    "index": 46,
+                    "x": 201.418,
+                    "y": 488.983
+                }
+            ],
+            "scale": {
+                "scaleX": {
+                    "pointA": [
+                        {
+                            "index": 74,
+                            "x": 102.600,
+                            "y": 390.732
+                        }
+                    ],
+                    "pointB": [
+                        {
+                            "index": 77,
+                            "x": 297.872,
+                            "y": 390.354
+                        }
+                    ]
+                },
+                "scaleY": {
+                    "pointA": [
+                    ],
+                    "pointB": [
+                    ]
+                }
+            },
+            "triggerDelay": 0,
+            "triggerLoop": 0,
+            "triggerStop": false,
+            "triggerType": 0,
+            "width": 400,
+            "zPosition": 1
+        },
+        "heart": {
+            "frameCount": 18,
+            "height": 67,
+            "position": {
+                "positionX": [
+                    {
+                        "index": 74,
+                        "x": 48.786,
+                        "y": -10.582
+                    },
+                    {
+                        "index": 77,
+                        "x": 149.029,
+                        "y": -10.776
+                    }
+                ],
+                "positionY": [
+                ]
+            },
+            "positionRelationType": 1,
+            "positionType": 1,
+            "rotateCenter": [
+                {
+                    "index": 46,
+                    "x": 99.514,
+                    "y": 39.854
+                }
+            ],
+            "scale": {
+                "scaleX": {
+                    "pointA": [
+                        {
+                            "index": 74,
+                            "x": 48.786,
+                            "y": -10.582
+                        }
+                    ],
+                    "pointB": [
+                        {
+                            "index": 77,
+                            "x": 149.029,
+                            "y": -10.776
+                        }
+                    ]
+                },
+                "scaleY": {
+                    "pointA": [
+                    ],
+                    "pointB": [
+                    ]
+                }
+            },
+            "triggerDelay": 0,
+            "triggerLoop": 0,
+            "triggerStop": false,
+            "triggerType": 0,
+            "width": 200,
+            "zPosition": 0
+        }
+    },
+    "version": "1.1"
+}

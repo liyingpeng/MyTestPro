@@ -1,0 +1,26 @@
+{
+  "useBDWebImage" : false,
+  "terminal_type" : "kTerminalTypeFOOM",
+  "app_state" : 0,
+  "free_memory" : 20,
+  "page_chain" : [
+    "HTSCameraViewController",
+    "HTSLiveGuideViewController",
+    "HTSLiveAnchorViewController",
+    "HTSLiveCocosViewController",
+    "HTSLivePopupNavigationController",
+    "HTSLiveInviterEnterViewController",
+    "HTSInteractivePKController",
+    "HTSLiveInviterPKSelectModeViewController",
+    "HTSLiveInviterPKListViewController",
+    "HTSLiveInviterPKConnectingViewController"
+  ],
+  "event_page" : "HTSLiveInviterPKConnectingViewController",
+  "real_active" : true,
+  "available_memory" : 517,
+  "useTTNet" : false,
+  "memory_usage" : 265,
+  "usage_rate" : 13.236763000488281,
+  "total_memory" : 2002,
+  "launch_interval" : 317
+}

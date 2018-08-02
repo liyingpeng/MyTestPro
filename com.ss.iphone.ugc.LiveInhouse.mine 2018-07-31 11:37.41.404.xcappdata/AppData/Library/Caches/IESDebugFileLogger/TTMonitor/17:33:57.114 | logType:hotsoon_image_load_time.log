@@ -1,0 +1,14 @@
+{
+  "protocol" : "http\/1.1",
+  "url" : "http:\/\/p3.pstatp.com\/live\/100x100\/477c0001fa41d4745d51.jpeg",
+  "dns" : 3,
+  "request_duration" : 61,
+  "redirect_count" : 0,
+  "fetch" : 0,
+  "before_fetch" : 0,
+  "reused" : false,
+  "request" : 0,
+  "response" : 0,
+  "connection" : 13,
+  "waiting" : 43
+}

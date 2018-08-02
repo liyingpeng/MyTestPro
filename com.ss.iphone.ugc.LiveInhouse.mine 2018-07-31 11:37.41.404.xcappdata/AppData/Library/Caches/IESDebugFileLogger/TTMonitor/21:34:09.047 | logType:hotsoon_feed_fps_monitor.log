@@ -1,0 +1,10 @@
+{
+  "event_name" : "refresh",
+  "available_memory" : 826,
+  "memory_usage" : 63.18359375,
+  "start_fps" : 48.997978210449219,
+  "event_page" : "HTSFollowTabViewController",
+  "end_fps" : 48.997978210449219,
+  "average_fps_during_event" : 60,
+  "cpu_usage" : "53.7%"
+}

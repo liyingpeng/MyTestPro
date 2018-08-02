@@ -1,0 +1,11 @@
+{
+  "category" : "umeng",
+  "is_success" : 1,
+  "time" : 424,
+  "video_id" : 6583092846339820803,
+  "label" : "video",
+  "is_cache" : 0,
+  "tag" : "cover_finish",
+  "resolution" : "{640, 1138}",
+  "preload" : 1
+}

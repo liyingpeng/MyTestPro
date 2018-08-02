@@ -1,0 +1,10 @@
+{
+  "event" : "mine",
+  "params" : {
+    "event_module" : "bottom_tab",
+    "event_page" : "",
+    "event_belong" : "video",
+    "reddot_status" : 0,
+    "event_type" : "other"
+  }
+}

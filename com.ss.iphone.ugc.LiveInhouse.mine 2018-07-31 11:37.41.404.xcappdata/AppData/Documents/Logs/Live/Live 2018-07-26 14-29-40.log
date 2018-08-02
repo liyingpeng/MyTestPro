@@ -1,0 +1,1689 @@
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2261353 18-07-26 14:29:40]dispatching HTSLiveGiftActions:updateGiftGroup: , which is not subscribed yet
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2261353 18-07-26 14:30:04]dispatching HTSLiveGiftActions:didUpdateSupportGift , which is not subscribed yet
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2261353 18-07-26 14:30:04]stream engine state changed 1
+[V Live -[LiveRecordCountDownView dealloc]:48 com.apple.main-thread:2261353 18-07-26 14:30:04]kHTSCountDonwLoading deallocing
+[I Live -[HTSLiveAnchorViewController loadCocosController]:334 com.apple.main-thread:2261353 18-07-26 14:30:04]loading cocosViewController
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:225 com.apple.main-thread:2261353 18-07-26 14:30:06]init cocos view 0x139fb6b10
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:227 com.apple.main-thread:2261353 18-07-26 14:30:06]starting cocos animation 0x139fb6b10
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2261353 18-07-26 14:30:07]dispatching HTSLiveGiftActions:updateGiftGroup: , which is not subscribed yet
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2261353 18-07-26 14:30:07]dispatching HTSLiveGiftActions:didUpdateSupportGift , which is not subscribed yet
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2261353 18-07-26 14:30:08]stream engine state changed 2
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2261353 18-07-26 14:31:14]dispatching HTSLiveInteractivePKAction:closePK , which is not subscribed yet
+[V Live -[HTSLiveInteractivePKStore onPKReceivedInvitationWith:]:511 com.apple.main-thread:2261353 18-07-26 14:31:21]pktest 被邀请端收到邀请 : 0x1c03887b0
+[V Live -[HTSLiveInteractivePKStore onPKReceivedInvitationWith:]:511 com.apple.main-thread:2261353 18-07-26 14:31:21]pktest 被邀请端收到邀请 : 0x1c018f7d0
+[V Live -[HTSLiveInteractivePKStore onPKReceivedInvitationWith:]:511 com.apple.main-thread:2261353 18-07-26 14:31:21]pktest 被邀请端收到邀请 : 0x1c03887b0
+[V Live -[HTSLiveInteractivePKStore onPKReceivedInvitationWith:]:511 com.apple.main-thread:2261353 18-07-26 14:32:36]pktest 被邀请端收到邀请 : 0x1c4380000
+[V Live -[HTSLiveInteractivePKStore onPKReceivedInvitationWith:]:511 com.apple.main-thread:2261353 18-07-26 14:32:36]pktest 被邀请端收到邀请 : 0x1c4380000
+[V Live -[HTSLiveInteractivePKStore onPKReceivedInvitationWith:]:511 com.apple.main-thread:2261353 18-07-26 14:32:36]pktest 被邀请端收到邀请 : 0x1c4385210
+[V Live -[HTSInteractivePKController startWaitingLoading]:435 com.apple.main-thread:2261353 18-07-26 14:32:39]pktest interactive start 33loading : 0x1384aee00
+[V Live -[HTSLiveInteractivePKStore pr_replyInvivationWithAgree:channelId:inviteUid:matchType:close:]_block_invoke:194 com.apple.main-thread:2261353 18-07-26 14:32:39]pktest store reply suceess : 0x1c4385210
+[V Live -[HTSLiveInteractivePKStore onPKInvitationNotifyJoined]:535 com.apple.main-thread:2261353 18-07-26 14:32:44]pktest 被邀请端收到notify joined : 0x1c4385210
+[V Live -[HTSInteractivePKController startInteractiveLayout]:357 com.apple.main-thread:2261353 18-07-26 14:32:44]pktest interactive layout start : 0x1384aee00
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:190 com.apple.main-thread:2261353 18-07-26 14:32:46]pktest agora join success : 0x1c4384510
+[V Live -[HTSInteractivePKController interactiveShowDidStart:]:223 com.apple.main-thread:2261353 18-07-26 14:32:46]pktest interactive did start : 0x1384aee00
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2261353 18-07-26 14:32:47]stream engine state changed 1
+[V Live -[HTSLiveInteractivePKStore openPKWithTheme:duration:]:257 com.apple.main-thread:2261353 18-07-26 14:32:47]pktest store PK opened : 0x1c4385210
+[I Live -[HTSLiveCocosViewController stopCocos]:248 com.apple.main-thread:2261353 18-07-26 14:32:47]removing cocos view 0x139fb6b10
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:225 com.apple.main-thread:2261353 18-07-26 14:32:47]init cocos view 0x137eb62f0
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:227 com.apple.main-thread:2261353 18-07-26 14:32:47]starting cocos animation 0x137eb62f0
+[V Live -[HTSInteractivePKController interactiveShowUserFrameHasAccur:]:259 com.apple.main-thread:2261353 18-07-26 14:32:48]pktest interactive frame accur : 0x1384aee00
+[V Live -[HTSLiveInteractivePKStore onPKStartWith:]:553 com.apple.main-thread:2261353 18-07-26 14:32:48]pktest PK开始 : 0x1c4385210
+[V Live -[HTSInteractivePKController startPKWithRemainTime:theme:duration:]:443 com.apple.main-thread:2261353 18-07-26 14:32:48]pktest interactive startPK : 0x1384aee00
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2263444 18-07-26 14:32:50]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "392.7MB",
+  "cpu" : "43.1%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409429872986888",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2262782 18-07-26 14:32:55]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "385.0MB",
+  "cpu" : "29.4%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409429872986888",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2263441 18-07-26 14:33:00]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "385.7MB",
+  "cpu" : "30.5%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409429872986888",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2263451 18-07-26 14:33:05]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "386.1MB",
+  "cpu" : "30.1%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409429872986888",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2263446 18-07-26 14:33:10]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "386.7MB",
+  "cpu" : "98.0%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409429872986888",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2263446 18-07-26 14:33:15]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "387.2MB",
+  "cpu" : "43.0%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409429872986888",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2263443 18-07-26 14:33:20]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "387.7MB",
+  "cpu" : "33.8%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409429872986888",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2263441 18-07-26 14:33:25]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "388.1MB",
+  "cpu" : "39.8%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409429872986888",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2263446 18-07-26 14:33:30]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "388.4MB",
+  "cpu" : "43.7%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409429872986888",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2262654 18-07-26 14:33:35]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "388.4MB",
+  "cpu" : "36.4%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409429872986888",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2263443 18-07-26 14:33:40]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "388.8MB",
+  "cpu" : "119.1%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409429872986888",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSInteractivePKController onEnterClick]_block_invoke:706 com.apple.main-thread:2261353 18-07-26 14:33:41]pktest 确认关闭连线 : 0x1384aee00
+[V Live -[HTSLiveInteractivePKStore stopInteractiveMode]:240 com.apple.main-thread:2261353 18-07-26 14:33:41]pktest 连线关闭请求 : 0x1c4385210
+[V Live -[HTSInteractivePKController closeInteractive]:301 com.apple.main-thread:2261353 18-07-26 14:33:42]pktest closeInteractive : 0x1384aee00
+[V Live -[HTSInteractivePKController interactiveShowWillEnd:]:237 com.apple.main-thread:2261353 18-07-26 14:33:42]pktest interactive show will end : 0x1384aee00
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke_2:204 com.apple.main-thread:2261353 18-07-26 14:33:42]pktest agora leave channel success : 0x1c4384510
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2261353 18-07-26 14:33:42]stream engine state changed 1
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2261353 18-07-26 14:33:45]stream engine state changed 2
+[V Live -[HTSLiveInteractivePKStore onPKReceivedInvitationWith:]:511 com.apple.main-thread:2261353 18-07-26 14:33:54]pktest 被邀请端收到邀请 : 0x1c0383670
+[V Live -[HTSLiveInteractivePKStore onPKReceivedInvitationWith:]:511 com.apple.main-thread:2261353 18-07-26 14:33:54]pktest 被邀请端收到邀请 : 0x1c4190740
+[V Live -[HTSLiveInteractivePKStore onPKReceivedInvitationWith:]:511 com.apple.main-thread:2261353 18-07-26 14:33:54]pktest 被邀请端收到邀请 : 0x1c0383670
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:190 com.apple.main-thread:2261353 18-07-26 14:34:06]pktest agora join success : 0x1c03af0a0
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2261353 18-07-26 14:34:08]stream engine state changed 1
+[I Live -[HTSLiveCocosViewController stopCocos]:248 com.apple.main-thread:2261353 18-07-26 14:34:08]removing cocos view 0x137eb62f0
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:225 com.apple.main-thread:2261353 18-07-26 14:34:09]init cocos view 0x13c03cb10
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:227 com.apple.main-thread:2261353 18-07-26 14:34:09]starting cocos animation 0x13c03cb10
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264005 18-07-26 14:34:11]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "393.5MB",
+  "cpu" : "79.6%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2261353 18-07-26 14:34:12]dispatching HTSLiveRoomActions:writeInteractiveFanTickets: , which is not subscribed yet
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke_2:204 com.apple.main-thread:2261353 18-07-26 14:34:12]pktest agora leave channel success : 0x1c03af0a0
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2261353 18-07-26 14:34:12]stream engine state changed 1
+[V Live -[HTSLiveInteractivePKStore onPKInvitationResponsedWith:]:490 com.apple.main-thread:2261353 18-07-26 14:34:22]pktest 邀请端收到邀请回应 : 0x1c019c7d0
+[V Live -[HTSLiveInteractivePKStore pr_startInteractiveMode]:162 com.apple.main-thread:2261353 18-07-26 14:34:22]pktest 开启连线请求 : 0x1c019c7d0
+[V Live -[HTSInteractivePKController startInteractiveLayout]:357 com.apple.main-thread:2261353 18-07-26 14:34:22]pktest interactive layout start : 0x138164400
+[V Live -[HTSInteractivePKController startWaitingLoading]:435 com.apple.main-thread:2261353 18-07-26 14:34:22]pktest interactive start 33loading : 0x138164400
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:190 com.apple.main-thread:2261353 18-07-26 14:34:23]pktest agora join success : 0x1c4381e10
+[V Live -[HTSInteractivePKController interactiveShowDidStart:]:223 com.apple.main-thread:2261353 18-07-26 14:34:23]pktest interactive did start : 0x138164400
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2261353 18-07-26 14:34:25]stream engine state changed 1
+[V Live -[HTSLiveInteractivePKStore notifyJoinedWithInviterId:]:226 com.apple.main-thread:2261353 18-07-26 14:34:25]pktest 邀请端发起 notify joined 请求 : 0x1c019c7d0
+[I Live -[HTSLiveCocosViewController stopCocos]:248 com.apple.main-thread:2261353 18-07-26 14:34:25]removing cocos view 0x13c03cb10
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:225 com.apple.main-thread:2261353 18-07-26 14:34:26]init cocos view 0x13c03cb10
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:227 com.apple.main-thread:2261353 18-07-26 14:34:26]starting cocos animation 0x13c03cb10
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264009 18-07-26 14:34:28]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "395.5MB",
+  "cpu" : "89.3%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSInteractivePKController interactiveShowUserFrameHasAccur:]:259 com.apple.main-thread:2261353 18-07-26 14:34:33]pktest interactive frame accur : 0x138164400
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264144 18-07-26 14:34:33]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "395.1MB",
+  "cpu" : "52.1%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractivePKStore onPKStartWith:]:553 com.apple.main-thread:2261353 18-07-26 14:34:34]pktest PK开始 : 0x1c019c7d0
+[V Live -[HTSInteractivePKController startPKWithRemainTime:theme:duration:]:443 com.apple.main-thread:2261353 18-07-26 14:34:34]pktest interactive startPK : 0x138164400
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264310 18-07-26 14:34:38]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "392.8MB",
+  "cpu" : "38.4%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2263579 18-07-26 14:34:43]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "395.3MB",
+  "cpu" : "45.0%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264310 18-07-26 14:34:48]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "395.5MB",
+  "cpu" : "70.3%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2263579 18-07-26 14:34:53]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "395.4MB",
+  "cpu" : "60.4%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSInteractivePKController onEnterClick]_block_invoke:706 com.apple.main-thread:2261353 18-07-26 14:34:56]pktest 确认关闭连线 : 0x138164400
+[V Live -[HTSLiveInteractivePKStore stopInteractiveMode]:240 com.apple.main-thread:2261353 18-07-26 14:34:56]pktest 连线关闭请求 : 0x1c019c7d0
+[V Live -[HTSInteractivePKController closeInteractive]:301 com.apple.main-thread:2261353 18-07-26 14:34:56]pktest closeInteractive : 0x138164400
+[V Live -[HTSInteractivePKController interactiveShowWillEnd:]:237 com.apple.main-thread:2261353 18-07-26 14:34:56]pktest interactive show will end : 0x138164400
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke_2:204 com.apple.main-thread:2261353 18-07-26 14:34:57]pktest agora leave channel success : 0x1c4381e10
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2261353 18-07-26 14:34:57]stream engine state changed 1
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2261353 18-07-26 14:35:00]stream engine state changed 2
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2261353 18-07-26 14:35:47]dispatching HTSLiveInteractivePKAction:closePK , which is not subscribed yet
+[V Live -[HTSLiveInteractivePKStore onPKInvitationResponsedWith:]:490 com.apple.main-thread:2261353 18-07-26 14:36:01]pktest 邀请端收到邀请回应 : 0x1c038aaa0
+[V Live -[HTSLiveInteractivePKStore pr_startInteractiveMode]:162 com.apple.main-thread:2261353 18-07-26 14:36:01]pktest 开启连线请求 : 0x1c038aaa0
+[V Live -[HTSInteractivePKController startInteractiveLayout]:357 com.apple.main-thread:2261353 18-07-26 14:36:01]pktest interactive layout start : 0x138167600
+[V Live -[HTSInteractivePKController startWaitingLoading]:435 com.apple.main-thread:2261353 18-07-26 14:36:01]pktest interactive start 33loading : 0x138167600
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:190 com.apple.main-thread:2261353 18-07-26 14:36:03]pktest agora join success : 0x1c0194020
+[V Live -[HTSInteractivePKController interactiveShowDidStart:]:223 com.apple.main-thread:2261353 18-07-26 14:36:03]pktest interactive did start : 0x138167600
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2261353 18-07-26 14:36:05]stream engine state changed 1
+[V Live -[HTSLiveInteractivePKStore notifyJoinedWithInviterId:]:226 com.apple.main-thread:2261353 18-07-26 14:36:05]pktest 邀请端发起 notify joined 请求 : 0x1c038aaa0
+[I Live -[HTSLiveCocosViewController stopCocos]:248 com.apple.main-thread:2261353 18-07-26 14:36:05]removing cocos view 0x13c03cb10
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:225 com.apple.main-thread:2261353 18-07-26 14:36:05]init cocos view 0x13c67f000
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:227 com.apple.main-thread:2261353 18-07-26 14:36:05]starting cocos animation 0x13c67f000
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2263579 18-07-26 14:36:07]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "397.0MB",
+  "cpu" : "115.6%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractivePKStore onPKStartWith:]:553 com.apple.main-thread:2261353 18-07-26 14:36:09]pktest PK开始 : 0x1c038aaa0
+[V Live -[HTSInteractivePKController startPKWithRemainTime:theme:duration:]:443 com.apple.main-thread:2261353 18-07-26 14:36:09]pktest interactive startPK : 0x138167600
+[V Live -[HTSInteractivePKController interactiveShowUserFrameHasAccur:]:259 com.apple.main-thread:2261353 18-07-26 14:36:12]pktest interactive frame accur : 0x138167600
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264529 18-07-26 14:36:12]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "402.8MB",
+  "cpu" : "118.0%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265047 18-07-26 14:36:17]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "403.7MB",
+  "cpu" : "68.8%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264005 18-07-26 14:36:22]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "404.0MB",
+  "cpu" : "65.3%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264529 18-07-26 14:36:27]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "404.0MB",
+  "cpu" : "64.0%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264976 18-07-26 14:36:32]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "404.2MB",
+  "cpu" : "74.7%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264530 18-07-26 14:36:37]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "405.6MB",
+  "cpu" : "70.9%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264530 18-07-26 14:36:42]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "405.8MB",
+  "cpu" : "68.5%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264976 18-07-26 14:36:47]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "405.7MB",
+  "cpu" : "67.0%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264005 18-07-26 14:36:52]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "404.7MB",
+  "cpu" : "72.3%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264528 18-07-26 14:36:57]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "404.4MB",
+  "cpu" : "83.0%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2263446 18-07-26 14:37:02]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "404.5MB",
+  "cpu" : "66.7%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264005 18-07-26 14:37:07]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "404.9MB",
+  "cpu" : "67.8%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264005 18-07-26 14:37:12]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "404.9MB",
+  "cpu" : "78.2%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265064 18-07-26 14:37:17]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "404.8MB",
+  "cpu" : "65.6%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264528 18-07-26 14:37:22]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "406.2MB",
+  "cpu" : "126.9%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265330 18-07-26 14:37:27]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "404.7MB",
+  "cpu" : "65.3%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264530 18-07-26 14:37:32]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "404.8MB",
+  "cpu" : "68.8%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264867 18-07-26 14:37:37]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "404.8MB",
+  "cpu" : "60.5%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265330 18-07-26 14:37:42]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "405.3MB",
+  "cpu" : "71.7%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265450 18-07-26 14:37:47]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "405.1MB",
+  "cpu" : "73.2%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264867 18-07-26 14:37:52]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "405.0MB",
+  "cpu" : "56.9%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264867 18-07-26 14:37:57]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "405.1MB",
+  "cpu" : "67.2%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264530 18-07-26 14:38:02]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "405.6MB",
+  "cpu" : "96.2%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264867 18-07-26 14:38:07]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "405.2MB",
+  "cpu" : "80.9%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265450 18-07-26 14:38:12]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "402.3MB",
+  "cpu" : "78.5%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265569 18-07-26 14:38:17]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "402.6MB",
+  "cpu" : "130.3%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265377 18-07-26 14:38:22]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "402.2MB",
+  "cpu" : "58.3%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264867 18-07-26 14:38:27]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "402.2MB",
+  "cpu" : "124.7%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265449 18-07-26 14:38:32]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "402.1MB",
+  "cpu" : "73.6%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265569 18-07-26 14:38:37]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "402.2MB",
+  "cpu" : "72.9%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265450 18-07-26 14:38:42]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "402.6MB",
+  "cpu" : "67.5%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265569 18-07-26 14:38:47]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "402.3MB",
+  "cpu" : "72.3%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265047 18-07-26 14:38:52]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "402.4MB",
+  "cpu" : "65.9%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265569 18-07-26 14:38:57]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "402.5MB",
+  "cpu" : "61.0%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265449 18-07-26 14:39:02]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "402.7MB",
+  "cpu" : "62.3%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265047 18-07-26 14:39:07]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "402.7MB",
+  "cpu" : "61.2%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265449 18-07-26 14:39:12]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "403.2MB",
+  "cpu" : "73.8%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264867 18-07-26 14:39:17]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "402.9MB",
+  "cpu" : "73.3%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265569 18-07-26 14:39:22]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "402.8MB",
+  "cpu" : "69.2%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265449 18-07-26 14:39:27]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "403.0MB",
+  "cpu" : "69.0%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265450 18-07-26 14:39:32]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "403.0MB",
+  "cpu" : "76.4%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265450 18-07-26 14:39:37]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "403.1MB",
+  "cpu" : "71.6%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264867 18-07-26 14:39:42]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "403.2MB",
+  "cpu" : "65.8%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265812 18-07-26 14:39:47]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "403.0MB",
+  "cpu" : "74.8%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265450 18-07-26 14:39:52]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "403.2MB",
+  "cpu" : "66.0%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264867 18-07-26 14:39:57]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "403.2MB",
+  "cpu" : "63.4%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265812 18-07-26 14:40:02]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "403.7MB",
+  "cpu" : "66.3%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265812 18-07-26 14:40:07]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "403.8MB",
+  "cpu" : "74.0%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265450 18-07-26 14:40:12]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "403.9MB",
+  "cpu" : "73.5%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264867 18-07-26 14:40:18]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "403.9MB",
+  "cpu" : "65.4%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2266015 18-07-26 14:40:22]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "404.0MB",
+  "cpu" : "79.8%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265450 18-07-26 14:40:28]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "404.0MB",
+  "cpu" : "73.8%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265450 18-07-26 14:40:32]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "404.1MB",
+  "cpu" : "83.9%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265449 18-07-26 14:40:37]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "403.9MB",
+  "cpu" : "76.6%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265809 18-07-26 14:40:42]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "403.9MB",
+  "cpu" : "75.8%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2265812 18-07-26 14:40:47]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "404.0MB",
+  "cpu" : "73.2%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2266237 18-07-26 14:40:52]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "404.6MB",
+  "cpu" : "69.9%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264530 18-07-26 14:40:57]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "404.4MB",
+  "cpu" : "78.8%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2264530 18-07-26 14:41:02]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "404.5MB",
+  "cpu" : "133.8%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2266239 18-07-26 14:41:07]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "404.6MB",
+  "cpu" : "75.7%",
+  "net_des" : "中国联通",
+  "room_id" : "6582409330744625928",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractivePKStore stopInteractiveMode]:240 com.apple.main-thread:2261353 18-07-26 14:41:12]pktest 连线关闭请求 : 0x1c038aaa0
+[V Live -[HTSInteractivePKController interactiveShowUserOffline:]:254 com.apple.main-thread:2261353 18-07-26 14:41:12]pktest interactive user offline : 0x138167600
+[V Live -[HTSLiveInteractivePKStore stopInteractiveMode]:240 com.apple.main-thread:2261353 18-07-26 14:41:12]pktest 连线关闭请求 : 0x1c038aaa0
+[V Live -[HTSInteractivePKController closeInteractive]:301 com.apple.main-thread:2261353 18-07-26 14:41:12]pktest closeInteractive : 0x138167600
+[V Live -[HTSInteractivePKController interactiveShowWillEnd:]:237 com.apple.main-thread:2261353 18-07-26 14:41:12]pktest interactive show will end : 0x138167600
+[V Live -[HTSInteractivePKController closeInteractive]:301 com.apple.main-thread:2261353 18-07-26 14:41:12]pktest closeInteractive : 0x138167600
+[V Live -[HTSInteractivePKController interactiveShowWillEnd:]:237 com.apple.main-thread:2261353 18-07-26 14:41:12]pktest interactive show will end : 0x138167600
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke_2:204 com.apple.main-thread:2261353 18-07-26 14:41:13]pktest agora leave channel success : 0x1c0194020
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2261353 18-07-26 14:41:13]stream engine state changed 1
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2261353 18-07-26 14:41:14]stream engine state changed 1
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2261353 18-07-26 14:41:16]stream engine state changed 2
+[I Live -[HTSLiveCocosViewController stopCocos]:248 com.apple.main-thread:2261353 18-07-26 14:41:32]removing cocos view 0x13c67f000
+[V Live -[HTSLiveCountTimeLabel dealloc]:30 com.apple.main-thread:2261353 18-07-26 14:41:33]<HTSLiveCountTimeLabel: 0x13c01c840; baseClass = UILabel; frame = (0 0.5; 48.5 14.5); text = '00:11:31'; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x1c089ce80>> deallocing...
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:45:11]dispatching HTSLiveGiftActions:updateGiftGroup: , which is not subscribed yet
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:45:19]dispatching HTSLiveGiftActions:didUpdateSupportGift , which is not subscribed yet
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:45:28]dispatching HTSLiveToolbarActions:onToolbarSizeChanged: , which is not subscribed yet
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:45:28]dispatching HTSLivePlayerActions:onMetaInfoReceived: , which is not subscribed yet
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:225 com.apple.main-thread:2267902 18-07-26 14:45:28]init cocos view 0x15be8fc70
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:227 com.apple.main-thread:2267902 18-07-26 14:45:28]starting cocos animation 0x15be8fc70
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:45:29]dispatching HTSLiveGiftActions:updateGiftGroup: , which is not subscribed yet
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:45:29]dispatching HTSLiveGiftActions:updateGiftGroup: , which is not subscribed yet
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:45:30]pktest store meta info received : 0x1c0385960
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:45:30]pktest interactive audience on metainfo received : 0x1c0385960
+[V Live -[HTSInteractivePKController startInteractiveLayout]:357 com.apple.main-thread:2267902 18-07-26 14:45:30]pktest interactive layout start : 0x15ac08600
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:45:32]pktest store meta info received : 0x1c0385960
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:45:32]pktest interactive audience on metainfo received : 0x1c0385960
+[I Live -[HTSLiveCocosViewController stopCocos]:248 com.apple.main-thread:2267902 18-07-26 14:45:33]removing cocos view 0x15be8fc70
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:45:33]dispatching HTSLiveToolbarActions:onToolbarSizeChanged: , which is not subscribed yet
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:45:34]dispatching HTSLivePlayerActions:onMetaInfoReceived: , which is not subscribed yet
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:225 com.apple.main-thread:2267902 18-07-26 14:45:34]init cocos view 0x159d403e0
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:227 com.apple.main-thread:2267902 18-07-26 14:45:34]starting cocos animation 0x159d403e0
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:45:35]dispatching HTSLiveGiftActions:updateGiftGroup: , which is not subscribed yet
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:45:35]dispatching HTSLiveGiftActions:updateGiftGroup: , which is not subscribed yet
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:45:35]pktest store meta info received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:45:35]pktest interactive audience on metainfo received : 0x1c0386c10
+[V Live -[HTSInteractivePKController startInteractiveLayout]:357 com.apple.main-thread:2267902 18-07-26 14:45:35]pktest interactive layout start : 0x15a19c800
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:45:37]pktest store meta info received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:45:37]pktest interactive audience on metainfo received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:45:39]pktest store meta info received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:45:39]pktest interactive audience on metainfo received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:45:41]pktest store meta info received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:45:41]pktest interactive audience on metainfo received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:45:43]pktest store meta info received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:45:43]pktest interactive audience on metainfo received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:45:45]pktest store meta info received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:45:45]pktest interactive audience on metainfo received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:45:47]pktest store meta info received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:45:47]pktest interactive audience on metainfo received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:45:49]pktest store meta info received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:45:49]pktest interactive audience on metainfo received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:45:51]pktest store meta info received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:45:51]pktest interactive audience on metainfo received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:45:53]pktest store meta info received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:45:53]pktest interactive audience on metainfo received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:45:55]pktest store meta info received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:45:55]pktest interactive audience on metainfo received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:45:57]pktest store meta info received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:45:57]pktest interactive audience on metainfo received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:45:59]pktest store meta info received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:45:59]pktest interactive audience on metainfo received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:46:01]pktest store meta info received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:46:01]pktest interactive audience on metainfo received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:46:03]pktest store meta info received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:46:03]pktest interactive audience on metainfo received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:46:05]pktest store meta info received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:46:05]pktest interactive audience on metainfo received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:46:07]pktest store meta info received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:46:07]pktest interactive audience on metainfo received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:46:09]pktest store meta info received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:46:09]pktest interactive audience on metainfo received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:46:11]pktest store meta info received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:46:11]pktest interactive audience on metainfo received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:46:13]pktest store meta info received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:46:13]pktest interactive audience on metainfo received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:46:15]pktest store meta info received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:46:15]pktest interactive audience on metainfo received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:46:17]pktest store meta info received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:46:17]pktest interactive audience on metainfo received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:46:19]pktest store meta info received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:46:19]pktest interactive audience on metainfo received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:46:21]pktest store meta info received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:46:21]pktest interactive audience on metainfo received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:46:23]pktest store meta info received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:46:23]pktest interactive audience on metainfo received : 0x1c0386c10
+[V Live -[HTSLiveInteractivePKStore onInteractiveModeStopped]:475 com.apple.main-thread:2267902 18-07-26 14:46:24]pktest store interactive stopped : 0x1c0386c10
+[V Live -[HTSInteractivePKController closeInteractive]:301 com.apple.main-thread:2267902 18-07-26 14:46:24]pktest closeInteractive : 0x15a19c800
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:46:25]dispatching HTSLivePlayerActions:onMetaInfoReceived: , which is not subscribed yet
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:46:27]dispatching HTSLivePlayerActions:onMetaInfoReceived: , which is not subscribed yet
+[I Live -[HTSLiveCocosViewController stopCocos]:248 com.apple.main-thread:2267902 18-07-26 14:46:28]removing cocos view 0x159d403e0
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:46:29]dispatching HTSLiveToolbarActions:onToolbarSizeChanged: , which is not subscribed yet
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:46:29]dispatching HTSLiveGiftActions:updateGiftGroup: , which is not subscribed yet
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:46:29]dispatching HTSLiveGiftActions:updateGiftGroup: , which is not subscribed yet
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:225 com.apple.main-thread:2267902 18-07-26 14:46:29]init cocos view 0x15bf34c10
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:227 com.apple.main-thread:2267902 18-07-26 14:46:29]starting cocos animation 0x15bf34c10
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:46:30]dispatching HTSLivePlayerActions:onMetaInfoReceived: , which is not subscribed yet
+[V Live -[HTSLiveInteractivePKStore onPKStartWith:]:553 com.apple.main-thread:2267902 18-07-26 14:46:48]pktest PK开始 : 0x1c0387770
+[V Live -[HTSInteractivePKController startPKWithRemainTime:theme:duration:]:443 com.apple.main-thread:2267902 18-07-26 14:46:48]pktest interactive startPK : 0x15a3e3e00
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:46:53]pktest store meta info received : 0x1c0387770
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:46:53]pktest interactive audience on metainfo received : 0x1c0387770
+[V Live -[HTSInteractivePKController startInteractiveLayout]:357 com.apple.main-thread:2267902 18-07-26 14:46:53]pktest interactive layout start : 0x15a3e3e00
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:46:56]pktest store meta info received : 0x1c0387770
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:46:56]pktest interactive audience on metainfo received : 0x1c0387770
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:46:58]pktest store meta info received : 0x1c0387770
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:46:58]pktest interactive audience on metainfo received : 0x1c0387770
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:47:00]pktest store meta info received : 0x1c0387770
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:47:00]pktest interactive audience on metainfo received : 0x1c0387770
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:47:02]pktest store meta info received : 0x1c0387770
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:47:02]pktest interactive audience on metainfo received : 0x1c0387770
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:47:04]pktest store meta info received : 0x1c0387770
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:47:04]pktest interactive audience on metainfo received : 0x1c0387770
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:47:06]pktest store meta info received : 0x1c0387770
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:47:06]pktest interactive audience on metainfo received : 0x1c0387770
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:47:08]pktest store meta info received : 0x1c0387770
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:47:08]pktest interactive audience on metainfo received : 0x1c0387770
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:47:10]pktest store meta info received : 0x1c0387770
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:47:10]pktest interactive audience on metainfo received : 0x1c0387770
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:47:12]pktest store meta info received : 0x1c0387770
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:47:12]pktest interactive audience on metainfo received : 0x1c0387770
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:47:14]pktest store meta info received : 0x1c0387770
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:47:14]pktest interactive audience on metainfo received : 0x1c0387770
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:47:16]pktest store meta info received : 0x1c0387770
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:47:16]pktest interactive audience on metainfo received : 0x1c0387770
+[V Live -[HTSLiveInteractivePKStore onInteractiveModeStopped]:475 com.apple.main-thread:2267902 18-07-26 14:47:18]pktest store interactive stopped : 0x1c0387770
+[V Live -[HTSInteractivePKController closeInteractive]:301 com.apple.main-thread:2267902 18-07-26 14:47:18]pktest closeInteractive : 0x15a3e3e00
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:47:18]dispatching HTSLivePlayerActions:onMetaInfoReceived: , which is not subscribed yet
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:47:20]dispatching HTSLivePlayerActions:onMetaInfoReceived: , which is not subscribed yet
+[V Live -[HTSLiveInteractivePKStore onPKStartWith:]:553 com.apple.main-thread:2267902 18-07-26 14:47:49]pktest PK开始 : 0x1c4389310
+[V Live -[HTSInteractivePKController startPKWithRemainTime:theme:duration:]:443 com.apple.main-thread:2267902 18-07-26 14:47:49]pktest interactive startPK : 0x15accac00
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:47:53]pktest store meta info received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:47:53]pktest interactive audience on metainfo received : 0x1c4389310
+[V Live -[HTSInteractivePKController startInteractiveLayout]:357 com.apple.main-thread:2267902 18-07-26 14:47:53]pktest interactive layout start : 0x15accac00
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:47:57]pktest store meta info received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:47:57]pktest interactive audience on metainfo received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:47:59]pktest store meta info received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:47:59]pktest interactive audience on metainfo received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:48:01]pktest store meta info received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:48:01]pktest interactive audience on metainfo received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:48:03]pktest store meta info received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:48:03]pktest interactive audience on metainfo received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:48:04]pktest store meta info received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:48:04]pktest interactive audience on metainfo received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:48:06]pktest store meta info received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:48:06]pktest interactive audience on metainfo received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:48:08]pktest store meta info received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:48:08]pktest interactive audience on metainfo received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:48:10]pktest store meta info received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:48:10]pktest interactive audience on metainfo received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:48:12]pktest store meta info received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:48:12]pktest interactive audience on metainfo received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:48:14]pktest store meta info received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:48:14]pktest interactive audience on metainfo received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:48:16]pktest store meta info received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:48:16]pktest interactive audience on metainfo received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:48:18]pktest store meta info received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:48:18]pktest interactive audience on metainfo received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:48:20]pktest store meta info received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:48:20]pktest interactive audience on metainfo received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:48:22]pktest store meta info received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:48:22]pktest interactive audience on metainfo received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:48:24]pktest store meta info received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:48:24]pktest interactive audience on metainfo received : 0x1c4389310
+[V Live -[HTSLiveInteractivePKStore onInteractiveModeStopped]:475 com.apple.main-thread:2267902 18-07-26 14:48:24]pktest store interactive stopped : 0x1c4389310
+[V Live -[HTSInteractivePKController closeInteractive]:301 com.apple.main-thread:2267902 18-07-26 14:48:24]pktest closeInteractive : 0x15accac00
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:48:26]dispatching HTSLivePlayerActions:onMetaInfoReceived: , which is not subscribed yet
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:48:28]dispatching HTSLivePlayerActions:onMetaInfoReceived: , which is not subscribed yet
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:48:29]dispatching HTSLivePlayerActions:onMetaInfoReceived: , which is not subscribed yet
+[V Live -[HTSLiveInteractivePKStore onPKStartWith:]:553 com.apple.main-thread:2267902 18-07-26 14:50:16]pktest PK开始 : 0x1c4195af0
+[V Live -[HTSInteractivePKController startPKWithRemainTime:theme:duration:]:443 com.apple.main-thread:2267902 18-07-26 14:50:16]pktest interactive startPK : 0x15ab2ac00
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:50:20]pktest store meta info received : 0x1c4195af0
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:50:24]pktest store meta info received : 0x1c4195af0
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:50:24]pktest interactive audience on metainfo received : 0x1c4195af0
+[V Live -[HTSInteractivePKController startInteractiveLayout]:357 com.apple.main-thread:2267902 18-07-26 14:50:24]pktest interactive layout start : 0x15ab2ac00
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:50:26]pktest store meta info received : 0x1c4195af0
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:50:26]pktest interactive audience on metainfo received : 0x1c4195af0
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:50:28]pktest store meta info received : 0x1c4195af0
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:50:28]pktest interactive audience on metainfo received : 0x1c4195af0
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:50:30]pktest store meta info received : 0x1c4195af0
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:50:30]pktest interactive audience on metainfo received : 0x1c4195af0
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:50:32]pktest store meta info received : 0x1c4195af0
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:50:32]pktest interactive audience on metainfo received : 0x1c4195af0
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:448 com.apple.main-thread:2267902 18-07-26 14:50:34]pktest store meta info received : 0x1c4195af0
+[V Live -[HTSLiveInteractivePKStore onMetaInfoReceived:]:461 com.apple.main-thread:2267902 18-07-26 14:50:34]pktest interactive audience on metainfo received : 0x1c4195af0
+[V Live -[HTSLiveInteractivePKStore onInteractiveModeStopped]:475 com.apple.main-thread:2267902 18-07-26 14:50:35]pktest store interactive stopped : 0x1c4195af0
+[V Live -[HTSInteractivePKController closeInteractive]:301 com.apple.main-thread:2267902 18-07-26 14:50:35]pktest closeInteractive : 0x15ab2ac00
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:50:36]dispatching HTSLivePlayerActions:onMetaInfoReceived: , which is not subscribed yet
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:50:38]dispatching HTSLivePlayerActions:onMetaInfoReceived: , which is not subscribed yet
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:50:40]dispatching HTSLivePlayerActions:onMetaInfoReceived: , which is not subscribed yet
+[I Live -[HTSLiveCocosViewController stopCocos]:248 com.apple.main-thread:2267902 18-07-26 14:59:49]removing cocos view 0x15bf34c10
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:59:49]dispatching HTSLiveToolbarActions:onToolbarSizeChanged: , which is not subscribed yet
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:225 com.apple.main-thread:2267902 18-07-26 14:59:50]init cocos view 0x15be3c100
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:227 com.apple.main-thread:2267902 18-07-26 14:59:50]starting cocos animation 0x15be3c100
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:59:50]dispatching HTSLiveGiftActions:updateGiftGroup: , which is not subscribed yet
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:59:50]dispatching HTSLiveGiftActions:updateGiftGroup: , which is not subscribed yet
+[I Live -[HTSLiveCocosViewController stopCocos]:248 com.apple.main-thread:2267902 18-07-26 14:59:55]removing cocos view 0x15be3c100
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:59:56]dispatching HTSLiveToolbarActions:onToolbarSizeChanged: , which is not subscribed yet
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:59:57]dispatching HTSLiveGiftActions:updateGiftGroup: , which is not subscribed yet
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 14:59:57]dispatching HTSLiveGiftActions:updateGiftGroup: , which is not subscribed yet
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:225 com.apple.main-thread:2267902 18-07-26 14:59:57]init cocos view 0x15bf709e0
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:227 com.apple.main-thread:2267902 18-07-26 14:59:57]starting cocos animation 0x15bf709e0
+[I Live -[HTSLiveCocosViewController stopCocos]:248 com.apple.main-thread:2267902 18-07-26 14:59:59]removing cocos view 0x15bf709e0
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 15:00:00]dispatching HTSLiveToolbarActions:onToolbarSizeChanged: , which is not subscribed yet
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:225 com.apple.main-thread:2267902 18-07-26 15:00:01]init cocos view 0x159e83890
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:227 com.apple.main-thread:2267902 18-07-26 15:00:01]starting cocos animation 0x159e83890
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 15:00:01]dispatching HTSLiveGiftActions:updateGiftGroup: , which is not subscribed yet
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 15:00:01]dispatching HTSLiveGiftActions:updateGiftGroup: , which is not subscribed yet
+[I Live -[HTSLiveCocosViewController stopCocos]:248 com.apple.main-thread:2267902 18-07-26 15:00:02]removing cocos view 0x159e83890
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2267902 18-07-26 15:28:23]stream engine state changed 1
+[V Live -[LiveRecordCountDownView dealloc]:48 com.apple.main-thread:2267902 18-07-26 15:28:23]kHTSCountDonwLoading deallocing
+[I Live -[HTSLiveAnchorViewController loadCocosController]:334 com.apple.main-thread:2267902 18-07-26 15:28:23]loading cocosViewController
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:225 com.apple.main-thread:2267902 18-07-26 15:28:23]init cocos view 0x159d4b3e0
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:227 com.apple.main-thread:2267902 18-07-26 15:28:23]starting cocos animation 0x159d4b3e0
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 15:28:24]dispatching HTSLiveGiftActions:updateGiftGroup: , which is not subscribed yet
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 15:28:24]dispatching HTSLiveGiftActions:didUpdateSupportGift , which is not subscribed yet
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2267902 18-07-26 15:28:26]stream engine state changed 2
+[V Live -[HTSLiveInteractivePKStore onPKInvitationResponsedWith:]:490 com.apple.main-thread:2267902 18-07-26 15:28:53]pktest 邀请端收到邀请回应 : 0x1c038fe50
+[V Live -[HTSLiveInteractivePKStore pr_startInteractiveMode]:162 com.apple.main-thread:2267902 18-07-26 15:28:53]pktest 开启连线请求 : 0x1c038fe50
+[V Live -[HTSInteractivePKController startInteractiveLayout]:357 com.apple.main-thread:2267902 18-07-26 15:28:53]pktest interactive layout start : 0x15e837a00
+[V Live -[HTSInteractivePKController startWaitingLoading]:435 com.apple.main-thread:2267902 18-07-26 15:28:53]pktest interactive start 33loading : 0x15e837a00
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:190 com.apple.main-thread:2267902 18-07-26 15:28:55]pktest agora join success : 0x1c038d4e0
+[V Live -[HTSInteractivePKController interactiveShowDidStart:]:223 com.apple.main-thread:2267902 18-07-26 15:28:55]pktest interactive did start : 0x15e837a00
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2267902 18-07-26 15:28:56]stream engine state changed 1
+[V Live -[HTSLiveInteractivePKStore notifyJoinedWithInviterId:]:226 com.apple.main-thread:2267902 18-07-26 15:28:56]pktest 邀请端发起 notify joined 请求 : 0x1c038fe50
+[I Live -[HTSLiveCocosViewController stopCocos]:248 com.apple.main-thread:2267902 18-07-26 15:28:56]removing cocos view 0x159d4b3e0
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:225 com.apple.main-thread:2267902 18-07-26 15:28:57]init cocos view 0x15d2cf900
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:227 com.apple.main-thread:2267902 18-07-26 15:28:57]starting cocos animation 0x15d2cf900
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2280603 18-07-26 15:28:59]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "221.9MB",
+  "cpu" : "21.1%",
+  "net_des" : "中国联通",
+  "room_id" : "6582424357153606408",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractivePKStore onPKStartWith:]:553 com.apple.main-thread:2267902 18-07-26 15:29:02]pktest PK开始 : 0x1c038fe50
+[V Live -[HTSInteractivePKController startPKWithRemainTime:theme:duration:]:443 com.apple.main-thread:2267902 18-07-26 15:29:02]pktest interactive startPK : 0x15e837a00
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2280317 18-07-26 15:29:03]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "264.2MB",
+  "cpu" : "78.8%",
+  "net_des" : "中国联通",
+  "room_id" : "6582424357153606408",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSInteractivePKController interactiveShowUserFrameHasAccur:]:259 com.apple.main-thread:2267902 18-07-26 15:29:03]pktest interactive frame accur : 0x15e837a00
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2280602 18-07-26 15:29:08]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "267.4MB",
+  "cpu" : "17.2%",
+  "net_des" : "中国联通",
+  "room_id" : "6582424357153606408",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2280315 18-07-26 15:29:13]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "267.9MB",
+  "cpu" : "16.4%",
+  "net_des" : "中国联通",
+  "room_id" : "6582424357153606408",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2280315 18-07-26 15:29:18]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "268.0MB",
+  "cpu" : "16.4%",
+  "net_des" : "中国联通",
+  "room_id" : "6582424357153606408",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2280317 18-07-26 15:29:23]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "268.4MB",
+  "cpu" : "18.4%",
+  "net_des" : "中国联通",
+  "room_id" : "6582424357153606408",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2280317 18-07-26 15:29:28]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "268.3MB",
+  "cpu" : "18.0%",
+  "net_des" : "中国联通",
+  "room_id" : "6582424357153606408",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2280603 18-07-26 15:29:33]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "268.3MB",
+  "cpu" : "17.1%",
+  "net_des" : "中国联通",
+  "room_id" : "6582424357153606408",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2280603 18-07-26 15:29:38]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "268.3MB",
+  "cpu" : "19.0%",
+  "net_des" : "中国联通",
+  "room_id" : "6582424357153606408",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2280317 18-07-26 15:29:43]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "268.5MB",
+  "cpu" : "17.8%",
+  "net_des" : "中国联通",
+  "room_id" : "6582424357153606408",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2280313 18-07-26 15:29:48]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "268.5MB",
+  "cpu" : "18.3%",
+  "net_des" : "中国联通",
+  "room_id" : "6582424357153606408",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2280315 18-07-26 15:29:53]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "268.5MB",
+  "cpu" : "19.5%",
+  "net_des" : "中国联通",
+  "room_id" : "6582424357153606408",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2280313 18-07-26 15:29:58]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "268.6MB",
+  "cpu" : "18.1%",
+  "net_des" : "中国联通",
+  "room_id" : "6582424357153606408",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[I Live -[HTSLiveAnchorViewController onAppDidEnterBackground]:170 com.apple.main-thread:2267902 18-07-26 15:30:02]onAppDidEnterBackground
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2281146 18-07-26 15:30:04]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "202.8MB",
+  "cpu" : "15.5%",
+  "net_des" : "中国联通",
+  "room_id" : "6582424357153606408",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSInteractivePKController interactiveShow:receivesError:]:243 com.apple.main-thread:2267902 18-07-26 15:30:06]pktest interactive receives error : 0x15e837a00
+[V Live -[HTSLiveInteractivePKStore stopInteractiveMode]:240 com.apple.main-thread:2267902 18-07-26 15:30:06]pktest 连线关闭请求 : 0x1c038fe50
+[V Live -[HTSInteractivePKController interactiveShow:receivesError:]:243 com.apple.main-thread:2267902 18-07-26 15:30:06]pktest interactive receives error : 0x15e837a00
+[V Live -[HTSLiveInteractivePKStore stopInteractiveMode]:240 com.apple.main-thread:2267902 18-07-26 15:30:06]pktest 连线关闭请求 : 0x1c038fe50
+[V Live -[HTSInteractivePKController closeInteractive]:301 com.apple.main-thread:2267902 18-07-26 15:30:06]pktest closeInteractive : 0x15e837a00
+[V Live -[HTSInteractivePKController interactiveShowWillEnd:]:237 com.apple.main-thread:2267902 18-07-26 15:30:06]pktest interactive show will end : 0x15e837a00
+[V Live -[HTSInteractivePKController closeInteractive]:301 com.apple.main-thread:2267902 18-07-26 15:30:06]pktest closeInteractive : 0x15e837a00
+[V Live -[HTSInteractivePKController interactiveShowWillEnd:]:237 com.apple.main-thread:2267902 18-07-26 15:30:06]pktest interactive show will end : 0x15e837a00
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke_2:204 com.apple.main-thread:2267902 18-07-26 15:30:07]pktest agora leave channel success : 0x1c038d4e0
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2267902 18-07-26 15:30:07]stream engine state changed 1
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2267902 18-07-26 15:30:08]stream engine state changed 1
+[I Live -[HTSLiveAnchorViewController onAppBecomeActive]:163 com.apple.main-thread:2267902 18-07-26 15:32:52]onAppBecomeActive
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2267902 18-07-26 15:32:53]stream engine state changed 2
+[I Live -[HTSLiveCocosViewController stopCocos]:248 com.apple.main-thread:2267902 18-07-26 15:34:51]removing cocos view 0x15d2cf900
+[V Live -[HTSLiveCountTimeLabel dealloc]:30 com.apple.main-thread:2267902 18-07-26 15:34:51]<HTSLiveCountTimeLabel: 0x15be53ea0; baseClass = UILabel; frame = (0 0.5; 52.5 14.5); text = '00:06:31'; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x1c0c85140>> deallocing...
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2267902 18-07-26 15:38:57]stream engine state changed 1
+[V Live -[LiveRecordCountDownView dealloc]:48 com.apple.main-thread:2267902 18-07-26 15:38:57]kHTSCountDonwLoading deallocing
+[I Live -[HTSLiveAnchorViewController loadCocosController]:334 com.apple.main-thread:2267902 18-07-26 15:38:57]loading cocosViewController
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:225 com.apple.main-thread:2267902 18-07-26 15:38:58]init cocos view 0x15d412b30
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:227 com.apple.main-thread:2267902 18-07-26 15:38:58]starting cocos animation 0x15d412b30
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 15:38:58]dispatching HTSLiveGiftActions:updateGiftGroup: , which is not subscribed yet
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 15:38:58]dispatching HTSLiveGiftActions:didUpdateSupportGift , which is not subscribed yet
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2267902 18-07-26 15:39:01]stream engine state changed 2
+[I Live -[HTSLiveCocosViewController stopCocos]:248 com.apple.main-thread:2267902 18-07-26 15:40:01]removing cocos view 0x15d412b30
+[V Live -[HTSLiveCountTimeLabel dealloc]:30 com.apple.main-thread:2267902 18-07-26 15:40:01]<HTSLiveCountTimeLabel: 0x15d274460; baseClass = UILabel; frame = (0 0.5; 51 14.5); text = '00:01:06'; userInteractionEnabled = NO; layer = <_UILabelLayer: 0x1c4895e50>> deallocing...
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2267902 18-07-26 15:41:33]stream engine state changed 1
+[V Live -[LiveRecordCountDownView dealloc]:48 com.apple.main-thread:2267902 18-07-26 15:41:33]kHTSCountDonwLoading deallocing
+[I Live -[HTSLiveAnchorViewController loadCocosController]:334 com.apple.main-thread:2267902 18-07-26 15:41:33]loading cocosViewController
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:225 com.apple.main-thread:2267902 18-07-26 15:41:33]init cocos view 0x15d6334d0
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:227 com.apple.main-thread:2267902 18-07-26 15:41:33]starting cocos animation 0x15d6334d0
+[V Live -[IESActionMulticastFallback unsubscribedAction:inProtocol:]:26 com.apple.main-thread:2267902 18-07-26 15:41:34]dispatching HTSLiveGiftActions:updateGiftGroup: , which is not subscribed yet
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2267902 18-07-26 15:41:36]stream engine state changed 2
+[V Live -[HTSLiveInteractivePKStore onPKReceivedInvitationWith:]:511 com.apple.main-thread:2267902 18-07-26 15:42:00]pktest 被邀请端收到邀请 : 0x1c0392480
+[V Live -[HTSInteractivePKController startWaitingLoading]:435 com.apple.main-thread:2267902 18-07-26 15:42:01]pktest interactive start 33loading : 0x15e888600
+[V Live -[HTSLiveInteractivePKStore pr_replyInvivationWithAgree:channelId:inviteUid:matchType:close:]_block_invoke:194 com.apple.main-thread:2267902 18-07-26 15:42:01]pktest store reply suceess : 0x1c0392480
+[V Live -[HTSLiveInteractivePKStore onPKInvitationNotifyJoined]:535 com.apple.main-thread:2267902 18-07-26 15:42:07]pktest 被邀请端收到notify joined : 0x1c0392480
+[V Live -[HTSInteractivePKController startInteractiveLayout]:357 com.apple.main-thread:2267902 18-07-26 15:42:07]pktest interactive layout start : 0x15e888600
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:190 com.apple.main-thread:2267902 18-07-26 15:42:08]pktest agora join success : 0x1c03933f0
+[V Live -[HTSInteractivePKController interactiveShowDidStart:]:223 com.apple.main-thread:2267902 18-07-26 15:42:08]pktest interactive did start : 0x15e888600
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2267902 18-07-26 15:42:10]stream engine state changed 1
+[V Live -[HTSLiveInteractivePKStore openPKWithTheme:duration:]:257 com.apple.main-thread:2267902 18-07-26 15:42:10]pktest store PK opened : 0x1c0392480
+[I Live -[HTSLiveCocosViewController stopCocos]:248 com.apple.main-thread:2267902 18-07-26 15:42:10]removing cocos view 0x15d6334d0
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:225 com.apple.main-thread:2267902 18-07-26 15:42:11]init cocos view 0x15d6b0670
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:227 com.apple.main-thread:2267902 18-07-26 15:42:11]starting cocos animation 0x15d6b0670
+[V Live -[HTSInteractivePKController interactiveShowUserFrameHasAccur:]:259 com.apple.main-thread:2267902 18-07-26 15:42:11]pktest interactive frame accur : 0x15e888600
+[V Live -[HTSLiveInteractivePKStore onPKStartWith:]:553 com.apple.main-thread:2267902 18-07-26 15:42:12]pktest PK开始 : 0x1c0392480
+[V Live -[HTSInteractivePKController startPKWithRemainTime:theme:duration:]:443 com.apple.main-thread:2267902 18-07-26 15:42:12]pktest interactive startPK : 0x15e888600
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2285311 18-07-26 15:42:12]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "297.7MB",
+  "cpu" : "39.8%",
+  "net_des" : "中国联通",
+  "room_id" : "6582427833820580622",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2285189 18-07-26 15:42:17]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "297.3MB",
+  "cpu" : "15.6%",
+  "net_des" : "中国联通",
+  "room_id" : "6582427833820580622",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2285311 18-07-26 15:42:22]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "297.6MB",
+  "cpu" : "15.3%",
+  "net_des" : "中国联通",
+  "room_id" : "6582427833820580622",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSInteractivePKController interactiveShowUserOffline:]:254 com.apple.main-thread:2267902 18-07-26 15:42:24]pktest interactive user offline : 0x15e888600
+[V Live -[HTSLiveInteractivePKStore stopInteractiveMode]:240 com.apple.main-thread:2267902 18-07-26 15:42:24]pktest 连线关闭请求 : 0x1c0392480
+[V Live -[HTSInteractivePKController closeInteractive]:301 com.apple.main-thread:2267902 18-07-26 15:42:24]pktest closeInteractive : 0x15e888600
+[V Live -[HTSInteractivePKController interactiveShowWillEnd:]:237 com.apple.main-thread:2267902 18-07-26 15:42:24]pktest interactive show will end : 0x15e888600
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke_2:204 com.apple.main-thread:2267902 18-07-26 15:42:25]pktest agora leave channel success : 0x1c03933f0
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2267902 18-07-26 15:42:25]stream engine state changed 1
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2267902 18-07-26 15:42:28]stream engine state changed 2
+[V Live -[HTSLiveInteractivePKStore onPKReceivedInvitationWith:]:511 com.apple.main-thread:2267902 18-07-26 15:43:44]pktest 被邀请端收到邀请 : 0x1c4388470
+[V Live -[HTSInteractivePKController startWaitingLoading]:435 com.apple.main-thread:2267902 18-07-26 15:43:44]pktest interactive start 33loading : 0x15ae93600
+[V Live -[HTSLiveInteractivePKStore pr_replyInvivationWithAgree:channelId:inviteUid:matchType:close:]_block_invoke:194 com.apple.main-thread:2267902 18-07-26 15:43:45]pktest store reply suceess : 0x1c4388470
+[V Live -[HTSLiveInteractivePKStore onPKInvitationNotifyJoined]:535 com.apple.main-thread:2267902 18-07-26 15:43:50]pktest 被邀请端收到notify joined : 0x1c4388470
+[V Live -[HTSInteractivePKController startInteractiveLayout]:357 com.apple.main-thread:2267902 18-07-26 15:43:50]pktest interactive layout start : 0x15ae93600
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:190 com.apple.main-thread:2267902 18-07-26 15:43:52]pktest agora join success : 0x1c4382d80
+[V Live -[HTSInteractivePKController interactiveShowDidStart:]:223 com.apple.main-thread:2267902 18-07-26 15:43:52]pktest interactive did start : 0x15ae93600
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2267902 18-07-26 15:43:53]stream engine state changed 1
+[V Live -[HTSLiveInteractivePKStore openPKWithTheme:duration:]:257 com.apple.main-thread:2267902 18-07-26 15:43:53]pktest store PK opened : 0x1c4388470
+[I Live -[HTSLiveCocosViewController stopCocos]:248 com.apple.main-thread:2267902 18-07-26 15:43:53]removing cocos view 0x15d6b0670
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:225 com.apple.main-thread:2267902 18-07-26 15:43:54]init cocos view 0x15d636ee0
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:227 com.apple.main-thread:2267902 18-07-26 15:43:54]starting cocos animation 0x15d636ee0
+[V Live -[HTSInteractivePKController interactiveShowUserFrameHasAccur:]:259 com.apple.main-thread:2267902 18-07-26 15:43:54]pktest interactive frame accur : 0x15ae93600
+[V Live -[HTSLiveInteractivePKStore onPKStartWith:]:553 com.apple.main-thread:2267902 18-07-26 15:43:55]pktest PK开始 : 0x1c4388470
+[V Live -[HTSInteractivePKController startPKWithRemainTime:theme:duration:]:443 com.apple.main-thread:2267902 18-07-26 15:43:55]pktest interactive startPK : 0x15ae93600
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2285691 18-07-26 15:43:55]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "286.3MB",
+  "cpu" : "26.4%",
+  "net_des" : "中国联通",
+  "room_id" : "6582428122434505476",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2285691 18-07-26 15:44:00]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "286.1MB",
+  "cpu" : "14.9%",
+  "net_des" : "中国联通",
+  "room_id" : "6582428122434505476",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2286317 18-07-26 15:44:05]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "286.1MB",
+  "cpu" : "12.5%",
+  "net_des" : "中国联通",
+  "room_id" : "6582428122434505476",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSInteractivePKController interactiveShowUserOffline:]:254 com.apple.main-thread:2267902 18-07-26 15:44:07]pktest interactive user offline : 0x15ae93600
+[V Live -[HTSLiveInteractivePKStore stopInteractiveMode]:240 com.apple.main-thread:2267902 18-07-26 15:44:07]pktest 连线关闭请求 : 0x1c4388470
+[V Live -[HTSInteractivePKController closeInteractive]:301 com.apple.main-thread:2267902 18-07-26 15:44:07]pktest closeInteractive : 0x15ae93600
+[V Live -[HTSInteractivePKController interactiveShowWillEnd:]:237 com.apple.main-thread:2267902 18-07-26 15:44:07]pktest interactive show will end : 0x15ae93600
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke_2:204 com.apple.main-thread:2267902 18-07-26 15:44:08]pktest agora leave channel success : 0x1c4382d80
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2267902 18-07-26 15:44:08]stream engine state changed 1
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2267902 18-07-26 15:44:11]stream engine state changed 2
+[V Live -[HTSLiveInteractivePKStore onPKReceivedInvitationWith:]:511 com.apple.main-thread:2267902 18-07-26 15:45:32]pktest 被邀请端收到邀请 : 0x1c438da90
+[V Live -[HTSInteractivePKController startWaitingLoading]:435 com.apple.main-thread:2267902 18-07-26 15:45:33]pktest interactive start 33loading : 0x15fa8ee00
+[V Live -[HTSLiveInteractivePKStore pr_replyInvivationWithAgree:channelId:inviteUid:matchType:close:]_block_invoke:194 com.apple.main-thread:2267902 18-07-26 15:45:33]pktest store reply suceess : 0x1c438da90
+[V Live -[HTSLiveInteractivePKStore onPKInvitationNotifyJoined]:535 com.apple.main-thread:2267902 18-07-26 15:45:37]pktest 被邀请端收到notify joined : 0x1c438da90
+[V Live -[HTSInteractivePKController startInteractiveLayout]:357 com.apple.main-thread:2267902 18-07-26 15:45:37]pktest interactive layout start : 0x15fa8ee00
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:190 com.apple.main-thread:2267902 18-07-26 15:45:39]pktest agora join success : 0x1c4389a60
+[V Live -[HTSInteractivePKController interactiveShowDidStart:]:223 com.apple.main-thread:2267902 18-07-26 15:45:39]pktest interactive did start : 0x15fa8ee00
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2267902 18-07-26 15:45:40]stream engine state changed 1
+[V Live -[HTSLiveInteractivePKStore openPKWithTheme:duration:]:257 com.apple.main-thread:2267902 18-07-26 15:45:40]pktest store PK opened : 0x1c438da90
+[I Live -[HTSLiveCocosViewController stopCocos]:248 com.apple.main-thread:2267902 18-07-26 15:45:40]removing cocos view 0x15d636ee0
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:225 com.apple.main-thread:2267902 18-07-26 15:45:41]init cocos view 0x15d51a860
+[I Live -[HTSLiveCocosViewController loadCocosIfNeeded]:227 com.apple.main-thread:2267902 18-07-26 15:45:41]starting cocos animation 0x15d51a860
+[V Live -[HTSInteractivePKController interactiveShowUserFrameHasAccur:]:259 com.apple.main-thread:2267902 18-07-26 15:45:41]pktest interactive frame accur : 0x15fa8ee00
+[V Live -[HTSLiveInteractivePKStore onPKStartWith:]:553 com.apple.main-thread:2267902 18-07-26 15:45:42]pktest PK开始 : 0x1c438da90
+[V Live -[HTSInteractivePKController startPKWithRemainTime:theme:duration:]:443 com.apple.main-thread:2267902 18-07-26 15:45:42]pktest interactive startPK : 0x15fa8ee00
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2287179 18-07-26 15:45:42]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "281.8MB",
+  "cpu" : "26.5%",
+  "net_des" : "中国联通",
+  "room_id" : "6582428746693741315",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2286326 18-07-26 15:45:47]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "281.8MB",
+  "cpu" : "14.7%",
+  "net_des" : "中国联通",
+  "room_id" : "6582428746693741315",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2286719 18-07-26 15:45:52]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "281.7MB",
+  "cpu" : "14.0%",
+  "net_des" : "中国联通",
+  "room_id" : "6582428746693741315",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2286719 18-07-26 15:45:57]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "281.8MB",
+  "cpu" : "12.9%",
+  "net_des" : "中国联通",
+  "room_id" : "6582428746693741315",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2286537 18-07-26 15:46:02]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "275.8MB",
+  "cpu" : "15.2%",
+  "net_des" : "中国联通",
+  "room_id" : "6582428746693741315",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2286537 18-07-26 15:46:07]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "278.6MB",
+  "cpu" : "17.2%",
+  "net_des" : "中国联通",
+  "room_id" : "6582428746693741315",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2286719 18-07-26 15:46:12]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "278.6MB",
+  "cpu" : "14.7%",
+  "net_des" : "中国联通",
+  "room_id" : "6582428746693741315",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2286537 18-07-26 15:46:17]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "279.7MB",
+  "cpu" : "17.6%",
+  "net_des" : "中国联通",
+  "room_id" : "6582428746693741315",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2286326 18-07-26 15:46:22]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "279.2MB",
+  "cpu" : "13.7%",
+  "net_des" : "中国联通",
+  "room_id" : "6582428746693741315",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2284982 18-07-26 15:46:27]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "279.3MB",
+  "cpu" : "12.3%",
+  "net_des" : "中国联通",
+  "room_id" : "6582428746693741315",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2284982 18-07-26 15:46:32]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "279.3MB",
+  "cpu" : "13.8%",
+  "net_des" : "中国联通",
+  "room_id" : "6582428746693741315",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2285311 18-07-26 15:46:37]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "279.3MB",
+  "cpu" : "14.2%",
+  "net_des" : "中国联通",
+  "room_id" : "6582428746693741315",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2284982 18-07-26 15:46:42]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "280.8MB",
+  "cpu" : "14.7%",
+  "net_des" : "中国联通",
+  "room_id" : "6582428746693741315",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2286769 18-07-26 15:46:47]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "279.8MB",
+  "cpu" : "14.6%",
+  "net_des" : "中国联通",
+  "room_id" : "6582428746693741315",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2284982 18-07-26 15:46:52]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "279.5MB",
+  "cpu" : "15.3%",
+  "net_des" : "中国联通",
+  "room_id" : "6582428746693741315",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2284982 18-07-26 15:46:57]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "279.5MB",
+  "cpu" : "12.5%",
+  "net_des" : "中国联通",
+  "room_id" : "6582428746693741315",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke:183 com.apple.root.default-qos:2285311 18-07-26 15:47:02]test interactive log data: {
+  "video_bitrate" : 500,
+  "memory" : "279.5MB",
+  "cpu" : "16.0%",
+  "net_des" : "中国联通",
+  "room_id" : "6582428746693741315",
+  "resolution_ratio" : "360x640",
+  "rtmp_type" : 2,
+  "net_type" : "WIFI",
+  "video_fps" : 15
+}
+[V Live -[HTSInteractivePKController interactiveShowUserOffline:]:254 com.apple.main-thread:2267902 18-07-26 15:47:05]pktest interactive user offline : 0x15fa8ee00
+[V Live -[HTSLiveInteractivePKStore stopInteractiveMode]:240 com.apple.main-thread:2267902 18-07-26 15:47:05]pktest 连线关闭请求 : 0x1c438da90
+[V Live -[HTSInteractivePKController closeInteractive]:301 com.apple.main-thread:2267902 18-07-26 15:47:06]pktest closeInteractive : 0x15fa8ee00
+[V Live -[HTSInteractivePKController interactiveShowWillEnd:]:237 com.apple.main-thread:2267902 18-07-26 15:47:06]pktest interactive show will end : 0x15fa8ee00
+[V Live -[HTSLiveInteractiveFragment loadAgoraClient]_block_invoke_2:204 com.apple.main-thread:2267902 18-07-26 15:47:06]pktest agora leave channel success : 0x1c4389a60
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2267902 18-07-26 15:47:06]stream engine state changed 1
+[I Live -[HTSLiveAnchorViewController engine:stateChanged:]:298 com.apple.main-thread:2267902 18-07-26 15:47:09]stream engine state changed 2
+[I Live -[HTSLiveAnchorViewController onAppBecomeActive]:163 com.apple.main-thread:2267902 18-07-26 15:47:27]onAppBecomeActive

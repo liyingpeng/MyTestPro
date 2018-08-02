@@ -1,0 +1,10 @@
+{
+  "event" : "introductory_tutorial_show",
+  "params" : {
+    "event_module" : "author_tab",
+    "event_page" : "video_detail",
+    "event_belong" : "video",
+    "type" : "more_information",
+    "event_type" : "show"
+  }
+}

@@ -1,0 +1,4 @@
+
+return {
+    entry = "DiamondRingNode"
+}

@@ -1,0 +1,14 @@
+{
+  "protocol" : "http\/1.1",
+  "url" : "http:\/\/p98.pstatp.com\/live\/100x100\/5743000116f55502a75c.webp",
+  "dns" : 264,
+  "request_duration" : 312,
+  "redirect_count" : 0,
+  "fetch" : 1,
+  "before_fetch" : 0,
+  "reused" : false,
+  "request" : 0,
+  "response" : 0,
+  "connection" : 21,
+  "waiting" : 21
+}

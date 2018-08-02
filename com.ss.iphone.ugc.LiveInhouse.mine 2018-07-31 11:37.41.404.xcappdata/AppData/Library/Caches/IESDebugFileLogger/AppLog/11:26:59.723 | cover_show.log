@@ -1,0 +1,9 @@
+{
+  "event" : "cover_show",
+  "params" : {
+    "video_id" : 6582860407545793795,
+    "event_page" : "video",
+    "event_belong" : "video_view",
+    "event_type" : "other"
+  }
+}

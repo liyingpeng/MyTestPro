@@ -1,0 +1,7 @@
+{
+  "event" : "camera_auth_status",
+  "params" : {
+    "status" : "1",
+    "event_type" : "other"
+  }
+}

@@ -1,0 +1,64 @@
+{
+    "parts": {
+        "cloudy": {
+            "frameCount": 41,
+            "height": 1334,
+            "position": {
+                "positionX": [
+                    {
+                        "index": 74,
+                        "x": 547.5,
+                        "y": 278.200
+                    },
+                    {
+                        "index": 77,
+                        "x": 754,
+                        "y": 277.799
+                    }
+                ],
+                "positionY": [
+                ]
+            },
+            "positionRelationType": 1,
+            "positionType": 1,
+            "rotateCenter": [
+                {
+                    "index": 46,
+                    "x": 652,
+                    "y": 382.100
+                }
+            ],
+            "scale": {
+                "scaleX": {
+                    "pointA": [
+                        {
+                            "index": 74,
+                            "x": 547.5,
+                            "y": 278.200
+                        }
+                    ],
+                    "pointB": [
+                        {
+                            "index": 77,
+                            "x": 754,
+                            "y": 277.799
+                        }
+                    ]
+                },
+                "scaleY": {
+                    "pointA": [
+                    ],
+                    "pointB": [
+                    ]
+                }
+            },
+            "triggerDelay": 0,
+            "triggerLoop": 0,
+            "triggerStop": false,
+            "triggerType": 0,
+            "width": 1300,
+            "zPosition": 0
+        }
+    },
+    "version": "1.1"
+}

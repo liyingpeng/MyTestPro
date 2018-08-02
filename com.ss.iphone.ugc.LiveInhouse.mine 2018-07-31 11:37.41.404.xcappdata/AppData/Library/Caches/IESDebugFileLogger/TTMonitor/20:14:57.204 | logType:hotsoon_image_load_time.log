@@ -1,0 +1,14 @@
+{
+  "protocol" : "http\/1.1",
+  "url" : "http:\/\/p98.pstatp.com\/obj\/6cb20010127e14861505",
+  "dns" : 3,
+  "request_duration" : 60,
+  "redirect_count" : 0,
+  "fetch" : 1,
+  "before_fetch" : 1,
+  "reused" : false,
+  "request" : 0,
+  "response" : 19,
+  "connection" : 16,
+  "waiting" : 17
+}

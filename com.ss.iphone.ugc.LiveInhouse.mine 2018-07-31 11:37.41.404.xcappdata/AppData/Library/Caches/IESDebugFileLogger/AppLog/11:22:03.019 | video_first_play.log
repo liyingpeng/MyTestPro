@@ -1,0 +1,14 @@
+{
+  "event" : "video_first_play",
+  "params" : {
+    "event_belong" : "video_view",
+    "event_type" : "other",
+    "is_success" : 1,
+    "time" : 152,
+    "enter_from" : "video",
+    "video_id" : "6583138827504717063",
+    "event_page" : "video_detail",
+    "playerType" : "Sys",
+    "action_type" : "draw"
+  }
+}

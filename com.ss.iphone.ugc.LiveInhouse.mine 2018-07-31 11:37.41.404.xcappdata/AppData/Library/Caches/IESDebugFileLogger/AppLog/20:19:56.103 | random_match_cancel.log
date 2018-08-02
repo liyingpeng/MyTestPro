@@ -1,0 +1,13 @@
+{
+  "event" : "random_match_cancel",
+  "params" : {
+    "event_belong" : "live",
+    "event_type" : "other",
+    "room_id" : "6583983696141880072",
+    "title" : "礼物PK",
+    "event_page" : "live_detail",
+    "inviter_id" : "68398478202",
+    "invitee_id" : "86138691654",
+    "pk_time" : 10
+  }
+}

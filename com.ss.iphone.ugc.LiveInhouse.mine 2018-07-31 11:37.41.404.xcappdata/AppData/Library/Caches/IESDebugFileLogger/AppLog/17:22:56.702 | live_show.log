@@ -1,0 +1,15 @@
+{
+  "event" : "live_show",
+  "params" : {
+    "_staging_flag" : 1,
+    "event_belong" : "live_view",
+    "streaming_type" : "general",
+    "event_type" : "core",
+    "room_id" : "6583918667652844302",
+    "event_module" : "live",
+    "anchor_id" : "101651224577",
+    "event_page" : "live_ending",
+    "action_type" : "click",
+    "live_type" : "video_live"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "useBDWebImage" : false,
+  "terminal_type" : "kTerminalTypeFOOM",
+  "app_state" : 0,
+  "free_memory" : 80,
+  "page_chain" : [
+    "HTSLiveInviterPKSelectModeViewController",
+    "HTSLiveInviterPKListViewController",
+    "HTSLivePopupNavigationController",
+    "HTSLiveInviterEnterViewController",
+    "HTSInteractivePKController",
+    "HTSLiveInviterPKSelectModeViewController",
+    "HTSLiveInviterPKListViewController",
+    "HTSLiveInviterPKConnectingViewController",
+    "HTSAlertController",
+    "HTSLiveFinishRecordViewController"
+  ],
+  "event_page" : "HTSLiveFinishRecordViewController",
+  "real_active" : true,
+  "available_memory" : 560,
+  "useTTNet" : false,
+  "memory_usage" : 252,
+  "usage_rate" : 12.58741283416748,
+  "total_memory" : 2002,
+  "launch_interval" : 491
+}

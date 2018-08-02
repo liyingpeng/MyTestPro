@@ -1,0 +1,5 @@
+{
+  "type" : "delay_fabric",
+  "duration" : 2010,
+  "is_cache" : 1
+}

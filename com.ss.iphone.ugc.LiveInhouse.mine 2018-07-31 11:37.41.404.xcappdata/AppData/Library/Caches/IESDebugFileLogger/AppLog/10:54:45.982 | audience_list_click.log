@@ -1,0 +1,9 @@
+{
+  "event" : "audience_list_click",
+  "params" : {
+    "event_module" : "top_tab",
+    "event_page" : "live_detail",
+    "event_belong" : "live",
+    "event_type" : "click"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "reused" : true,
+  "protocol" : "http\/1.1",
+  "request_duration" : 36,
+  "waiting" : 33,
+  "request" : 0,
+  "before_fetch" : 0,
+  "response" : 1,
+  "redirect_count" : 0,
+  "url" : "http:\/\/p3.pstatp.com\/obj\/123f0017f170c83a207c"
+}

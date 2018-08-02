@@ -1,0 +1,29 @@
+{
+  "event" : "hotsoon_oom_page",
+  "params" : {
+    "useBDWebImage" : false,
+    "terminal_type" : "kTerminalTypeFOOM",
+    "app_state" : 0,
+    "free_memory" : 191,
+    "page_chain" : [
+      "HTSCaptureVideoViewController",
+      "HTSEffectCameraViewController",
+      "HTSCameraViewController",
+      "HTSEffectCameraViewController",
+      "HTSCameraViewController",
+      "HTSLiveGuideViewController",
+      "HTSLiveAnchorViewController",
+      "HTSLiveCocosViewController",
+      "HTSLiveLinkMicMultiAudioAnchorController",
+      "HTSAlertController"
+    ],
+    "event_page" : "HTSAlertController",
+    "real_active" : true,
+    "available_memory" : 641,
+    "useTTNet" : false,
+    "memory_usage" : 300,
+    "usage_rate" : 14.985014915466309,
+    "total_memory" : 2002,
+    "launch_interval" : 690
+  }
+}

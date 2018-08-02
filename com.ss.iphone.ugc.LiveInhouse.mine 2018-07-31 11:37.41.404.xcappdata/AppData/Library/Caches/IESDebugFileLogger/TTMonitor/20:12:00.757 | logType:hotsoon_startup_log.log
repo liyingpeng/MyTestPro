@@ -1,0 +1,8 @@
+{
+  "uuid" : "E6593C22-CC9F-401A-B281-D71E49A1C9CF",
+  "label" : "normal",
+  "task" : "HTSFileCacheTask",
+  "step" : "RunLoopIdle",
+  "type" : "delay_fabric",
+  "duration" : 0
+}

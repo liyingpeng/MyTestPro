@@ -1,0 +1,13 @@
+{
+  "event" : "refresh_response",
+  "params" : {
+    "is_auto" : "1",
+    "event_belong" : "video_view",
+    "time" : 158,
+    "event_type" : "other",
+    "is_success" : 1,
+    "performance_scene" : "cold_start",
+    "is_cache" : true,
+    "event_page" : "video"
+  }
+}

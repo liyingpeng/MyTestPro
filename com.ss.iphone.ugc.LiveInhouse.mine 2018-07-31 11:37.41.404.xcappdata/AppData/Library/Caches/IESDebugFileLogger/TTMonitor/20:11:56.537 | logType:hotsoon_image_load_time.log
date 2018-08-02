@@ -1,0 +1,14 @@
+{
+  "protocol" : "http\/1.1",
+  "url" : "http:\/\/p3.pstatp.com\/large\/9ddc0005a99a3e5cbe8c.jpg",
+  "dns" : 0,
+  "request_duration" : 148,
+  "redirect_count" : 0,
+  "fetch" : 16,
+  "before_fetch" : 6,
+  "reused" : false,
+  "request" : 0,
+  "response" : 59,
+  "connection" : 24,
+  "waiting" : 37
+}

@@ -1,0 +1,951 @@
+[V +[HTSPreLaunchTask performTaskWithLaunchContext:completion:]:41 com.apple.main-thread:2261353 18-07-26 14:29:38]!!! IESLogger 2
+[V +[HTSPreLaunchTask performTaskWithLaunchContext:completion:]:45 com.apple.main-thread:2261353 18-07-26 14:29:38]!!! crash report 4
+[V +[HTSPreLaunchTask performTaskWithLaunchContext:completion:]:49 com.apple.main-thread:2261353 18-07-26 14:29:38]!!! RemoteSettings 2
+[V +[HTSPreLaunchTask performTaskWithLaunchContext:completion:]:53 com.apple.main-thread:2261353 18-07-26 14:29:38]!!! Network 59
+[V +[HTSPreLaunchTask performTaskWithLaunchContext:completion:]:58 com.apple.main-thread:2261353 18-07-26 14:29:38]!!! Tracker 164
+[V +[HTSPreLaunchTask performTaskWithLaunchContext:completion:]:66 com.apple.main-thread:2261353 18-07-26 14:29:38]!!! Push infor 0
+[V +[HTSPreLaunchTask performTaskWithLaunchContext:completion:]:81 com.apple.main-thread:2261353 18-07-26 14:29:38]!!! [HTSAppRouterRegistry setup] 0
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261671 18-07-26 14:29:38]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"is_top","task":"HTSPreLaunchTask","step":"PreLaunch","type":"delay_fabric","duration":231}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261671 18-07-26 14:29:38]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"is_top","task":"HTSSDKTask","step":"DuringLaunch","type":"delay_fabric","duration":0}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261684 18-07-26 14:29:38]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"is_top","task":"HTSRootViewControllerLaunchTask","step":"DuringLaunch","type":"delay_fabric","duration":381}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261684 18-07-26 14:29:38]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"is_top","task":"HTSOAuthTask","step":"DuringLaunch","type":"delay_fabric","duration":2}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261684 18-07-26 14:29:38]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"is_top","task":"HTSServicePrepareTask","step":"DuringLaunch","type":"delay_fabric","duration":6}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261684 18-07-26 14:29:38]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"is_top","task":"HTSVideoTask","step":"DuringLaunch","type":"delay_fabric","duration":4}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261684 18-07-26 14:29:38]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"is_top","task":"HTSOOMTask","step":"DuringLaunch","type":"delay_fabric","duration":0}
+[V +[NSObject(HTSDBOperation) updateTable]_block_invoke:149 fmdb.<FMDatabaseQueue: 0x1c044f0c0>:2261353 18-07-26 14:29:38]数据表添加字段UUID的SQL语句为:alter table HTSLiveFeedDraftDBModel add column UUID TEXT
+执行失败
+[V +[HTSDatabaseUpdateManager updateTableOfClasses:]:48 com.apple.main-thread:2261353 18-07-26 14:29:38]数据表HTSLiveFeedDraftDBModel升级失败
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261684 18-07-26 14:29:38]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"is_top","task":"HTSLiveRoomRuntimeTask","step":"DuringLaunch","type":"delay_fabric","duration":1}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261684 18-07-26 14:29:38]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"normal","task":"HTSPrefetchTask","step":"DuringLaunch","type":"delay_fabric","duration":16}
+[V -[FeedPageViewController viewDidAppear:]:155 com.apple.main-thread:2261353 18-07-26 14:29:39]===========time:1169.653208
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2261671 18-07-26 14:29:39][HTSNetworkProfile] log network(AFNetworking) total_speed(count:4):1.47 KB/s, recent_speed(count:4):1.47 KB/s
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261696 18-07-26 14:29:40]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"is_top","task":"HTSVersionManageTask","step":"PostLaunch","type":"delay_fabric","duration":3}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261696 18-07-26 14:29:40]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"is_top","task":"HTSVideoUploadTask","step":"PostLaunch","type":"delay_fabric","duration":10}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261696 18-07-26 14:29:40]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"is_top","task":"HTSMinorControlTask","step":"PostLaunch","type":"delay_fabric","duration":0}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261696 18-07-26 14:29:40]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"is_top","task":"HTSAppearanceTask","step":"PostLaunch","type":"delay_fabric","duration":2}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261696 18-07-26 14:29:40]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"is_top","task":"HTSTTMonitorTask","step":"PostLaunch","type":"delay_fabric","duration":7}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261636 18-07-26 14:29:40]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"is_top","task":"HTSFirstPageRenderTrackerTask","step":"PostLaunch","type":"delay_fabric","duration":17}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261636 18-07-26 14:29:40]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"is_top","task":"HTSAccountTask","step":"PostLaunch","type":"delay_fabric","duration":0}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261636 18-07-26 14:29:40]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"is_top","task":"HTSInhouseDebugTask","step":"PostLaunch","type":"delay_fabric","duration":0}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261636 18-07-26 14:29:40]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"is_top","task":"HTSDataAcquisitionTask","step":"PostLaunch","type":"delay_fabric","duration":1}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261636 18-07-26 14:29:40]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"is_top","task":"HTSAppSettingsTask","step":"PostLaunch","type":"delay_fabric","duration":8}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261636 18-07-26 14:29:40]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"is_top","task":"HTSBlockMonitorTask","step":"PostLaunch","type":"delay_fabric","duration":14}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261636 18-07-26 14:29:40]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"is_top","task":"HTSCloudControlTask","step":"PostLaunch","type":"delay_fabric","duration":0}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261689 18-07-26 14:29:40]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"normal","task":"HTSPermissionTask","step":"PostLaunch","type":"delay_fabric","duration":51}
+[V -[HTSNetworkPrefetchJob callbackIfFinishedWithResult:completion:]:91 com.apple.main-thread:2261353 18-07-26 14:29:41]Prefetch Cache hit with duration 450935595!
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261804 18-07-26 14:29:41]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"is_top","task":"HTSCustomVolumeBarTask","step":"RunLoopIdle","type":"delay_fabric","duration":236}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261804 18-07-26 14:29:41]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"normal","task":"HTSZombieTask","step":"RunLoopIdle","type":"delay_fabric","duration":2}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261804 18-07-26 14:29:41]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"is_top","task":"HTSPageRenderTrackerTask","step":"RunLoopIdle","type":"delay_fabric","duration":12}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261804 18-07-26 14:29:41]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"is_top","task":"HTSNetworkHeavyParamsTask","step":"RunLoopIdle","type":"delay_fabric","duration":0}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261804 18-07-26 14:29:41]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"is_top","task":"HTSMPShareSDKTask","step":"RunLoopIdle","type":"delay_fabric","duration":1}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261738 18-07-26 14:29:41]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"normal","task":"HTSCheckNewTabConfigTask","step":"RunLoopIdle","type":"delay_fabric","duration":186}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261697 18-07-26 14:29:41]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"is_top","task":"HTSJSBridgeTask","step":"RunLoopIdle","type":"delay_fabric","duration":473}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261697 18-07-26 14:29:41]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"is_top","task":"HTSPushHandleTask","step":"RunLoopIdle","type":"delay_fabric","duration":0}
+[V -[HTSLiveFollowFeedViewController feedListDidEndRefresh]_block_invoke:844 com.apple.main-thread:2261353 18-07-26 14:29:41]====> Feed Data Fetched with 3918
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261698 18-07-26 14:29:42]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"normal","task":"HTSTrackPublishFailedTask","step":"RunLoopIdle","type":"delay_fabric","duration":68}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261674 18-07-26 14:29:42]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"normal","task":"HTSSocketTask","step":"PostLaunch","type":"delay_fabric","duration":3}
+[V +[HTSRenderTimeReporter reportFirstPage]_block_invoke_2:98 com.apple.main-thread:2261353 18-07-26 14:29:42]hotsoon_page_render_first with {"count":0,"start_time":4020,"end_time":4684,"page_type":"HTSLiveFollowFeedVideoViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2261353 18-07-26 14:29:42]hotsoon_page_render with {"display_name":"","count":0,"start_time":4092,"end_time":4686,"page_type":"HTSLoginMethodSelectionViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2261353 18-07-26 14:29:42]hotsoon_page_render with {"display_name":"","count":0,"start_time":4092,"end_time":4686,"page_type":"HTSLoginMethodSelectionViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2261353 18-07-26 14:29:42]hotsoon_page_render with {"display_name":"","count":1,"start_time":4102,"end_time":4687,"page_type":"HTSLoginMethodSelectionViewController"}
+[V +[HTSRenderTimeReporter reportFirstPage]_block_invoke_2:98 com.apple.main-thread:2261353 18-07-26 14:29:42]hotsoon_page_render_first with {"count":0,"start_time":4020,"end_time":4684,"page_type":"HTSLiveFollowFeedVideoViewController"}
+[V +[HTSRenderTimeReporter reportFirstPage]_block_invoke_2:98 com.apple.main-thread:2261353 18-07-26 14:29:42]hotsoon_page_render_first with {"count":1,"start_time":4318,"end_time":4688,"page_type":"HTSLiveFollowFeedVideoViewController"}
+[E +[HTSNewVersionAlertManager checkNewVersionCompletion:]_block_invoke:36 com.apple.main-thread:2261353 18-07-26 14:29:42][HTSNewVersionAlertManager] check version request: update_version_code(4.5.0.0), response: error((null))
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261697 18-07-26 14:29:43]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"normal","task":"HTSRegisterAppTask","step":"RunLoopIdle","type":"delay_fabric","duration":0}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261698 18-07-26 14:29:44]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"normal","task":"HTSFileCacheTask","step":"RunLoopIdle","type":"delay_fabric","duration":36}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261673 18-07-26 14:29:44]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"normal","task":"HTSShortCutItemTask","step":"PostLaunch","type":"delay_fabric","duration":4}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261737 18-07-26 14:29:45]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"normal","task":"HTSTodayWidgetTask","step":"PostLaunch","type":"delay_fabric","duration":0}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261737 18-07-26 14:29:45]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"normal","task":"HTSExtensionTask","step":"PostLaunch","type":"delay_fabric","duration":3}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261673 18-07-26 14:29:46]====> Launch hotsoon_startup_log with {"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","label":"normal","task":"HTSCrashlyticsTask","step":"RunLoopIdle","type":"delay_fabric","duration":268}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2261673 18-07-26 14:29:46]====> Launch hotsoon_startup_phase_log with {"beforeRunLoopIdle":3005,"nPostLaunch":71,"beforeDuringLaunch":234,"nPreLaunch":233,"preMain":4796,"beforePreLaunch":0,"nDuringLaunch":401,"beforePostLaunch":2218,"uuid":"25F4C66F-D567-4C1D-AB7E-AA71E5E24014","type":"delay_fabric","data_loaded":3918}
+[D +[HTSNewVersionAlertManager shouldCheckNewVersion]:80 com.apple.main-thread:2261353 18-07-26 14:29:47][HTSNewVersionAlertManager] check version limit in 5 hours
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2261738 18-07-26 14:29:48][HTSNetworkProfile] log network(AFNetworking) total_speed(count:29):125.44 KB/s, recent_speed(count:10):16.01 KB/s
+[D +[HTSNewVersionAlertManager shouldCheckNewVersion]:80 com.apple.main-thread:2261353 18-07-26 14:29:52][HTSNewVersionAlertManager] check version limit in 5 hours
+[I -[HTSEffectCameraViewModel setBeautyLevel:]:242 com.apple.main-thread:2261353 18-07-26 14:29:55]特效：设置美颜等级：3
+[I -[HTSEffectCameraViewModel setFaceReshapeLevel:]:254 com.apple.main-thread:2261353 18-07-26 14:29:55]特效：设置大眼瘦脸等级：0
+[I -[HTSEffectCameraViewModel setBeautyLevel:]:242 com.apple.main-thread:2261353 18-07-26 14:29:55]特效：设置美颜等级：3
+[I -[HTSEffectCameraViewModel setFaceReshapeLevel:]:254 com.apple.main-thread:2261353 18-07-26 14:29:55]特效：设置大眼瘦脸等级：0
+[I -[HTSEffectCameraViewModel setBeautyLevel:]:242 com.apple.main-thread:2261353 18-07-26 14:29:55]特效：设置美颜等级：3
+[I -[HTSEffectCameraViewModel setFaceReshapeLevel:]:254 com.apple.main-thread:2261353 18-07-26 14:29:55]特效：设置大眼瘦脸等级：0
+[D +[HTSNewVersionAlertManager shouldCheckNewVersion]:80 com.apple.main-thread:2261353 18-07-26 14:29:56][HTSNewVersionAlertManager] check version limit in 5 hours
+[D +[HTSNewVersionAlertManager shouldCheckNewVersion]:80 com.apple.main-thread:2261353 18-07-26 14:29:56][HTSNewVersionAlertManager] check version limit in 5 hours
+[W -[HTSCaptureVideoViewModel pauseRecording]_block_invoke:359 com.apple.main-thread:2261353 18-07-26 14:29:57]暂停录制，相机状态错误
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2261353 18-07-26 14:29:58]hotsoon_page_render with {"display_name":"","count":0,"start_time":378,"end_time":4027,"page_type":"HTSCaptureVideoViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2261353 18-07-26 14:29:58]hotsoon_page_render with {"display_name":"","count":0,"start_time":378,"end_time":4027,"page_type":"HTSCaptureVideoViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2261353 18-07-26 14:29:58]hotsoon_page_render with {"display_name":"","count":1,"start_time":387,"end_time":4030,"page_type":"HTSCaptureVideoViewController"}
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2261738 18-07-26 14:29:58][HTSNetworkProfile] log network(AFNetworking) total_speed(count:52):64.73 KB/s, recent_speed(count:10):0.97 KB/s
+[D +[HTSNewVersionAlertManager shouldCheckNewVersion]:80 com.apple.main-thread:2261353 18-07-26 14:30:01][HTSNewVersionAlertManager] check version limit in 5 hours
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2261353 18-07-26 14:30:01]hotsoon_page_render with {"display_name":"","count":0,"start_time":242,"end_time":352,"page_type":"HTSLiveAnchorViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2261353 18-07-26 14:30:01]hotsoon_page_render with {"display_name":"","count":0,"start_time":242,"end_time":352,"page_type":"HTSLiveAnchorViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2261353 18-07-26 14:30:01]hotsoon_page_render with {"display_name":"","count":1,"start_time":261,"end_time":354,"page_type":"HTSLiveAnchorViewController"}
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2262379 18-07-26 14:30:08][HTSNetworkProfile] log network(AFNetworking) total_speed(count:77):71.61 KB/s, recent_speed(count:10):179.82 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2261685 18-07-26 14:30:18][HTSNetworkProfile] log network(AFNetworking) total_speed(count:93):67.71 KB/s, recent_speed(count:10):25.15 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2262379 18-07-26 14:30:28][HTSNetworkProfile] log network(AFNetworking) total_speed(count:105):59.98 KB/s, recent_speed(count:10):1.93 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2262381 18-07-26 14:30:38][HTSNetworkProfile] log network(AFNetworking) total_speed(count:117):56.76 KB/s, recent_speed(count:10):4.05 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2262281 18-07-26 14:30:48][HTSNetworkProfile] log network(AFNetworking) total_speed(count:130):52.98 KB/s, recent_speed(count:10):3.47 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2261636 18-07-26 14:30:58][HTSNetworkProfile] log network(AFNetworking) total_speed(count:145):54.65 KB/s, recent_speed(count:10):114.70 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2262537 18-07-26 14:31:08][HTSNetworkProfile] log network(AFNetworking) total_speed(count:157):52.89 KB/s, recent_speed(count:10):6.76 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2262379 18-07-26 14:31:18][HTSNetworkProfile] log network(AFNetworking) total_speed(count:175):51.36 KB/s, recent_speed(count:10):7.74 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2262381 18-07-26 14:31:28][HTSNetworkProfile] log network(AFNetworking) total_speed(count:191):55.14 KB/s, recent_speed(count:10):230.93 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2262817 18-07-26 14:31:38][HTSNetworkProfile] log network(AFNetworking) total_speed(count:206):54.43 KB/s, recent_speed(count:10):45.33 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2262782 18-07-26 14:31:48][HTSNetworkProfile] log network(AFNetworking) total_speed(count:218):53.47 KB/s, recent_speed(count:10):7.32 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2262781 18-07-26 14:31:58][HTSNetworkProfile] log network(AFNetworking) total_speed(count:234):52.08 KB/s, recent_speed(count:10):9.58 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2262654 18-07-26 14:32:08][HTSNetworkProfile] log network(AFNetworking) total_speed(count:246):50.87 KB/s, recent_speed(count:10):5.75 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2262381 18-07-26 14:32:18][HTSNetworkProfile] log network(AFNetworking) total_speed(count:259):49.59 KB/s, recent_speed(count:10):5.73 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2262782 18-07-26 14:32:28][HTSNetworkProfile] log network(AFNetworking) total_speed(count:271):48.70 KB/s, recent_speed(count:10):8.44 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2262379 18-07-26 14:32:38][HTSNetworkProfile] log network(AFNetworking) total_speed(count:286):51.74 KB/s, recent_speed(count:10):248.32 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2263446 18-07-26 14:32:48][HTSNetworkProfile] log network(AFNetworking) total_speed(count:303):54.90 KB/s, recent_speed(count:10):302.15 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2263438 18-07-26 14:32:58][HTSNetworkProfile] log network(AFNetworking) total_speed(count:315):53.91 KB/s, recent_speed(count:10):7.81 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2262654 18-07-26 14:33:08][HTSNetworkProfile] log network(AFNetworking) total_speed(count:327):53.27 KB/s, recent_speed(count:10):12.26 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2263579 18-07-26 14:33:18][HTSNetworkProfile] log network(AFNetworking) total_speed(count:339):52.41 KB/s, recent_speed(count:10):7.04 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2263579 18-07-26 14:33:28][HTSNetworkProfile] log network(AFNetworking) total_speed(count:353):51.20 KB/s, recent_speed(count:10):6.12 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2263438 18-07-26 14:33:38][HTSNetworkProfile] log network(AFNetworking) total_speed(count:368):50.27 KB/s, recent_speed(count:10):9.55 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2263438 18-07-26 14:33:48][HTSNetworkProfile] log network(AFNetworking) total_speed(count:384):49.85 KB/s, recent_speed(count:10):49.47 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2263454 18-07-26 14:33:58][HTSNetworkProfile] log network(AFNetworking) total_speed(count:400):51.79 KB/s, recent_speed(count:10):135.06 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2264008 18-07-26 14:34:08][HTSNetworkProfile] log network(AFNetworking) total_speed(count:415):51.30 KB/s, recent_speed(count:10):47.77 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2263438 18-07-26 14:34:18][HTSNetworkProfile] log network(AFNetworking) total_speed(count:431):51.02 KB/s, recent_speed(count:10):38.21 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2264144 18-07-26 14:34:28][HTSNetworkProfile] log network(AFNetworking) total_speed(count:449):52.87 KB/s, recent_speed(count:10):25.82 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2264010 18-07-26 14:34:38][HTSNetworkProfile] log network(AFNetworking) total_speed(count:463):52.93 KB/s, recent_speed(count:10):50.48 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2263446 18-07-26 14:34:48][HTSNetworkProfile] log network(AFNetworking) total_speed(count:476):52.14 KB/s, recent_speed(count:10):16.64 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2264010 18-07-26 14:34:58][HTSNetworkProfile] log network(AFNetworking) total_speed(count:491):51.67 KB/s, recent_speed(count:10):30.18 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2264529 18-07-26 14:35:08][HTSNetworkProfile] log network(AFNetworking) total_speed(count:510):51.23 KB/s, recent_speed(count:10):32.55 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2263446 18-07-26 14:35:18][HTSNetworkProfile] log network(AFNetworking) total_speed(count:522):50.23 KB/s, recent_speed(count:10):7.60 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2263446 18-07-26 14:35:28][HTSNetworkProfile] log network(AFNetworking) total_speed(count:534):49.49 KB/s, recent_speed(count:10):5.70 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2264670 18-07-26 14:35:38][HTSNetworkProfile] log network(AFNetworking) total_speed(count:547):48.89 KB/s, recent_speed(count:10):9.41 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2263446 18-07-26 14:35:48][HTSNetworkProfile] log network(AFNetworking) total_speed(count:562):48.64 KB/s, recent_speed(count:10):49.46 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2264634 18-07-26 14:35:58][HTSNetworkProfile] log network(AFNetworking) total_speed(count:578):48.23 KB/s, recent_speed(count:10):39.73 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2264976 18-07-26 14:36:08][HTSNetworkProfile] log network(AFNetworking) total_speed(count:594):49.79 KB/s, recent_speed(count:10):177.74 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2263446 18-07-26 14:36:18][HTSNetworkProfile] log network(AFNetworking) total_speed(count:605):49.01 KB/s, recent_speed(count:10):11.33 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2264530 18-07-26 14:36:28][HTSNetworkProfile] log network(AFNetworking) total_speed(count:618):48.37 KB/s, recent_speed(count:10):6.86 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2263579 18-07-26 14:36:38][HTSNetworkProfile] log network(AFNetworking) total_speed(count:630):47.77 KB/s, recent_speed(count:10):6.19 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2264005 18-07-26 14:36:48][HTSNetworkProfile] log network(AFNetworking) total_speed(count:643):47.27 KB/s, recent_speed(count:10):7.86 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2264530 18-07-26 14:36:58][HTSNetworkProfile] log network(AFNetworking) total_speed(count:654):46.43 KB/s, recent_speed(count:10):3.69 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2264867 18-07-26 14:37:08][HTSNetworkProfile] log network(AFNetworking) total_speed(count:667):45.68 KB/s, recent_speed(count:10):4.79 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2264867 18-07-26 14:37:18][HTSNetworkProfile] log network(AFNetworking) total_speed(count:679):44.86 KB/s, recent_speed(count:10):3.74 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2265064 18-07-26 14:37:28][HTSNetworkProfile] log network(AFNetworking) total_speed(count:691):44.35 KB/s, recent_speed(count:10):5.75 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2264867 18-07-26 14:37:38][HTSNetworkProfile] log network(AFNetworking) total_speed(count:703):43.53 KB/s, recent_speed(count:10):4.55 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2265450 18-07-26 14:37:48][HTSNetworkProfile] log network(AFNetworking) total_speed(count:715):42.83 KB/s, recent_speed(count:10):4.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2265450 18-07-26 14:37:58][HTSNetworkProfile] log network(AFNetworking) total_speed(count:727):42.24 KB/s, recent_speed(count:10):11.54 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2265330 18-07-26 14:38:08][HTSNetworkProfile] log network(AFNetworking) total_speed(count:741):42.13 KB/s, recent_speed(count:10):32.25 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2264530 18-07-26 14:38:18][HTSNetworkProfile] log network(AFNetworking) total_speed(count:757):41.33 KB/s, recent_speed(count:10):17.37 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2265450 18-07-26 14:38:28][HTSNetworkProfile] log network(AFNetworking) total_speed(count:769):40.83 KB/s, recent_speed(count:10):4.84 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2265047 18-07-26 14:38:38][HTSNetworkProfile] log network(AFNetworking) total_speed(count:782):40.41 KB/s, recent_speed(count:10):5.07 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2265450 18-07-26 14:38:48][HTSNetworkProfile] log network(AFNetworking) total_speed(count:794):39.98 KB/s, recent_speed(count:10):5.12 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2264530 18-07-26 14:38:58][HTSNetworkProfile] log network(AFNetworking) total_speed(count:807):39.44 KB/s, recent_speed(count:10):6.17 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2265569 18-07-26 14:39:08][HTSNetworkProfile] log network(AFNetworking) total_speed(count:818):38.78 KB/s, recent_speed(count:10):3.12 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2265812 18-07-26 14:39:18][HTSNetworkProfile] log network(AFNetworking) total_speed(count:831):38.35 KB/s, recent_speed(count:10):5.23 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2265047 18-07-26 14:39:28][HTSNetworkProfile] log network(AFNetworking) total_speed(count:843):37.94 KB/s, recent_speed(count:10):5.81 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2265758 18-07-26 14:39:38][HTSNetworkProfile] log network(AFNetworking) total_speed(count:855):37.49 KB/s, recent_speed(count:10):5.17 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2265047 18-07-26 14:39:48][HTSNetworkProfile] log network(AFNetworking) total_speed(count:866):36.98 KB/s, recent_speed(count:10):3.58 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2265450 18-07-26 14:39:58][HTSNetworkProfile] log network(AFNetworking) total_speed(count:879):36.57 KB/s, recent_speed(count:10):4.60 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2265450 18-07-26 14:40:08][HTSNetworkProfile] log network(AFNetworking) total_speed(count:894):36.19 KB/s, recent_speed(count:10):7.92 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2264867 18-07-26 14:40:18][HTSNetworkProfile] log network(AFNetworking) total_speed(count:907):35.93 KB/s, recent_speed(count:10):7.60 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2264867 18-07-26 14:40:28][HTSNetworkProfile] log network(AFNetworking) total_speed(count:920):35.58 KB/s, recent_speed(count:10):5.39 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2265047 18-07-26 14:40:38][HTSNetworkProfile] log network(AFNetworking) total_speed(count:933):35.33 KB/s, recent_speed(count:10):4.98 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2265047 18-07-26 14:40:48][HTSNetworkProfile] log network(AFNetworking) total_speed(count:945):34.88 KB/s, recent_speed(count:10):5.48 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2265758 18-07-26 14:40:58][HTSNetworkProfile] log network(AFNetworking) total_speed(count:959):34.54 KB/s, recent_speed(count:10):5.48 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2266239 18-07-26 14:41:08][HTSNetworkProfile] log network(AFNetworking) total_speed(count:971):33.84 KB/s, recent_speed(count:10):2.82 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2266015 18-07-26 14:41:18][HTSNetworkProfile] log network(AFNetworking) total_speed(count:986):33.38 KB/s, recent_speed(count:10):6.04 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2265758 18-07-26 14:41:28][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1005):33.03 KB/s, recent_speed(count:10):9.31 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2264530 18-07-26 14:41:38][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1014):33.10 KB/s, recent_speed(count:10):39.37 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2265449 18-07-26 14:41:48][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1014):33.10 KB/s, recent_speed(count:10):39.37 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2266276 18-07-26 14:41:58][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1014):33.10 KB/s, recent_speed(count:10):39.37 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2266276 18-07-26 14:42:08][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1014):33.10 KB/s, recent_speed(count:10):39.37 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2265449 18-07-26 14:42:18][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1014):33.10 KB/s, recent_speed(count:10):39.37 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2266239 18-07-26 14:42:28][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1014):33.10 KB/s, recent_speed(count:10):39.37 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2265449 18-07-26 14:42:38][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1014):33.10 KB/s, recent_speed(count:10):39.37 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2266906 18-07-26 14:42:48][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1014):33.10 KB/s, recent_speed(count:10):39.37 KB/s
+[V +[HTSPreLaunchTask performTaskWithLaunchContext:completion:]:41 com.apple.main-thread:2267902 18-07-26 14:45:08]!!! IESLogger 1
+[V +[HTSPreLaunchTask performTaskWithLaunchContext:completion:]:45 com.apple.main-thread:2267902 18-07-26 14:45:08]!!! crash report 3
+[V +[HTSPreLaunchTask performTaskWithLaunchContext:completion:]:49 com.apple.main-thread:2267902 18-07-26 14:45:08]!!! RemoteSettings 6
+[V +[HTSPreLaunchTask performTaskWithLaunchContext:completion:]:53 com.apple.main-thread:2267902 18-07-26 14:45:08]!!! Network 34
+[V +[HTSPreLaunchTask performTaskWithLaunchContext:completion:]:58 com.apple.main-thread:2267902 18-07-26 14:45:08]!!! Tracker 23
+[V +[HTSPreLaunchTask performTaskWithLaunchContext:completion:]:66 com.apple.main-thread:2267902 18-07-26 14:45:08]!!! Push infor 0
+[V +[HTSPreLaunchTask performTaskWithLaunchContext:completion:]:81 com.apple.main-thread:2267902 18-07-26 14:45:08]!!! [HTSAppRouterRegistry setup] 1
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267959 18-07-26 14:45:08]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"is_top","task":"HTSPreLaunchTask","step":"PreLaunch","type":"delay_fabric","duration":70}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267959 18-07-26 14:45:08]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"is_top","task":"HTSSDKTask","step":"DuringLaunch","type":"delay_fabric","duration":0}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267949 18-07-26 14:45:08]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"is_top","task":"HTSRootViewControllerLaunchTask","step":"DuringLaunch","type":"delay_fabric","duration":89}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267959 18-07-26 14:45:08]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"is_top","task":"HTSOAuthTask","step":"DuringLaunch","type":"delay_fabric","duration":3}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267959 18-07-26 14:45:08]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"is_top","task":"HTSServicePrepareTask","step":"DuringLaunch","type":"delay_fabric","duration":3}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267949 18-07-26 14:45:08]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"is_top","task":"HTSVideoTask","step":"DuringLaunch","type":"delay_fabric","duration":5}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267949 18-07-26 14:45:08]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"is_top","task":"HTSOOMTask","step":"DuringLaunch","type":"delay_fabric","duration":0}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267949 18-07-26 14:45:08]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"is_top","task":"HTSLiveRoomRuntimeTask","step":"DuringLaunch","type":"delay_fabric","duration":0}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267949 18-07-26 14:45:08]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"normal","task":"HTSPrefetchTask","step":"DuringLaunch","type":"delay_fabric","duration":2}
+[V -[FeedPageViewController viewDidAppear:]:155 com.apple.main-thread:2267902 18-07-26 14:45:08]===========time:241.800625
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267957 18-07-26 14:45:09]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"is_top","task":"HTSVersionManageTask","step":"PostLaunch","type":"delay_fabric","duration":0}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267957 18-07-26 14:45:09]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"is_top","task":"HTSVideoUploadTask","step":"PostLaunch","type":"delay_fabric","duration":3}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267957 18-07-26 14:45:09]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"is_top","task":"HTSMinorControlTask","step":"PostLaunch","type":"delay_fabric","duration":0}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267957 18-07-26 14:45:09]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"is_top","task":"HTSAppearanceTask","step":"PostLaunch","type":"delay_fabric","duration":1}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267957 18-07-26 14:45:09]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"is_top","task":"HTSTTMonitorTask","step":"PostLaunch","type":"delay_fabric","duration":0}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267957 18-07-26 14:45:09]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"is_top","task":"HTSFirstPageRenderTrackerTask","step":"PostLaunch","type":"delay_fabric","duration":0}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267957 18-07-26 14:45:09]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"is_top","task":"HTSAccountTask","step":"PostLaunch","type":"delay_fabric","duration":0}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267957 18-07-26 14:45:09]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"is_top","task":"HTSInhouseDebugTask","step":"PostLaunch","type":"delay_fabric","duration":0}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267957 18-07-26 14:45:09]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"is_top","task":"HTSDataAcquisitionTask","step":"PostLaunch","type":"delay_fabric","duration":0}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267957 18-07-26 14:45:09]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"is_top","task":"HTSAppSettingsTask","step":"PostLaunch","type":"delay_fabric","duration":3}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267957 18-07-26 14:45:09]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"is_top","task":"HTSBlockMonitorTask","step":"PostLaunch","type":"delay_fabric","duration":10}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267957 18-07-26 14:45:09]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"is_top","task":"HTSCloudControlTask","step":"PostLaunch","type":"delay_fabric","duration":0}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267945 18-07-26 14:45:09]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"is_top","task":"HTSCustomVolumeBarTask","step":"RunLoopIdle","type":"delay_fabric","duration":85}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267945 18-07-26 14:45:09]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"is_top","task":"HTSPageRenderTrackerTask","step":"RunLoopIdle","type":"delay_fabric","duration":10}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267945 18-07-26 14:45:09]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"is_top","task":"HTSNetworkHeavyParamsTask","step":"RunLoopIdle","type":"delay_fabric","duration":0}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267945 18-07-26 14:45:09]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"is_top","task":"HTSMPShareSDKTask","step":"RunLoopIdle","type":"delay_fabric","duration":1}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267946 18-07-26 14:45:09]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"normal","task":"HTSPermissionTask","step":"PostLaunch","type":"delay_fabric","duration":3}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267946 18-07-26 14:45:09]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"normal","task":"HTSCheckNewTabConfigTask","step":"RunLoopIdle","type":"delay_fabric","duration":2}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267946 18-07-26 14:45:09]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"normal","task":"HTSZombieTask","step":"RunLoopIdle","type":"delay_fabric","duration":0}
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267945 18-07-26 14:45:09][HTSNetworkProfile] log network(AFNetworking) total_speed(count:3):17.39 KB/s, recent_speed(count:3):17.39 KB/s
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267946 18-07-26 14:45:09]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"is_top","task":"HTSJSBridgeTask","step":"RunLoopIdle","type":"delay_fabric","duration":150}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267946 18-07-26 14:45:09]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"is_top","task":"HTSPushHandleTask","step":"RunLoopIdle","type":"delay_fabric","duration":0}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2268019 18-07-26 14:45:09]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"normal","task":"HTSTrackPublishFailedTask","step":"RunLoopIdle","type":"delay_fabric","duration":2}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267946 18-07-26 14:45:09]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"normal","task":"HTSSocketTask","step":"PostLaunch","type":"delay_fabric","duration":0}
+[V -[HTSNetworkPrefetchJob callbackIfFinishedWithResult:completion:]:91 com.apple.main-thread:2267902 18-07-26 14:45:10]Prefetch Cache hit with duration 451865127!
+[V -[HTSLiveFollowFeedViewController feedListDidEndRefresh]_block_invoke:844 com.apple.main-thread:2267902 18-07-26 14:45:10]====> Feed Data Fetched with 1997
+[V +[HTSRenderTimeReporter reportFirstPage]_block_invoke_2:98 com.apple.main-thread:2267902 18-07-26 14:45:10]hotsoon_page_render_first with {"count":0,"start_time":1434,"end_time":1440,"page_type":"HTSLiveFollowFeedVideoViewController"}
+[V +[HTSRenderTimeReporter reportFirstPage]_block_invoke_2:98 com.apple.main-thread:2267902 18-07-26 14:45:10]hotsoon_page_render_first with {"count":1,"start_time":2184,"end_time":2293,"page_type":"HTSLiveFollowFeedVideoViewController"}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2268029 18-07-26 14:45:11]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"normal","task":"HTSRegisterAppTask","step":"RunLoopIdle","type":"delay_fabric","duration":206}
+[E +[HTSNewVersionAlertManager checkNewVersionCompletion:]_block_invoke:36 com.apple.main-thread:2267902 18-07-26 14:45:11][HTSNewVersionAlertManager] check version request: update_version_code(4.5.0.0), response: error((null))
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267949 18-07-26 14:45:12]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"normal","task":"HTSFileCacheTask","step":"RunLoopIdle","type":"delay_fabric","duration":0}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267958 18-07-26 14:45:13]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"normal","task":"HTSShortCutItemTask","step":"PostLaunch","type":"delay_fabric","duration":8}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2268019 18-07-26 14:45:14]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"normal","task":"HTSTodayWidgetTask","step":"PostLaunch","type":"delay_fabric","duration":1}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2268019 18-07-26 14:45:14]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"normal","task":"HTSExtensionTask","step":"PostLaunch","type":"delay_fabric","duration":3}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267945 18-07-26 14:45:14]====> Launch hotsoon_startup_log with {"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","label":"normal","task":"HTSCrashlyticsTask","step":"RunLoopIdle","type":"delay_fabric","duration":127}
+[I +[HTSLaunchLogger logEvent:params:]:217 com.hotsoon.launch.logger:2267945 18-07-26 14:45:14]====> Launch hotsoon_startup_phase_log with {"beforeRunLoopIdle":765,"nPostLaunch":22,"beforeDuringLaunch":71,"nPreLaunch":70,"preMain":488,"beforePreLaunch":0,"nDuringLaunch":103,"beforePostLaunch":729,"uuid":"723219C0-81CB-4BFB-8695-12A0890D6A4B","type":"delay_fabric","data_loaded":1996}
+[D +[HTSNewVersionAlertManager shouldCheckNewVersion]:80 com.apple.main-thread:2267902 18-07-26 14:45:17][HTSNewVersionAlertManager] check version limit in 5 hours
+[V -[HTSNetworkPrefetchJob callbackIfFinishedWithResult:completion:]:91 com.apple.main-thread:2267902 18-07-26 14:45:18]Prefetch Cache hit with duration 451873324!
+[V -[HTSFeedFPSMonitor endEvent:]:158 com.apple.main-thread:2267902 18-07-26 14:45:18]hotsoon_feed_fps_monitor = {
+    "available_memory" = 1093;
+    "average_fps_during_event" = 60;
+    "cpu_usage" = "54.3%";
+    "end_fps" = "59.99563";
+    "event_name" = refresh;
+    "event_page" = HTSFollowTabViewController;
+    "memory_usage" = "53.02734375";
+    "start_fps" = "59.99654";
+}
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267946 18-07-26 14:45:19][HTSNetworkProfile] log network(AFNetworking) total_speed(count:41):162.83 KB/s, recent_speed(count:10):221.02 KB/s
+[V -[HTSFeedFPSMonitor endEvent:]:158 com.apple.main-thread:2267902 18-07-26 14:45:21]hotsoon_feed_fps_monitor = {
+    "available_memory" = 1095;
+    "average_fps_during_event" = 36;
+    "cpu_usage" = "19.8%";
+    "end_fps" = "58.99637";
+    "event_name" = "user_scroll_view";
+    "event_page" = HTSFollowTabViewController;
+    "memory_usage" = "53.3203125";
+    "start_fps" = "58.99637";
+}
+[V -[HTSNetworkPrefetchJob callbackIfFinishedWithResult:completion:]:91 com.apple.main-thread:2267902 18-07-26 14:45:21]Prefetch Cache hit with duration 451876357!
+[W -[HTSFeedFPSMonitor endEvent:]:137 com.apple.main-thread:2267902 18-07-26 14:45:21]HTSFeedFPSMonitor endEvent fpsDuringEvent = 61, event info = {
+    "average_fps_during_event" = 61;
+    "event_duration" = "0.4904569387435913";
+    "event_name" = refresh;
+    "event_page" = HTSFollowTabViewController;
+    "total_fps_during_event" = 30;
+}
+[V -[HTSFeedFPSMonitor endEvent:]:158 com.apple.main-thread:2267902 18-07-26 14:45:21]hotsoon_feed_fps_monitor = {
+    "available_memory" = 1095;
+    "average_fps_during_event" = 60;
+    "cpu_usage" = "49.3%";
+    "end_fps" = "58.99637";
+    "event_name" = refresh;
+    "event_page" = HTSFollowTabViewController;
+    "memory_usage" = "53.369140625";
+    "start_fps" = "58.99637";
+}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 14:45:28]hotsoon_page_render with {"display_name":"","count":0,"start_time":64,"end_time":237,"page_type":"HTSLivePlayerViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 14:45:28]hotsoon_page_render with {"display_name":"","count":0,"start_time":64,"end_time":237,"page_type":"HTSLivePlayerViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 14:45:28]hotsoon_page_render with {"display_name":"","count":1,"start_time":64,"end_time":238,"page_type":"HTSLivePlayerViewController"}
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267932 18-07-26 14:45:29][HTSNetworkProfile] log network(AFNetworking) total_speed(count:64):231.12 KB/s, recent_speed(count:10):349.42 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267932 18-07-26 14:45:29][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 14:45:34]hotsoon_page_render with {"display_name":"","count":0,"start_time":497,"end_time":629,"page_type":"HTSLivePlayerViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 14:45:34]hotsoon_page_render with {"display_name":"","count":0,"start_time":497,"end_time":629,"page_type":"HTSLivePlayerViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 14:45:34]hotsoon_page_render with {"display_name":"","count":1,"start_time":498,"end_time":629,"page_type":"HTSLivePlayerViewController"}
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267945 18-07-26 14:45:39][HTSNetworkProfile] log network(AFNetworking) total_speed(count:95):245.09 KB/s, recent_speed(count:10):579.78 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267945 18-07-26 14:45:39][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267959 18-07-26 14:45:49][HTSNetworkProfile] log network(AFNetworking) total_speed(count:106):231.33 KB/s, recent_speed(count:10):7.01 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267959 18-07-26 14:45:49][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267945 18-07-26 14:45:59][HTSNetworkProfile] log network(AFNetworking) total_speed(count:118):218.00 KB/s, recent_speed(count:10):5.44 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267945 18-07-26 14:45:59][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267946 18-07-26 14:46:09][HTSNetworkProfile] log network(AFNetworking) total_speed(count:129):207.78 KB/s, recent_speed(count:10):7.75 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267946 18-07-26 14:46:09][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267959 18-07-26 14:46:19][HTSNetworkProfile] log network(AFNetworking) total_speed(count:141):199.82 KB/s, recent_speed(count:10):7.95 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267959 18-07-26 14:46:19][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 14:46:29]hotsoon_page_render with {"display_name":"","count":0,"start_time":31,"end_time":136,"page_type":"HTSLivePlayerViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 14:46:29]hotsoon_page_render with {"display_name":"","count":0,"start_time":31,"end_time":136,"page_type":"HTSLivePlayerViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 14:46:29]hotsoon_page_render with {"display_name":"","count":1,"start_time":31,"end_time":136,"page_type":"HTSLivePlayerViewController"}
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267949 18-07-26 14:46:29][HTSNetworkProfile] log network(AFNetworking) total_speed(count:153):181.88 KB/s, recent_speed(count:10):4.88 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267949 18-07-26 14:46:29][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2268574 18-07-26 14:46:39][HTSNetworkProfile] log network(AFNetworking) total_speed(count:177):206.43 KB/s, recent_speed(count:10):14.73 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2268574 18-07-26 14:46:39][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267945 18-07-26 14:46:49][HTSNetworkProfile] log network(AFNetworking) total_speed(count:188):200.91 KB/s, recent_speed(count:10):17.93 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267945 18-07-26 14:46:49][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2268574 18-07-26 14:46:59][HTSNetworkProfile] log network(AFNetworking) total_speed(count:201):196.85 KB/s, recent_speed(count:10):122.47 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2268574 18-07-26 14:46:59][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267957 18-07-26 14:47:09][HTSNetworkProfile] log network(AFNetworking) total_speed(count:212):190.76 KB/s, recent_speed(count:10):20.30 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267957 18-07-26 14:47:09][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267949 18-07-26 14:47:19][HTSNetworkProfile] log network(AFNetworking) total_speed(count:223):185.49 KB/s, recent_speed(count:10):10.38 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267949 18-07-26 14:47:19][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267957 18-07-26 14:47:29][HTSNetworkProfile] log network(AFNetworking) total_speed(count:234):181.34 KB/s, recent_speed(count:10):6.19 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267957 18-07-26 14:47:29][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267945 18-07-26 14:47:39][HTSNetworkProfile] log network(AFNetworking) total_speed(count:246):177.64 KB/s, recent_speed(count:10):7.29 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267945 18-07-26 14:47:39][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269018 18-07-26 14:47:49][HTSNetworkProfile] log network(AFNetworking) total_speed(count:257):173.67 KB/s, recent_speed(count:10):12.76 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269018 18-07-26 14:47:49][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267945 18-07-26 14:47:59][HTSNetworkProfile] log network(AFNetworking) total_speed(count:270):172.27 KB/s, recent_speed(count:10):156.79 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2267945 18-07-26 14:47:59][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269172 18-07-26 14:48:09][HTSNetworkProfile] log network(AFNetworking) total_speed(count:280):167.07 KB/s, recent_speed(count:10):3.88 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269172 18-07-26 14:48:09][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2268574 18-07-26 14:48:19][HTSNetworkProfile] log network(AFNetworking) total_speed(count:292):163.36 KB/s, recent_speed(count:10):19.32 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2268574 18-07-26 14:48:19][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269220 18-07-26 14:48:29][HTSNetworkProfile] log network(AFNetworking) total_speed(count:302):160.35 KB/s, recent_speed(count:10):7.06 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269220 18-07-26 14:48:29][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269118 18-07-26 14:48:39][HTSNetworkProfile] log network(AFNetworking) total_speed(count:315):156.37 KB/s, recent_speed(count:10):6.02 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269118 18-07-26 14:48:39][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2268574 18-07-26 14:48:49][HTSNetworkProfile] log network(AFNetworking) total_speed(count:325):154.75 KB/s, recent_speed(count:10):9.99 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2268574 18-07-26 14:48:49][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269118 18-07-26 14:48:59][HTSNetworkProfile] log network(AFNetworking) total_speed(count:336):152.54 KB/s, recent_speed(count:10):8.06 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269118 18-07-26 14:48:59][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269017 18-07-26 14:49:09][HTSNetworkProfile] log network(AFNetworking) total_speed(count:347):150.73 KB/s, recent_speed(count:10):9.16 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269017 18-07-26 14:49:09][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2268574 18-07-26 14:49:19][HTSNetworkProfile] log network(AFNetworking) total_speed(count:359):148.57 KB/s, recent_speed(count:10):8.27 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2268574 18-07-26 14:49:19][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269412 18-07-26 14:49:29][HTSNetworkProfile] log network(AFNetworking) total_speed(count:371):146.77 KB/s, recent_speed(count:10):11.69 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269412 18-07-26 14:49:29][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269017 18-07-26 14:49:39][HTSNetworkProfile] log network(AFNetworking) total_speed(count:383):144.45 KB/s, recent_speed(count:10):7.02 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269017 18-07-26 14:49:39][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269578 18-07-26 14:49:49][HTSNetworkProfile] log network(AFNetworking) total_speed(count:394):142.57 KB/s, recent_speed(count:10):8.30 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269578 18-07-26 14:49:49][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2268574 18-07-26 14:49:59][HTSNetworkProfile] log network(AFNetworking) total_speed(count:406):140.41 KB/s, recent_speed(count:10):7.52 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2268574 18-07-26 14:49:59][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2268574 18-07-26 14:50:09][HTSNetworkProfile] log network(AFNetworking) total_speed(count:416):138.90 KB/s, recent_speed(count:10):8.62 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2268574 18-07-26 14:50:09][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269219 18-07-26 14:50:19][HTSNetworkProfile] log network(AFNetworking) total_speed(count:429):135.48 KB/s, recent_speed(count:10):10.32 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269219 18-07-26 14:50:19][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269681 18-07-26 14:50:29][HTSNetworkProfile] log network(AFNetworking) total_speed(count:440):132.57 KB/s, recent_speed(count:10):169.31 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269681 18-07-26 14:50:29][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269681 18-07-26 14:50:39][HTSNetworkProfile] log network(AFNetworking) total_speed(count:452):130.48 KB/s, recent_speed(count:10):8.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269681 18-07-26 14:50:39][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269954 18-07-26 14:50:49][HTSNetworkProfile] log network(AFNetworking) total_speed(count:463):127.29 KB/s, recent_speed(count:10):4.52 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269954 18-07-26 14:50:49][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269578 18-07-26 14:50:59][HTSNetworkProfile] log network(AFNetworking) total_speed(count:474):125.67 KB/s, recent_speed(count:10):7.09 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269578 18-07-26 14:50:59][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269954 18-07-26 14:51:09][HTSNetworkProfile] log network(AFNetworking) total_speed(count:485):123.27 KB/s, recent_speed(count:10):4.85 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269954 18-07-26 14:51:09][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269523 18-07-26 14:51:19][HTSNetworkProfile] log network(AFNetworking) total_speed(count:496):121.23 KB/s, recent_speed(count:10):5.07 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269523 18-07-26 14:51:19][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269412 18-07-26 14:51:29][HTSNetworkProfile] log network(AFNetworking) total_speed(count:507):119.85 KB/s, recent_speed(count:10):7.31 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269412 18-07-26 14:51:29][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269412 18-07-26 14:51:39][HTSNetworkProfile] log network(AFNetworking) total_speed(count:519):118.39 KB/s, recent_speed(count:10):7.43 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269412 18-07-26 14:51:39][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269896 18-07-26 14:51:49][HTSNetworkProfile] log network(AFNetworking) total_speed(count:529):117.07 KB/s, recent_speed(count:10):8.29 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269896 18-07-26 14:51:49][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270242 18-07-26 14:51:59][HTSNetworkProfile] log network(AFNetworking) total_speed(count:540):115.51 KB/s, recent_speed(count:10):6.37 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270242 18-07-26 14:51:59][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269896 18-07-26 14:52:09][HTSNetworkProfile] log network(AFNetworking) total_speed(count:551):114.48 KB/s, recent_speed(count:10):8.75 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269896 18-07-26 14:52:09][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270395 18-07-26 14:52:19][HTSNetworkProfile] log network(AFNetworking) total_speed(count:562):113.15 KB/s, recent_speed(count:10):7.06 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270395 18-07-26 14:52:19][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270395 18-07-26 14:52:29][HTSNetworkProfile] log network(AFNetworking) total_speed(count:573):111.71 KB/s, recent_speed(count:10):6.85 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270395 18-07-26 14:52:29][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269523 18-07-26 14:52:39][HTSNetworkProfile] log network(AFNetworking) total_speed(count:584):110.77 KB/s, recent_speed(count:10):11.28 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269523 18-07-26 14:52:39][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270504 18-07-26 14:52:49][HTSNetworkProfile] log network(AFNetworking) total_speed(count:595):109.48 KB/s, recent_speed(count:10):6.65 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270504 18-07-26 14:52:49][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269523 18-07-26 14:52:59][HTSNetworkProfile] log network(AFNetworking) total_speed(count:606):108.44 KB/s, recent_speed(count:10):21.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2269523 18-07-26 14:52:59][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270242 18-07-26 14:53:09][HTSNetworkProfile] log network(AFNetworking) total_speed(count:617):107.83 KB/s, recent_speed(count:10):26.02 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270242 18-07-26 14:53:09][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270719 18-07-26 14:53:19][HTSNetworkProfile] log network(AFNetworking) total_speed(count:629):106.94 KB/s, recent_speed(count:10):9.60 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270719 18-07-26 14:53:19][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270562 18-07-26 14:53:29][HTSNetworkProfile] log network(AFNetworking) total_speed(count:639):106.03 KB/s, recent_speed(count:10):7.87 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270562 18-07-26 14:53:29][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270562 18-07-26 14:53:39][HTSNetworkProfile] log network(AFNetworking) total_speed(count:650):105.10 KB/s, recent_speed(count:10):7.92 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270562 18-07-26 14:53:39][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270792 18-07-26 14:53:49][HTSNetworkProfile] log network(AFNetworking) total_speed(count:661):104.25 KB/s, recent_speed(count:10):8.67 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270792 18-07-26 14:53:49][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270792 18-07-26 14:53:59][HTSNetworkProfile] log network(AFNetworking) total_speed(count:672):102.92 KB/s, recent_speed(count:10):7.73 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270792 18-07-26 14:53:59][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270504 18-07-26 14:54:09][HTSNetworkProfile] log network(AFNetworking) total_speed(count:683):101.42 KB/s, recent_speed(count:10):4.73 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270504 18-07-26 14:54:09][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270719 18-07-26 14:54:19][HTSNetworkProfile] log network(AFNetworking) total_speed(count:694):100.26 KB/s, recent_speed(count:10):6.25 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270719 18-07-26 14:54:19][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270504 18-07-26 14:54:29][HTSNetworkProfile] log network(AFNetworking) total_speed(count:705):98.61 KB/s, recent_speed(count:10):4.20 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270504 18-07-26 14:54:29][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270848 18-07-26 14:54:39][HTSNetworkProfile] log network(AFNetworking) total_speed(count:717):97.14 KB/s, recent_speed(count:10):6.01 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270848 18-07-26 14:54:39][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271007 18-07-26 14:54:49][HTSNetworkProfile] log network(AFNetworking) total_speed(count:726):95.40 KB/s, recent_speed(count:10):3.19 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271007 18-07-26 14:54:49][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270562 18-07-26 14:54:59][HTSNetworkProfile] log network(AFNetworking) total_speed(count:738):93.31 KB/s, recent_speed(count:10):3.22 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270562 18-07-26 14:54:59][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270848 18-07-26 14:55:09][HTSNetworkProfile] log network(AFNetworking) total_speed(count:748):91.54 KB/s, recent_speed(count:10):4.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270848 18-07-26 14:55:09][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271007 18-07-26 14:55:19][HTSNetworkProfile] log network(AFNetworking) total_speed(count:761):90.55 KB/s, recent_speed(count:10):6.83 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271007 18-07-26 14:55:19][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271007 18-07-26 14:55:29][HTSNetworkProfile] log network(AFNetworking) total_speed(count:771):89.78 KB/s, recent_speed(count:10):6.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271007 18-07-26 14:55:29][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270562 18-07-26 14:55:39][HTSNetworkProfile] log network(AFNetworking) total_speed(count:784):88.87 KB/s, recent_speed(count:10):18.46 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270562 18-07-26 14:55:39][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271008 18-07-26 14:55:49][HTSNetworkProfile] log network(AFNetworking) total_speed(count:795):88.03 KB/s, recent_speed(count:10):6.10 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271008 18-07-26 14:55:49][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271496 18-07-26 14:55:59][HTSNetworkProfile] log network(AFNetworking) total_speed(count:807):86.96 KB/s, recent_speed(count:10):6.81 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271496 18-07-26 14:55:59][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270504 18-07-26 14:56:09][HTSNetworkProfile] log network(AFNetworking) total_speed(count:817):86.05 KB/s, recent_speed(count:10):5.17 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270504 18-07-26 14:56:09][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270792 18-07-26 14:56:19][HTSNetworkProfile] log network(AFNetworking) total_speed(count:829):84.81 KB/s, recent_speed(count:10):4.84 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270792 18-07-26 14:56:19][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270504 18-07-26 14:56:29][HTSNetworkProfile] log network(AFNetworking) total_speed(count:839):84.10 KB/s, recent_speed(count:10):6.25 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270504 18-07-26 14:56:29][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270848 18-07-26 14:56:39][HTSNetworkProfile] log network(AFNetworking) total_speed(count:851):83.45 KB/s, recent_speed(count:10):9.51 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270848 18-07-26 14:56:39][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270504 18-07-26 14:56:49][HTSNetworkProfile] log network(AFNetworking) total_speed(count:861):82.86 KB/s, recent_speed(count:10):16.14 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270504 18-07-26 14:56:49][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270848 18-07-26 14:56:59][HTSNetworkProfile] log network(AFNetworking) total_speed(count:872):82.08 KB/s, recent_speed(count:10):6.11 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270848 18-07-26 14:56:59][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270504 18-07-26 14:57:09][HTSNetworkProfile] log network(AFNetworking) total_speed(count:882):81.15 KB/s, recent_speed(count:10):5.51 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270504 18-07-26 14:57:09][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271787 18-07-26 14:57:19][HTSNetworkProfile] log network(AFNetworking) total_speed(count:893):80.39 KB/s, recent_speed(count:10):5.74 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271787 18-07-26 14:57:19][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271007 18-07-26 14:57:29][HTSNetworkProfile] log network(AFNetworking) total_speed(count:904):79.80 KB/s, recent_speed(count:10):7.18 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271007 18-07-26 14:57:29][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270504 18-07-26 14:57:39][HTSNetworkProfile] log network(AFNetworking) total_speed(count:916):79.13 KB/s, recent_speed(count:10):6.99 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270504 18-07-26 14:57:39][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271902 18-07-26 14:57:49][HTSNetworkProfile] log network(AFNetworking) total_speed(count:926):78.67 KB/s, recent_speed(count:10):8.13 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271902 18-07-26 14:57:49][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271007 18-07-26 14:57:59][HTSNetworkProfile] log network(AFNetworking) total_speed(count:938):78.05 KB/s, recent_speed(count:10):6.92 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271007 18-07-26 14:57:59][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270848 18-07-26 14:58:09][HTSNetworkProfile] log network(AFNetworking) total_speed(count:948):77.57 KB/s, recent_speed(count:10):17.71 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270848 18-07-26 14:58:09][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270848 18-07-26 14:58:19][HTSNetworkProfile] log network(AFNetworking) total_speed(count:959):76.57 KB/s, recent_speed(count:10):3.94 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270848 18-07-26 14:58:19][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271787 18-07-26 14:58:29][HTSNetworkProfile] log network(AFNetworking) total_speed(count:970):75.86 KB/s, recent_speed(count:10):6.60 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271787 18-07-26 14:58:29][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271496 18-07-26 14:58:39][HTSNetworkProfile] log network(AFNetworking) total_speed(count:982):74.27 KB/s, recent_speed(count:10):2.39 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271496 18-07-26 14:58:39][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270848 18-07-26 14:58:49][HTSNetworkProfile] log network(AFNetworking) total_speed(count:993):73.66 KB/s, recent_speed(count:10):14.01 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270848 18-07-26 14:58:49][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271496 18-07-26 14:58:59][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1004):73.15 KB/s, recent_speed(count:10):7.15 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271496 18-07-26 14:58:59][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270504 18-07-26 14:59:09][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1015):72.78 KB/s, recent_speed(count:10):11.73 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2270504 18-07-26 14:59:09][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271496 18-07-26 14:59:19][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1026):72.30 KB/s, recent_speed(count:10):9.42 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271496 18-07-26 14:59:19][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271496 18-07-26 14:59:29][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1037):72.03 KB/s, recent_speed(count:10):11.83 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271496 18-07-26 14:59:29][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2272386 18-07-26 14:59:39][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1048):71.66 KB/s, recent_speed(count:10):8.46 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2272386 18-07-26 14:59:39][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2272584 18-07-26 14:59:49][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1059):71.35 KB/s, recent_speed(count:10):9.82 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2272584 18-07-26 14:59:49][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 14:59:50]hotsoon_page_render with {"display_name":"","count":0,"start_time":25,"end_time":141,"page_type":"HTSLivePlayerViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 14:59:50]hotsoon_page_render with {"display_name":"","count":0,"start_time":25,"end_time":141,"page_type":"HTSLivePlayerViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 14:59:50]hotsoon_page_render with {"display_name":"","count":1,"start_time":26,"end_time":142,"page_type":"HTSLivePlayerViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 14:59:56]hotsoon_page_render with {"display_name":"","count":0,"start_time":32,"end_time":139,"page_type":"HTSLivePlayerViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 14:59:56]hotsoon_page_render with {"display_name":"","count":0,"start_time":32,"end_time":139,"page_type":"HTSLivePlayerViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 14:59:56]hotsoon_page_render with {"display_name":"","count":1,"start_time":32,"end_time":139,"page_type":"HTSLivePlayerViewController"}
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271902 18-07-26 14:59:59][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1103):94.45 KB/s, recent_speed(count:10):1534.99 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271902 18-07-26 14:59:59][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 15:00:00]hotsoon_page_render with {"display_name":"","count":0,"start_time":33,"end_time":137,"page_type":"HTSLivePlayerViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 15:00:00]hotsoon_page_render with {"display_name":"","count":0,"start_time":33,"end_time":137,"page_type":"HTSLivePlayerViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 15:00:00]hotsoon_page_render with {"display_name":"","count":1,"start_time":33,"end_time":137,"page_type":"HTSLivePlayerViewController"}
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2272655 18-07-26 15:00:09][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1122):102.59 KB/s, recent_speed(count:10):981.13 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2272655 18-07-26 15:00:09][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271787 18-07-26 15:00:19][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1123):102.48 KB/s, recent_speed(count:10):880.82 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2271787 18-07-26 15:00:19][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2272386 18-07-26 15:00:29][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1123):102.48 KB/s, recent_speed(count:10):880.82 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2272386 18-07-26 15:00:29][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2272700 18-07-26 15:00:39][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1123):102.48 KB/s, recent_speed(count:10):880.82 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2272700 18-07-26 15:00:39][HTSNetworkProfile] log network(VideoPlay) total_speed(count:24):606.52 KB/s, recent_speed(count:10):694.40 KB/s
+[V -[HTSFeedFPSMonitor endEvent:]:158 com.apple.main-thread:2267902 18-07-26 15:00:42]hotsoon_feed_fps_monitor = {
+    "available_memory" = 914;
+    "average_fps_during_event" = 60;
+    "cpu_usage" = "14.1%";
+    "end_fps" = "59.99606";
+    "event_name" = "user_scroll_view";
+    "event_page" = HTSFollowTabViewController;
+    "memory_usage" = "65.52734375";
+    "start_fps" = "59.99606";
+}
+[V -[HTSNetworkPrefetchJob callbackIfFinishedWithResult:completion:]:91 com.apple.main-thread:2267902 18-07-26 15:00:43]Prefetch Cache hit with duration 452797934!
+[V -[HTSFeedFPSMonitor endEvent:]:158 com.apple.main-thread:2267902 18-07-26 15:00:43]hotsoon_feed_fps_monitor = {
+    "available_memory" = 915;
+    "average_fps_during_event" = 59;
+    "cpu_usage" = "67.0%";
+    "end_fps" = "59.99606";
+    "event_name" = refresh;
+    "event_page" = HTSFollowTabViewController;
+    "memory_usage" = "65.576171875";
+    "start_fps" = "59.99606";
+}
+[V -[HTSFeedFPSMonitor endEvent:]:158 com.apple.main-thread:2267902 18-07-26 15:00:44]hotsoon_feed_fps_monitor = {
+    "available_memory" = 917;
+    "average_fps_during_event" = 60;
+    "cpu_usage" = "16.3%";
+    "end_fps" = "59.99488";
+    "event_name" = "user_scroll_view";
+    "event_page" = HTSFollowTabViewController;
+    "memory_usage" = "65.576171875";
+    "start_fps" = "59.99488";
+}
+[V -[HTSNetworkPrefetchJob callbackIfFinishedWithResult:completion:]:91 com.apple.main-thread:2267902 18-07-26 15:00:45]Prefetch Cache hit with duration 452799770!
+[V -[HTSFeedFPSMonitor endEvent:]:158 com.apple.main-thread:2267902 18-07-26 15:00:45]hotsoon_feed_fps_monitor = {
+    "available_memory" = 914;
+    "average_fps_during_event" = 59;
+    "cpu_usage" = "30.2%";
+    "end_fps" = "59.99488";
+    "event_name" = refresh;
+    "event_page" = HTSFollowTabViewController;
+    "memory_usage" = "65.576171875";
+    "start_fps" = "59.99488";
+}
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2272856 18-07-26 15:00:49][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2272856 18-07-26 15:00:49][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2272859 18-07-26 15:00:59][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2272859 18-07-26 15:00:59][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2272859 18-07-26 15:01:09][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2272859 18-07-26 15:01:09][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2272855 18-07-26 15:01:19][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2272855 18-07-26 15:01:19][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2272859 18-07-26 15:01:29][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2272859 18-07-26 15:01:29][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2272859 18-07-26 15:01:39][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2272859 18-07-26 15:01:39][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273101 18-07-26 15:01:49][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273101 18-07-26 15:01:49][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2272859 18-07-26 15:01:59][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2272859 18-07-26 15:01:59][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2272859 18-07-26 15:02:09][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2272859 18-07-26 15:02:09][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273101 18-07-26 15:02:19][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273101 18-07-26 15:02:19][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273101 18-07-26 15:02:29][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273101 18-07-26 15:02:29][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273343 18-07-26 15:02:39][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273343 18-07-26 15:02:39][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273341 18-07-26 15:02:49][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273341 18-07-26 15:02:49][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273341 18-07-26 15:02:59][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273341 18-07-26 15:02:59][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273296 18-07-26 15:03:09][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273296 18-07-26 15:03:09][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273296 18-07-26 15:03:19][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273296 18-07-26 15:03:19][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273341 18-07-26 15:03:29][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273341 18-07-26 15:03:29][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273296 18-07-26 15:03:39][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273296 18-07-26 15:03:39][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273343 18-07-26 15:03:49][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273343 18-07-26 15:03:49][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273706 18-07-26 15:03:59][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273706 18-07-26 15:03:59][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273704 18-07-26 15:04:09][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273704 18-07-26 15:04:09][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273704 18-07-26 15:04:19][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273704 18-07-26 15:04:19][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273704 18-07-26 15:04:29][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273704 18-07-26 15:04:29][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273704 18-07-26 15:04:39][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273704 18-07-26 15:04:39][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273343 18-07-26 15:04:49][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273343 18-07-26 15:04:49][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273296 18-07-26 15:04:59][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273296 18-07-26 15:04:59][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273296 18-07-26 15:05:09][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273296 18-07-26 15:05:09][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273704 18-07-26 15:05:19][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273704 18-07-26 15:05:19][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273704 18-07-26 15:05:29][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2273704 18-07-26 15:05:29][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2274012 18-07-26 15:05:39][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1125):120.03 KB/s, recent_speed(count:10):1839.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2274012 18-07-26 15:05:39][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2274038 18-07-26 15:05:49][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2274038 18-07-26 15:05:49][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2274243 18-07-26 15:06:05][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2274243 18-07-26 15:06:05][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2274038 18-07-26 15:07:13][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2274038 18-07-26 15:07:13][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2274243 18-07-26 15:09:32][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2274243 18-07-26 15:09:32][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2274243 18-07-26 15:11:06][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2274243 18-07-26 15:11:06][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2274243 18-07-26 15:13:24][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2274243 18-07-26 15:13:24][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2274242 18-07-26 15:15:42][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2274242 18-07-26 15:15:42][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2274038 18-07-26 15:18:00][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2274038 18-07-26 15:18:00][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2276615 18-07-26 15:19:34][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2276615 18-07-26 15:19:34][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2274242 18-07-26 15:20:26][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2274242 18-07-26 15:20:26][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2276615 18-07-26 15:20:36][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2276615 18-07-26 15:20:36][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2277116 18-07-26 15:21:16][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2277116 18-07-26 15:21:16][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2277116 18-07-26 15:22:49][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2277116 18-07-26 15:22:49][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2276615 18-07-26 15:23:23][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2276615 18-07-26 15:23:23][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2276615 18-07-26 15:24:22][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2276615 18-07-26 15:24:22][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2277965 18-07-26 15:25:54][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2277965 18-07-26 15:25:54][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[I -[HTSEffectCameraViewModel setBeautyLevel:]:242 com.apple.main-thread:2267902 18-07-26 15:26:02]特效：设置美颜等级：3
+[I -[HTSEffectCameraViewModel setFaceReshapeLevel:]:254 com.apple.main-thread:2267902 18-07-26 15:26:02]特效：设置大眼瘦脸等级：0
+[I -[HTSEffectCameraViewModel setBeautyLevel:]:242 com.apple.main-thread:2267902 18-07-26 15:26:02]特效：设置美颜等级：3
+[I -[HTSEffectCameraViewModel setFaceReshapeLevel:]:254 com.apple.main-thread:2267902 18-07-26 15:26:02]特效：设置大眼瘦脸等级：0
+[I -[HTSEffectCameraViewModel setBeautyLevel:]:242 com.apple.main-thread:2267902 18-07-26 15:26:02]特效：设置美颜等级：3
+[I -[HTSEffectCameraViewModel setFaceReshapeLevel:]:254 com.apple.main-thread:2267902 18-07-26 15:26:02]特效：设置大眼瘦脸等级：0
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 15:26:02]hotsoon_page_render with {"display_name":"","count":0,"start_time":93,"end_time":719,"page_type":"HTSCaptureVideoViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 15:26:02]hotsoon_page_render with {"display_name":"","count":0,"start_time":93,"end_time":719,"page_type":"HTSCaptureVideoViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 15:26:02]hotsoon_page_render with {"display_name":"","count":1,"start_time":94,"end_time":719,"page_type":"HTSCaptureVideoViewController"}
+[D +[HTSNewVersionAlertManager shouldCheckNewVersion]:80 com.apple.main-thread:2267902 18-07-26 15:26:03][HTSNewVersionAlertManager] check version limit in 5 hours
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2278986 18-07-26 15:26:07][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2278986 18-07-26 15:26:07][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2278985 18-07-26 15:26:17][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2278985 18-07-26 15:26:17][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2278985 18-07-26 15:26:27][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2278985 18-07-26 15:26:27][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2278986 18-07-26 15:26:37][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2278986 18-07-26 15:26:37][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[W -[HTSCaptureVideoViewModel pauseRecording]_block_invoke:359 com.apple.main-thread:2267902 18-07-26 15:26:40]暂停录制，相机状态错误
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2279293 18-07-26 15:26:47][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2279293 18-07-26 15:26:47][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2279235 18-07-26 15:26:57][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2279235 18-07-26 15:26:57][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2278985 18-07-26 15:27:07][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2278985 18-07-26 15:27:07][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2278985 18-07-26 15:27:17][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2278985 18-07-26 15:27:17][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2279291 18-07-26 15:27:27][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2279291 18-07-26 15:27:27][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2278985 18-07-26 15:27:37][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2278985 18-07-26 15:27:37][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2278985 18-07-26 15:27:47][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2278985 18-07-26 15:27:47][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2279291 18-07-26 15:27:57][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2279291 18-07-26 15:27:57][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D +[HTSNewVersionAlertManager shouldCheckNewVersion]:80 com.apple.main-thread:2267902 18-07-26 15:28:02][HTSNewVersionAlertManager] check version limit in 5 hours
+[I -[HTSEffectCameraViewModel setBeautyLevel:]:242 com.apple.main-thread:2267902 18-07-26 15:28:06]特效：设置美颜等级：3
+[I -[HTSEffectCameraViewModel setFaceReshapeLevel:]:254 com.apple.main-thread:2267902 18-07-26 15:28:06]特效：设置大眼瘦脸等级：0
+[I -[HTSEffectCameraViewModel setBeautyLevel:]:242 com.apple.main-thread:2267902 18-07-26 15:28:06]特效：设置美颜等级：3
+[I -[HTSEffectCameraViewModel setFaceReshapeLevel:]:254 com.apple.main-thread:2267902 18-07-26 15:28:06]特效：设置大眼瘦脸等级：0
+[I -[HTSEffectCameraViewModel setBeautyLevel:]:242 com.apple.main-thread:2267902 18-07-26 15:28:06]特效：设置美颜等级：3
+[I -[HTSEffectCameraViewModel setFaceReshapeLevel:]:254 com.apple.main-thread:2267902 18-07-26 15:28:06]特效：设置大眼瘦脸等级：0
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 15:28:06]hotsoon_page_render with {"display_name":"","count":0,"start_time":72,"end_time":326,"page_type":"HTSCaptureVideoViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 15:28:06]hotsoon_page_render with {"display_name":"","count":0,"start_time":72,"end_time":326,"page_type":"HTSCaptureVideoViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 15:28:06]hotsoon_page_render with {"display_name":"","count":1,"start_time":73,"end_time":326,"page_type":"HTSCaptureVideoViewController"}
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2280031 18-07-26 15:28:07][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2280031 18-07-26 15:28:07][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[W -[HTSCaptureVideoViewModel pauseRecording]_block_invoke:359 com.apple.main-thread:2267902 18-07-26 15:28:08]暂停录制，相机状态错误
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2280158 18-07-26 15:28:17][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1126):119.91 KB/s, recent_speed(count:10):1590.80 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2280158 18-07-26 15:28:17][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D +[HTSNewVersionAlertManager shouldCheckNewVersion]:80 com.apple.main-thread:2267902 18-07-26 15:28:20][HTSNewVersionAlertManager] check version limit in 5 hours
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 15:28:20]hotsoon_page_render with {"display_name":"","count":0,"start_time":83,"end_time":107,"page_type":"HTSLiveAnchorViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 15:28:20]hotsoon_page_render with {"display_name":"","count":0,"start_time":83,"end_time":107,"page_type":"HTSLiveAnchorViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 15:28:20]hotsoon_page_render with {"display_name":"","count":1,"start_time":89,"end_time":107,"page_type":"HTSLiveAnchorViewController"}
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2278985 18-07-26 15:28:27][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1157):122.73 KB/s, recent_speed(count:10):13198.54 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2278985 18-07-26 15:28:27][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2280313 18-07-26 15:28:37][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1170):122.79 KB/s, recent_speed(count:10):419.50 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2280313 18-07-26 15:28:37][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2280318 18-07-26 15:28:47][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1183):122.82 KB/s, recent_speed(count:10):287.09 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2280318 18-07-26 15:28:47][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2280318 18-07-26 15:28:57][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1202):125.37 KB/s, recent_speed(count:10):8924.53 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2280318 18-07-26 15:28:57][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2280313 18-07-26 15:29:07][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1219):125.99 KB/s, recent_speed(count:10):2827.81 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2280313 18-07-26 15:29:07][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2280602 18-07-26 15:29:17][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1232):126.01 KB/s, recent_speed(count:10):173.56 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2280602 18-07-26 15:29:17][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2280313 18-07-26 15:29:27][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1249):126.61 KB/s, recent_speed(count:10):3024.98 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2280313 18-07-26 15:29:27][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2280315 18-07-26 15:29:37][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1263):126.64 KB/s, recent_speed(count:10):209.75 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2280315 18-07-26 15:29:37][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2278985 18-07-26 15:29:47][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1276):126.67 KB/s, recent_speed(count:10):310.49 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2278985 18-07-26 15:29:47][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2280603 18-07-26 15:29:57][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1289):126.71 KB/s, recent_speed(count:10):368.39 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2280603 18-07-26 15:29:57][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2278985 18-07-26 15:30:07][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1303):126.83 KB/s, recent_speed(count:10):379.35 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2278985 18-07-26 15:30:07][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2280315 18-07-26 15:30:17][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1314):126.85 KB/s, recent_speed(count:10):140.14 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2280315 18-07-26 15:30:17][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281358 18-07-26 15:30:27][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1325):126.94 KB/s, recent_speed(count:10):99.74 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281358 18-07-26 15:30:27][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281361 18-07-26 15:30:37][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1336):126.89 KB/s, recent_speed(count:10):59.95 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281361 18-07-26 15:30:37][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281361 18-07-26 15:30:47][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1346):126.91 KB/s, recent_speed(count:10):156.83 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281361 18-07-26 15:30:47][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281467 18-07-26 15:30:57][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1356):126.85 KB/s, recent_speed(count:10):52.39 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281467 18-07-26 15:30:57][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281466 18-07-26 15:31:07][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1367):126.76 KB/s, recent_speed(count:10):45.74 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281466 18-07-26 15:31:07][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281539 18-07-26 15:31:17][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1377):126.70 KB/s, recent_speed(count:10):53.16 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281539 18-07-26 15:31:17][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281541 18-07-26 15:31:27][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1388):126.65 KB/s, recent_speed(count:10):66.10 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281541 18-07-26 15:31:27][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281652 18-07-26 15:31:37][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1398):126.61 KB/s, recent_speed(count:10):65.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281652 18-07-26 15:31:37][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281655 18-07-26 15:31:47][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1408):126.56 KB/s, recent_speed(count:10):60.97 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281655 18-07-26 15:31:47][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281688 18-07-26 15:31:57][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1419):126.56 KB/s, recent_speed(count:10):57.04 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281688 18-07-26 15:31:57][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281794 18-07-26 15:32:07][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1429):126.49 KB/s, recent_speed(count:10):48.83 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281794 18-07-26 15:32:07][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281540 18-07-26 15:32:17][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1439):126.37 KB/s, recent_speed(count:10):34.92 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281540 18-07-26 15:32:17][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281689 18-07-26 15:32:27][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1449):126.31 KB/s, recent_speed(count:10):52.22 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281689 18-07-26 15:32:27][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281914 18-07-26 15:32:37][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1460):126.26 KB/s, recent_speed(count:10):69.18 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281914 18-07-26 15:32:37][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281961 18-07-26 15:32:47][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1469):126.20 KB/s, recent_speed(count:10):59.93 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281961 18-07-26 15:32:47][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D +[HTSNewVersionAlertManager shouldCheckNewVersion]:80 com.apple.main-thread:2267902 18-07-26 15:32:54][HTSNewVersionAlertManager] check version limit in 5 hours
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2282081 18-07-26 15:32:57][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1493):126.58 KB/s, recent_speed(count:10):1842.34 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2282081 18-07-26 15:32:57][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2282178 18-07-26 15:33:07][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1508):126.61 KB/s, recent_speed(count:10):285.53 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2282178 18-07-26 15:33:07][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2282081 18-07-26 15:33:17][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1524):127.23 KB/s, recent_speed(count:10):304.13 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2282081 18-07-26 15:33:17][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2282178 18-07-26 15:33:27][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1542):127.31 KB/s, recent_speed(count:10):417.81 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2282178 18-07-26 15:33:27][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2282212 18-07-26 15:33:37][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1564):127.43 KB/s, recent_speed(count:10):419.69 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2282212 18-07-26 15:33:37][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281957 18-07-26 15:33:47][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1585):127.61 KB/s, recent_speed(count:10):542.21 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281957 18-07-26 15:33:47][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2282212 18-07-26 15:33:57][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1604):127.69 KB/s, recent_speed(count:10):524.24 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2282212 18-07-26 15:33:57][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2282212 18-07-26 15:34:07][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1621):127.75 KB/s, recent_speed(count:10):221.03 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2282212 18-07-26 15:34:07][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281957 18-07-26 15:34:17][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1639):127.81 KB/s, recent_speed(count:10):446.12 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281957 18-07-26 15:34:17][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281962 18-07-26 15:34:27][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1654):127.86 KB/s, recent_speed(count:10):297.25 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281962 18-07-26 15:34:27][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2282212 18-07-26 15:34:37][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1667):127.89 KB/s, recent_speed(count:10):287.16 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2282212 18-07-26 15:34:37][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2282736 18-07-26 15:34:47][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1680):127.93 KB/s, recent_speed(count:10):364.52 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2282736 18-07-26 15:34:47][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2282212 18-07-26 15:34:57][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1688):128.28 KB/s, recent_speed(count:10):1793.97 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2282212 18-07-26 15:34:57][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2282780 18-07-26 15:35:07][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1688):128.28 KB/s, recent_speed(count:10):1793.97 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2282780 18-07-26 15:35:07][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281688 18-07-26 15:35:17][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1688):128.28 KB/s, recent_speed(count:10):1793.97 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2281688 18-07-26 15:35:17][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2282780 18-07-26 15:35:27][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1688):128.28 KB/s, recent_speed(count:10):1793.97 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2282780 18-07-26 15:35:27][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283103 18-07-26 15:35:37][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1688):128.28 KB/s, recent_speed(count:10):1793.97 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283103 18-07-26 15:35:37][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283103 18-07-26 15:35:47][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1688):128.28 KB/s, recent_speed(count:10):1793.97 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283103 18-07-26 15:35:47][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283256 18-07-26 15:35:57][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1688):128.28 KB/s, recent_speed(count:10):1793.97 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283256 18-07-26 15:35:57][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283256 18-07-26 15:36:07][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1688):128.28 KB/s, recent_speed(count:10):1793.97 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283256 18-07-26 15:36:07][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283256 18-07-26 15:36:17][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1688):128.28 KB/s, recent_speed(count:10):1793.97 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283256 18-07-26 15:36:17][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283464 18-07-26 15:36:27][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1688):128.28 KB/s, recent_speed(count:10):1793.97 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283464 18-07-26 15:36:27][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283424 18-07-26 15:36:37][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1688):128.28 KB/s, recent_speed(count:10):1793.97 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283424 18-07-26 15:36:37][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283464 18-07-26 15:36:47][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1688):128.28 KB/s, recent_speed(count:10):1793.97 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283464 18-07-26 15:36:47][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283464 18-07-26 15:36:57][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1689):128.39 KB/s, recent_speed(count:10):1559.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283464 18-07-26 15:36:57][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283464 18-07-26 15:37:07][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1689):128.39 KB/s, recent_speed(count:10):1559.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283464 18-07-26 15:37:07][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283586 18-07-26 15:37:17][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1689):128.39 KB/s, recent_speed(count:10):1559.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283586 18-07-26 15:37:17][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283464 18-07-26 15:37:27][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1689):128.39 KB/s, recent_speed(count:10):1559.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283464 18-07-26 15:37:27][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283696 18-07-26 15:37:37][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1689):128.39 KB/s, recent_speed(count:10):1559.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283696 18-07-26 15:37:37][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283464 18-07-26 15:37:47][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1689):128.39 KB/s, recent_speed(count:10):1559.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283464 18-07-26 15:37:47][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283696 18-07-26 15:37:57][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1690):128.39 KB/s, recent_speed(count:10):1391.75 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283696 18-07-26 15:37:57][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283895 18-07-26 15:38:07][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1690):128.39 KB/s, recent_speed(count:10):1391.75 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283895 18-07-26 15:38:07][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283846 18-07-26 15:38:17][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1690):128.39 KB/s, recent_speed(count:10):1391.75 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283846 18-07-26 15:38:17][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283464 18-07-26 15:38:27][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1690):128.39 KB/s, recent_speed(count:10):1391.75 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283464 18-07-26 15:38:27][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283696 18-07-26 15:38:37][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1690):128.39 KB/s, recent_speed(count:10):1391.75 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283696 18-07-26 15:38:37][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283464 18-07-26 15:38:47][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1690):128.39 KB/s, recent_speed(count:10):1391.75 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283464 18-07-26 15:38:47][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[I -[HTSEffectCameraViewModel setBeautyLevel:]:242 com.apple.main-thread:2267902 18-07-26 15:38:51]特效：设置美颜等级：3
+[I -[HTSEffectCameraViewModel setFaceReshapeLevel:]:254 com.apple.main-thread:2267902 18-07-26 15:38:51]特效：设置大眼瘦脸等级：0
+[I -[HTSEffectCameraViewModel setBeautyLevel:]:242 com.apple.main-thread:2267902 18-07-26 15:38:51]特效：设置美颜等级：3
+[I -[HTSEffectCameraViewModel setFaceReshapeLevel:]:254 com.apple.main-thread:2267902 18-07-26 15:38:51]特效：设置大眼瘦脸等级：0
+[I -[HTSEffectCameraViewModel setBeautyLevel:]:242 com.apple.main-thread:2267902 18-07-26 15:38:51]特效：设置美颜等级：3
+[I -[HTSEffectCameraViewModel setFaceReshapeLevel:]:254 com.apple.main-thread:2267902 18-07-26 15:38:51]特效：设置大眼瘦脸等级：0
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 15:38:52]hotsoon_page_render with {"display_name":"","count":0,"start_time":123,"end_time":1054,"page_type":"HTSCaptureVideoViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 15:38:52]hotsoon_page_render with {"display_name":"","count":0,"start_time":123,"end_time":1054,"page_type":"HTSCaptureVideoViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 15:38:52]hotsoon_page_render with {"display_name":"","count":1,"start_time":126,"end_time":1054,"page_type":"HTSCaptureVideoViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 15:38:54]hotsoon_page_render with {"display_name":"","count":0,"start_time":51,"end_time":69,"page_type":"HTSLiveAnchorViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 15:38:54]hotsoon_page_render with {"display_name":"","count":0,"start_time":51,"end_time":69,"page_type":"HTSLiveAnchorViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 15:38:54]hotsoon_page_render with {"display_name":"","count":1,"start_time":52,"end_time":69,"page_type":"HTSLiveAnchorViewController"}
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284309 18-07-26 15:38:57][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1696):128.75 KB/s, recent_speed(count:10):1872.57 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284309 18-07-26 15:38:57][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283696 18-07-26 15:39:07][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1716):131.10 KB/s, recent_speed(count:10):406.73 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283696 18-07-26 15:39:07][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284311 18-07-26 15:39:17][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1729):131.10 KB/s, recent_speed(count:10):231.50 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284311 18-07-26 15:39:17][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284312 18-07-26 15:39:27][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1742):131.13 KB/s, recent_speed(count:10):323.97 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284312 18-07-26 15:39:27][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284310 18-07-26 15:39:37][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1757):131.16 KB/s, recent_speed(count:10):301.22 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284310 18-07-26 15:39:37][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284206 18-07-26 15:39:47][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1775):131.24 KB/s, recent_speed(count:10):454.35 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284206 18-07-26 15:39:47][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284312 18-07-26 15:39:57][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1791):131.37 KB/s, recent_speed(count:10):936.24 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284312 18-07-26 15:39:57][HTSNetworkProfile] log network(VideoPlay) total_speed(count:78):1238.37 KB/s, recent_speed(count:10):2438.36 KB/s
+[W -[HTSFeedFPSMonitor endEvent:]:137 com.apple.main-thread:2267902 18-07-26 15:40:05]HTSFeedFPSMonitor endEvent fpsDuringEvent = 62, event info = {
+    "average_fps_during_event" = 62;
+    "event_duration" = "0.2249699831008911";
+    "event_name" = "user_scroll_view";
+    "event_page" = HTSFollowTabViewController;
+    "total_fps_during_event" = 14;
+}
+[V -[HTSFeedFPSMonitor endEvent:]:158 com.apple.main-thread:2267902 18-07-26 15:40:05]hotsoon_feed_fps_monitor = {
+    "available_memory" = 653;
+    "average_fps_during_event" = 60;
+    "cpu_usage" = "27.4%";
+    "end_fps" = "59.99538";
+    "event_name" = "user_scroll_view";
+    "event_page" = HTSFollowTabViewController;
+    "memory_usage" = "67.08984375";
+    "start_fps" = "59.99538";
+}
+[V -[HTSNetworkPrefetchJob callbackIfFinishedWithResult:completion:]:91 com.apple.main-thread:2267902 18-07-26 15:40:05]Prefetch Cache hit with duration 454102397!
+[V -[HTSFeedFPSMonitor endEvent:]:158 com.apple.main-thread:2267902 18-07-26 15:40:05]hotsoon_feed_fps_monitor = {
+    "available_memory" = 654;
+    "average_fps_during_event" = 59;
+    "cpu_usage" = "75.4%";
+    "end_fps" = "59.9978";
+    "event_name" = refresh;
+    "event_page" = HTSFollowTabViewController;
+    "memory_usage" = "67.236328125";
+    "start_fps" = "59.99538";
+}
+[V -[HTSFeedFPSMonitor endEvent:]:158 com.apple.main-thread:2267902 18-07-26 15:40:06]hotsoon_feed_fps_monitor = {
+    "available_memory" = 746;
+    "average_fps_during_event" = 44;
+    "cpu_usage" = "59.8%";
+    "end_fps" = "53.99545";
+    "event_name" = "user_scroll_view";
+    "event_page" = HTSFollowTabViewController;
+    "memory_usage" = "62.939453125";
+    "start_fps" = "59.9978";
+}
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284311 18-07-26 15:40:07][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1800):139.06 KB/s, recent_speed(count:10):1726.39 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284311 18-07-26 15:40:07][HTSNetworkProfile] log network(VideoPlay) total_speed(count:100):1346.67 KB/s, recent_speed(count:10):1071.07 KB/s
+[V -[HTSFeedFPSMonitor endEvent:]:158 com.apple.main-thread:2267902 18-07-26 15:40:07]hotsoon_feed_fps_monitor = {
+    "available_memory" = 741;
+    "average_fps_during_event" = 60;
+    "cpu_usage" = "51.0%";
+    "end_fps" = "53.99545";
+    "event_name" = "user_scroll_view";
+    "event_page" = HTSFollowTabViewController;
+    "memory_usage" = "63.232421875";
+    "start_fps" = "53.99545";
+}
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283696 18-07-26 15:40:17][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1800):139.06 KB/s, recent_speed(count:10):1726.39 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283696 18-07-26 15:40:17][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284599 18-07-26 15:40:27][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1800):139.06 KB/s, recent_speed(count:10):1726.39 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284599 18-07-26 15:40:27][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284312 18-07-26 15:40:37][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1800):139.06 KB/s, recent_speed(count:10):1726.39 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284312 18-07-26 15:40:37][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284599 18-07-26 15:40:47][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1800):139.06 KB/s, recent_speed(count:10):1726.39 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284599 18-07-26 15:40:47][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284982 18-07-26 15:40:57][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1801):139.17 KB/s, recent_speed(count:10):1729.02 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284982 18-07-26 15:40:57][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284981 18-07-26 15:41:07][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1801):139.17 KB/s, recent_speed(count:10):1729.02 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284981 18-07-26 15:41:07][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284982 18-07-26 15:41:17][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1801):139.17 KB/s, recent_speed(count:10):1729.02 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284982 18-07-26 15:41:17][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283696 18-07-26 15:41:27][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1801):139.17 KB/s, recent_speed(count:10):1729.02 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2283696 18-07-26 15:41:27][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[I -[HTSEffectCameraViewModel setBeautyLevel:]:242 com.apple.main-thread:2267902 18-07-26 15:41:28]特效：设置美颜等级：3
+[I -[HTSEffectCameraViewModel setFaceReshapeLevel:]:254 com.apple.main-thread:2267902 18-07-26 15:41:28]特效：设置大眼瘦脸等级：0
+[I -[HTSEffectCameraViewModel setBeautyLevel:]:242 com.apple.main-thread:2267902 18-07-26 15:41:28]特效：设置美颜等级：3
+[I -[HTSEffectCameraViewModel setFaceReshapeLevel:]:254 com.apple.main-thread:2267902 18-07-26 15:41:28]特效：设置大眼瘦脸等级：0
+[I -[HTSEffectCameraViewModel setBeautyLevel:]:242 com.apple.main-thread:2267902 18-07-26 15:41:28]特效：设置美颜等级：3
+[I -[HTSEffectCameraViewModel setFaceReshapeLevel:]:254 com.apple.main-thread:2267902 18-07-26 15:41:28]特效：设置大眼瘦脸等级：0
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 15:41:29]hotsoon_page_render with {"display_name":"","count":0,"start_time":101,"end_time":1097,"page_type":"HTSCaptureVideoViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 15:41:29]hotsoon_page_render with {"display_name":"","count":0,"start_time":101,"end_time":1097,"page_type":"HTSCaptureVideoViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 15:41:29]hotsoon_page_render with {"display_name":"","count":1,"start_time":102,"end_time":1097,"page_type":"HTSCaptureVideoViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 15:41:30]hotsoon_page_render with {"display_name":"","count":0,"start_time":49,"end_time":67,"page_type":"HTSLiveAnchorViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 15:41:30]hotsoon_page_render with {"display_name":"","count":0,"start_time":49,"end_time":67,"page_type":"HTSLiveAnchorViewController"}
+[V -[UIViewController(HTSRenderTimeTracker) htsrtt_viewDidLoad]_block_invoke_2:74 com.apple.main-thread:2267902 18-07-26 15:41:30]hotsoon_page_render with {"display_name":"","count":1,"start_time":50,"end_time":68,"page_type":"HTSLiveAnchorViewController"}
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284981 18-07-26 15:41:37][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1818):141.41 KB/s, recent_speed(count:10):939.57 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284981 18-07-26 15:41:37][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2285189 18-07-26 15:41:47][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1831):141.45 KB/s, recent_speed(count:10):350.87 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2285189 18-07-26 15:41:47][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284982 18-07-26 15:41:57][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1844):141.48 KB/s, recent_speed(count:10):264.97 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284982 18-07-26 15:41:57][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2285311 18-07-26 15:42:07][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1859):142.82 KB/s, recent_speed(count:10):2331.68 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2285311 18-07-26 15:42:07][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2285311 18-07-26 15:42:17][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1875):144.27 KB/s, recent_speed(count:10):561.33 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2285311 18-07-26 15:42:17][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284981 18-07-26 15:42:27][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1891):144.56 KB/s, recent_speed(count:10):2024.48 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284981 18-07-26 15:42:27][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2285731 18-07-26 15:42:37][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1905):144.62 KB/s, recent_speed(count:10):52.30 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2285731 18-07-26 15:42:37][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2285691 18-07-26 15:42:47][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1918):144.63 KB/s, recent_speed(count:10):156.40 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2285691 18-07-26 15:42:47][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2285189 18-07-26 15:42:57][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1933):144.68 KB/s, recent_speed(count:10):390.19 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2285189 18-07-26 15:42:57][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2285731 18-07-26 15:43:07][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1946):144.69 KB/s, recent_speed(count:10):188.81 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2285731 18-07-26 15:43:07][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2285731 18-07-26 15:43:17][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1959):144.72 KB/s, recent_speed(count:10):268.65 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2285731 18-07-26 15:43:17][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286112 18-07-26 15:43:27][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1972):144.80 KB/s, recent_speed(count:10):764.83 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286112 18-07-26 15:43:27][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2285731 18-07-26 15:43:37][HTSNetworkProfile] log network(AFNetworking) total_speed(count:1985):144.83 KB/s, recent_speed(count:10):271.30 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2285731 18-07-26 15:43:37][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2285691 18-07-26 15:43:47][HTSNetworkProfile] log network(AFNetworking) total_speed(count:2000):146.22 KB/s, recent_speed(count:10):10527.04 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2285691 18-07-26 15:43:47][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284981 18-07-26 15:43:57][HTSNetworkProfile] log network(AFNetworking) total_speed(count:2017):147.76 KB/s, recent_speed(count:10):1096.60 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284981 18-07-26 15:43:57][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284982 18-07-26 15:44:07][HTSNetworkProfile] log network(AFNetworking) total_speed(count:2030):147.79 KB/s, recent_speed(count:10):392.64 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284982 18-07-26 15:44:07][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284981 18-07-26 15:44:17][HTSNetworkProfile] log network(AFNetworking) total_speed(count:2043):147.82 KB/s, recent_speed(count:10):232.20 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284981 18-07-26 15:44:17][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284982 18-07-26 15:44:27][HTSNetworkProfile] log network(AFNetworking) total_speed(count:2056):147.84 KB/s, recent_speed(count:10):197.78 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2284982 18-07-26 15:44:27][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286537 18-07-26 15:44:37][HTSNetworkProfile] log network(AFNetworking) total_speed(count:2070):147.87 KB/s, recent_speed(count:10):353.15 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286537 18-07-26 15:44:37][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286537 18-07-26 15:44:47][HTSNetworkProfile] log network(AFNetworking) total_speed(count:2083):147.90 KB/s, recent_speed(count:10):276.81 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286537 18-07-26 15:44:47][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286719 18-07-26 15:44:57][HTSNetworkProfile] log network(AFNetworking) total_speed(count:2096):147.92 KB/s, recent_speed(count:10):306.41 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286719 18-07-26 15:44:57][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286326 18-07-26 15:45:07][HTSNetworkProfile] log network(AFNetworking) total_speed(count:2109):147.95 KB/s, recent_speed(count:10):273.92 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286326 18-07-26 15:45:07][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286888 18-07-26 15:45:17][HTSNetworkProfile] log network(AFNetworking) total_speed(count:2122):147.97 KB/s, recent_speed(count:10):191.25 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286888 18-07-26 15:45:17][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286537 18-07-26 15:45:27][HTSNetworkProfile] log network(AFNetworking) total_speed(count:2135):148.00 KB/s, recent_speed(count:10):324.92 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286537 18-07-26 15:45:27][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286767 18-07-26 15:45:37][HTSNetworkProfile] log network(AFNetworking) total_speed(count:2150):149.36 KB/s, recent_speed(count:10):3654.01 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286767 18-07-26 15:45:37][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286719 18-07-26 15:45:47][HTSNetworkProfile] log network(AFNetworking) total_speed(count:2168):151.02 KB/s, recent_speed(count:10):3302.22 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286719 18-07-26 15:45:47][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286769 18-07-26 15:45:57][HTSNetworkProfile] log network(AFNetworking) total_speed(count:2181):151.05 KB/s, recent_speed(count:10):164.34 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286769 18-07-26 15:45:57][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2287179 18-07-26 15:46:07][HTSNetworkProfile] log network(AFNetworking) total_speed(count:2194):151.07 KB/s, recent_speed(count:10):318.74 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2287179 18-07-26 15:46:07][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2285311 18-07-26 15:46:17][HTSNetworkProfile] log network(AFNetworking) total_speed(count:2207):151.16 KB/s, recent_speed(count:10):766.38 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2285311 18-07-26 15:46:17][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286537 18-07-26 15:46:27][HTSNetworkProfile] log network(AFNetworking) total_speed(count:2220):151.16 KB/s, recent_speed(count:10):129.38 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286537 18-07-26 15:46:27][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286769 18-07-26 15:46:37][HTSNetworkProfile] log network(AFNetworking) total_speed(count:2233):151.19 KB/s, recent_speed(count:10):317.25 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286769 18-07-26 15:46:37][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286326 18-07-26 15:46:47][HTSNetworkProfile] log network(AFNetworking) total_speed(count:2247):151.20 KB/s, recent_speed(count:10):198.20 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286326 18-07-26 15:46:47][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286326 18-07-26 15:46:57][HTSNetworkProfile] log network(AFNetworking) total_speed(count:2260):151.24 KB/s, recent_speed(count:10):407.46 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286326 18-07-26 15:46:57][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286769 18-07-26 15:47:07][HTSNetworkProfile] log network(AFNetworking) total_speed(count:2274):151.39 KB/s, recent_speed(count:10):1290.92 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286769 18-07-26 15:47:07][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2287679 18-07-26 15:47:17][HTSNetworkProfile] log network(AFNetworking) total_speed(count:2290):151.61 KB/s, recent_speed(count:10):429.17 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2287679 18-07-26 15:47:17][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286326 18-07-26 15:47:27][HTSNetworkProfile] log network(AFNetworking) total_speed(count:2304):151.62 KB/s, recent_speed(count:10):139.55 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286326 18-07-26 15:47:27][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D +[HTSNewVersionAlertManager shouldCheckNewVersion]:80 com.apple.main-thread:2267902 18-07-26 15:47:29][HTSNewVersionAlertManager] check version limit in 5 hours
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286326 18-07-26 15:47:37][HTSNetworkProfile] log network(AFNetworking) total_speed(count:2323):151.64 KB/s, recent_speed(count:10):266.92 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2286326 18-07-26 15:47:37][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2285311 18-07-26 15:47:47][HTSNetworkProfile] log network(AFNetworking) total_speed(count:2337):151.67 KB/s, recent_speed(count:10):317.63 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2285311 18-07-26 15:47:47][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2287679 18-07-26 15:47:57][HTSNetworkProfile] log network(AFNetworking) total_speed(count:2348):151.58 KB/s, recent_speed(count:10):52.95 KB/s
+[D -[HTSNetworkProfile startLogTimer]_block_invoke_2:149 HTSNetworkProfile:2287679 18-07-26 15:47:57][HTSNetworkProfile] log network(VideoPlay) total_speed(count:200):1351.83 KB/s, recent_speed(count:10):1569.59 KB/s

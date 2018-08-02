@@ -1,0 +1,12 @@
+{
+  "event" : "live_show",
+  "params" : {
+    "_staging_flag" : 1,
+    "event_belong" : "live_view",
+    "event_type" : "core",
+    "room_id" : 6584179974436031246,
+    "event_module" : "party",
+    "event_page" : "live_detail",
+    "action_type" : "click"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "reused" : true,
+  "protocol" : "http\/1.1",
+  "request_duration" : 104,
+  "waiting" : 40,
+  "request" : 0,
+  "before_fetch" : 0,
+  "response" : 37,
+  "redirect_count" : 0,
+  "url" : "http:\/\/p3.pstatp.com\/large\/9e2d000911d9b854e531.jpg"
+}

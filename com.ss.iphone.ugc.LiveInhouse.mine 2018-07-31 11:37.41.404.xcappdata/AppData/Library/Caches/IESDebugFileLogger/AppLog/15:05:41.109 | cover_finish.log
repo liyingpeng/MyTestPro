@@ -1,0 +1,14 @@
+{
+  "event" : "cover_finish",
+  "params" : {
+    "event_belong" : "video_view",
+    "is_success" : 1,
+    "event_type" : "other",
+    "time" : 402,
+    "video_id" : 6580583739636583693,
+    "event_page" : "video",
+    "is_cache" : 0,
+    "resolution" : "{544, 976}",
+    "preload" : 1
+  }
+}

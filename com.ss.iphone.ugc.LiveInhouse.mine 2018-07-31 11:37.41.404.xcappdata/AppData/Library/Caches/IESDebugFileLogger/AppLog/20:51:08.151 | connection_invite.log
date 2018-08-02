@@ -1,0 +1,16 @@
+{
+  "event" : "connection_invite",
+  "params" : {
+    "pk_time" : 10,
+    "event_belong" : "live",
+    "event_type" : "other",
+    "match_type" : "random",
+    "room_id" : "6583983696141880072",
+    "title" : "礼物PK",
+    "list_type" : "other_anchor",
+    "event_page" : "live_detail",
+    "inviter_id" : "68398478202",
+    "invitee_id" : "102037940993",
+    "connection_type" : "pk"
+  }
+}

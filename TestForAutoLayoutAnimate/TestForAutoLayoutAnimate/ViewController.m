@@ -28,37 +28,91 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.colorArr = @[[UIColor redColor], [UIColor lightGrayColor], [UIColor greenColor], [UIColor blackColor], [UIColor yellowColor]];
-    self.controls = @[].mutableCopy;
-    self.sequence1 = @[@0,@1,@2,@3,@4];
-    self.sequence2 = @[@4,@0,@1,@2];
+//    self.colorArr = @[[UIColor redColor], [UIColor lightGrayColor], [UIColor greenColor], [UIColor blackColor], [UIColor yellowColor]];
+//    self.controls = @[].mutableCopy;
+//    self.sequence1 = @[@0,@1,@2,@3,@4];
+//    self.sequence2 = @[@4,@0,@1,@2];
+//
+//    [self.view addSubview:self.container];
+//    [self.container mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.right.bottom.mas_equalTo(-10);
+//        make.width.height.mas_equalTo(100);
+//    }];
+//
+//    for (UIColor *color in self.colorArr) {
+//        NSInteger index = [self.colorArr indexOfObject:color];
+//        MyView *v = [MyView new];
+//        v.tagInfo = index;
+//        v.backgroundColor = color;
+//        [self.container addSubview:v];
+//        [self.controls addObject:v];
+//    }
+//
+//    [self.controls mas_distributeViewsAlongAxis:MASAxisTypeVertical withFixedSpacing:5 leadSpacing:0 tailSpacing:0];
+//    [self.controls mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.leading.trailing.equalTo(self.container);
+//        make.width.height.mas_equalTo(100);
+//    }];
+//
+//    [self.view addSubview:self.clickButton];
+//    [self.clickButton mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.top.left.equalTo(self.view);
+//        make.width.height.mas_equalTo(100);
+//    }];
     
-    [self.view addSubview:self.container];
-    [self.container mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.right.bottom.mas_equalTo(-10);
-    }];
-
-    for (UIColor *color in self.colorArr) {
-        NSInteger index = [self.colorArr indexOfObject:color];
-        MyView *v = [MyView new];
-        v.tagInfo = index;
-        v.backgroundColor = color;
-        [self.container addSubview:v];
-        [self.controls addObject:v];
-    }
+//    [self addLinerLayout];
     
-    [self.controls mas_distributeViewsAlongAxis:MASAxisTypeVertical withFixedSpacing:5 leadSpacing:0 tailSpacing:0];
-    [self.controls mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.leading.trailing.equalTo(self.container);
-        make.width.height.mas_equalTo(100);
+    UIView *backV = [UIView new];
+    backV.backgroundColor = [UIColor blackColor];
+    [self.view addSubview:backV];
+    float width = 500;
+    [backV mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.center.equalTo(self.view);
+        make.height.mas_equalTo(50);
+        make.width.mas_equalTo(width > 200 ? 200 : width);
     }];
-    
-    [self.view addSubview:self.clickButton];
-    [self.clickButton mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.left.equalTo(self.view);
-        make.width.height.mas_equalTo(100);
-    }];
+//    [self addRoundedCorners:UIRectCornerBottomLeft|UIRectCornerBottomRight withRadii:CGSizeMake(5.0, 5.0) viewRect:self.bounds];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)addRoundedCorners:(UIRectCorner)corners forLayer:(CALayer *)layer
+                withRadii:(CGSize)radii
+                 viewRect:(CGRect)rect {
+    UIBezierPath* rounded = [UIBezierPath bezierPathWithRoundedRect:rect byRoundingCorners:corners cornerRadii:radii];
+    CAShapeLayer* shape = [[CAShapeLayer alloc] init];
+    [shape setPath:rounded.CGPath];
+    layer.mask = shape;
+}
+
+- (void)addLinerLayout {
+    NSMutableArray *arr = @[].mutableCopy;
+    for (int i = 0; i < 8; i++) {
+        UIView *item = [UIView new];
+        item.backgroundColor = [UIColor redColor];
+        [self.view addSubview:item];
+        NSInteger volume = i % 4;
+        NSInteger row = i / 4;
+        [item mas_makeConstraints:^(MASConstraintMaker *make) {
+            if (volume == 0) {
+                make.leading.mas_equalTo(30);
+            } else {
+                UIView *pre = [arr objectAtIndex:i - 1];
+                make.width.equalTo(pre);
+                make.leading.equalTo(pre.mas_trailing).offset(10);
+                if (volume == 4 - 1) {
+                    make.trailing.mas_equalTo(-30);
+                }
+            }
+            if (row == 0) {
+                make.top.mas_equalTo(100);
+            } else {
+                UIView *pre = [arr objectAtIndex:4 * (row - 1) + volume];
+                make.top.equalTo(pre.mas_bottom).offset(10);
+            }
+            make.height.mas_equalTo(120);
+        }];
+        [arr addObject:item];
+    }
 }
 
 - (UIButton *)clickButton {

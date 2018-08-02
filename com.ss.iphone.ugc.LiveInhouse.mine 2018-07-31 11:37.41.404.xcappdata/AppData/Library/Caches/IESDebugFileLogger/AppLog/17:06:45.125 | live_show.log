@@ -1,0 +1,11 @@
+{
+  "event" : "live_show",
+  "params" : {
+    "room_id" : "6583933709857065735",
+    "event_page" : "push",
+    "event_belong" : "live_view",
+    "_staging_flag" : 1,
+    "push_type" : "instation",
+    "event_module" : "live"
+  }
+}

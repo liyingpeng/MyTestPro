@@ -1,0 +1,9 @@
+{
+  "event" : "page_stay_duration",
+  "params" : {
+    "event_page" : "take_page",
+    "event_belong" : "video",
+    "stay_duration" : 995,
+    "event_type" : "other"
+  }
+}

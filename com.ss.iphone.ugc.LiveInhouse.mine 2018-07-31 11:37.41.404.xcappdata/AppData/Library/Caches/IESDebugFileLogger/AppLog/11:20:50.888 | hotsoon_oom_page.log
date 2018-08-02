@@ -1,0 +1,29 @@
+{
+  "event" : "hotsoon_oom_page",
+  "params" : {
+    "useBDWebImage" : false,
+    "terminal_type" : "kTerminalTypeFOOM",
+    "app_state" : 0,
+    "free_memory" : 49,
+    "page_chain" : [
+      "HTSCameraViewController",
+      "HTSLiveGuideViewController",
+      "HTSLiveAnchorViewController",
+      "HTSLiveCocosViewController",
+      "HTSLivePopupNavigationController",
+      "HTSLiveInviterEnterViewController",
+      "HTSInteractivePKController",
+      "HTSLiveInviterPKSelectModeViewController",
+      "HTSLiveInviterPKListViewController",
+      "HTSLiveInviterPKConnectingViewController"
+    ],
+    "event_page" : "HTSLiveInviterPKConnectingViewController",
+    "real_active" : true,
+    "available_memory" : 522,
+    "useTTNet" : false,
+    "memory_usage" : 217,
+    "usage_rate" : 10.839160919189453,
+    "total_memory" : 2002,
+    "launch_interval" : 192
+  }
+}

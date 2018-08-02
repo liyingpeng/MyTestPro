@@ -1,0 +1,8 @@
+{
+  "uuid" : "4C039008-2D3E-4D21-BDF6-A760512D39FA",
+  "label" : "is_top",
+  "task" : "HTSAppSettingsTask",
+  "step" : "PostLaunch",
+  "type" : "delay_fabric",
+  "duration" : 4
+}

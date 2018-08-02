@@ -1,0 +1,10 @@
+{
+  "is_auto" : "1",
+  "is_success" : 1,
+  "request_duration" : 508,
+  "retryCount" : 0,
+  "duration" : 104,
+  "label" : "video",
+  "is_cache" : true,
+  "feedType" : "video"
+}

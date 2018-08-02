@@ -1,0 +1,8 @@
+{
+  "event" : "my_profile_show",
+  "params" : {
+    "event_page" : "my_profile",
+    "event_belong" : "video",
+    "event_type" : "show"
+  }
+}

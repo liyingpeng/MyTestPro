@@ -1,0 +1,13 @@
+{
+  "event" : "embeded_ad_show",
+  "params" : {
+    "log_pb" : "{\"rid\":\"2018073018073201001106110746943D\"}",
+    "event_belong" : "video",
+    "event_type" : "show",
+    "request_id" : "2018073018073201001106110746943D",
+    "event_module" : "video",
+    "event_page" : "video",
+    "type" : "picture",
+    "ad_id" : "1606567407268878"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "reused" : true,
+  "protocol" : "http\/1.1",
+  "request_duration" : 29,
+  "waiting" : 25,
+  "request" : 0,
+  "before_fetch" : 0,
+  "response" : 0,
+  "redirect_count" : 0,
+  "url" : "http:\/\/sf3-hscdn-tos.pstatp.com\/img\/hotsoon-avatar\/6a31c8163531f9841aa9bc2eb48df0076f32c5833eda79ba9d0c869aa44c4139~100x100.jpg"
+}

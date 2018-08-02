@@ -1,0 +1,10 @@
+{
+  "event" : "live_take_type_click",
+  "params" : {
+    "thirdparty_button" : "not_show",
+    "event_page" : "live_take_page",
+    "event_belong" : "live",
+    "game_live_button" : "not_show",
+    "event_type" : "click"
+  }
+}

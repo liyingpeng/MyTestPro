@@ -1,0 +1,11 @@
+{
+  "event" : "push_notice_show",
+  "params" : {
+    "event_module" : "",
+    "event_page" : "",
+    "event_belong" : "video",
+    "type" : "instation",
+    "room_id" : "6583939580649540359",
+    "event_type" : "show"
+  }
+}

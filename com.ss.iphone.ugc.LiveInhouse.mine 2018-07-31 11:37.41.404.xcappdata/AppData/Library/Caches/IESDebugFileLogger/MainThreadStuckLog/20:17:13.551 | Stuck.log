@@ -1,0 +1,349 @@
+Call Backtrace of 34 threads:
+Backtrace of Thread 771:
+libsystem_kernel.dylib          0x184a2be08 mach_msg_trap + 8
+libsystem_kernel.dylib          0x184a2bc80 mach_msg + 72
+AudioToolbox                    0x188d8b978 <redacted> + 144
+AudioToolbox                    0x188d6aa14 AudioSessionSetActive_Priv + 316
+AVFAudio                        0x18a977590 <redacted> + 84
+LiveStreaming                   0x104806f10 -[AEAudioController stopInternal] + 432
+LiveStreaming                   0x104806d48 -[AEAudioController stop] + 28
+LiveStreaming                   0x1047ef3f0 -[TTLiveAudioSource stop] + 144
+LiveStreaming                   0x10480310c -[TTLiveStreamer audioSourceStop] + 84
+LiveStreaming                   0x104801bc8 -[TTLiveStreamer stopWithReason:] + 204
+LiveStreaming                   0x1042da438 -[IESLiveBroadCaster stopStreamer] + 136
+LiveStreaming                   0x1042d9ec0 -[IESLiveBroadCaster stop] + 40
+LiveStreaming                   0x103ad8710 -[HTSLiveRecordStreamer stop] + 76
+LiveStreaming                   0x103ad8f34 -[HTSLiveRecordStreamer stopOutputWithNext:] + 68
+LiveStreaming                   0x103ae0638 -[HTSLiveRecordVideoDataPipe stopWorkingWithNext:] + 248
+LiveStreaming                   0x103ae07d0 -[HTSLiveRecordVideoDataPipe redirectOutput:] + 256
+LiveStreaming                   0x103817550 -[HTSInteractivePKController enableInteractiveWithAccessKey:vendor:] + 164
+LiveStreaming                   0x1039bd3d0 __93-[HTSLiveInteractivePKStore pr_replyInvivationWithAgree:channelId:inviteUid:matchType:close:]_block_invoke + 488
+LiveStreaming                   0x10385cc68 -[HTSLiveApi onRequest:finishedWithJsonObj:] + 1388
+LiveStreaming                   0x10385bf24 __18-[HTSLiveApi get:]_block_invoke + 672
+LiveStreaming                   0x1048c3a14 __223-[TTNetworkHTTPClient requestForJSONWithURL:params:method:commonParams:headerField:pureChannelForJSONResponseSerializer:verifyRequest:requestSerializer:responseSerializer:responsePreprocessor:callback:callbackWithResponse:]_block_invoke + 292
+LiveStreaming                   0x1048c1dc4 __83-[TTNetworkHTTPClient _dataTaskWithRequest:responsePreprocessor:completionHandler:]_block_invoke_2 + 2392
+LiveStreaming                   0x103328b84 __72-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke_2.72 + 224
+libdispatch.dylib               0x1848b8b24 <redacted> + 24
+libdispatch.dylib               0x1848b8ae4 <redacted> + 16
+libdispatch.dylib               0x1848c5520 <redacted> + 564
+CoreFoundation                  0x184f6f070 <redacted> + 12
+CoreFoundation                  0x184f6cbc8 <redacted> + 2272
+CoreFoundation                  0x184e8cda8 CFRunLoopRunSpecific + 552
+GraphicsServices                0x186e6f020 GSEventRunModal + 100
+UIKit                           0x18ee6d78c UIApplicationMain + 236
+LiveStreaming                   0x103228b70 main + 124
+libdyld.dylib                   0x18491dfc0 <redacted> + 4
+
+Backtrace of Thread 4099:
+libsystem_kernel.dylib          0x184a4dd84 __workq_kernreturn + 8
+libsystem_pthread.dylib         0x184bebeb4 _pthread_wqthread + 928
+
+Backtrace of Thread 8963:
+libsystem_kernel.dylib          0x184a4d0f4 __psynch_cvwait + 8
+libsystem_pthread.dylib         0x184befc90 <redacted> + 644
+libc++.1.dylib                  0x18410425c _ZNSt3__118condition_variable4waitERNS_11unique_lockINS_5mutexEEE + 24
+JavaScriptCore                  0x18c5e31a4 <redacted> + 104
+JavaScriptCore                  0x18c5e2db8 <redacted> + 164
+JavaScriptCore                  0x18c5e2b60 <redacted> + 12
+JavaScriptCore                  0x18c5e2f7c <redacted> + 44
+libsystem_pthread.dylib         0x184bed220 <redacted> + 272
+libsystem_pthread.dylib         0x184bed110 _pthread_start + 292
+
+Backtrace of Thread 8707:
+WebCore                         0x18d8f5bcc <redacted> + 50556
+WebCore                         0x18dc69e9c <redacted> + 1204
+WebCore                         0x18dc69e9c <redacted> + 1204
+WebCore                         0x18dc6cf1c <redacted> + 72
+WebCore                         0x18dc66c10 <redacted> + 224
+WebCore                         0x18dc64fac <redacted> + 1992
+WebCore                         0x18dc63f48 <redacted> + 704
+WebCore                         0x18e46af6c <redacted> + 520
+WebCore                         0x18e46b1d0 <redacted> + 140
+WebCore                         0x18e46c33c <redacted> + 1820
+WebCore                         0x18e46ceb8 <redacted> + 892
+WebCore                         0x18dd12950 <redacted> + 680
+WebCore                         0x18d130580 _ZN7WebCore8Document19updateStyleIfNeededEv + 228
+WebCore                         0x18e0f7e34 <redacted> + 396
+WebCore                         0x18e0f80f8 <redacted> + 28
+WebCore                         0x18e0f7114 <redacted> + 132
+WebCore                         0x18d0e7ff0 <redacted> + 352
+WebCore                         0x18d0e7e7c <redacted> + 28
+CoreFoundation                  0x184f6faa8 <redacted> + 28
+CoreFoundation                  0x184f6f76c <redacted> + 864
+CoreFoundation                  0x184f6f010 <redacted> + 248
+CoreFoundation                  0x184f6cb60 <redacted> + 2168
+CoreFoundation                  0x184e8cda8 CFRunLoopRunSpecific + 552
+WebCore                         0x18d119dcc <redacted> + 592
+libsystem_pthread.dylib         0x184bed220 <redacted> + 272
+libsystem_pthread.dylib         0x184bed110 _pthread_start + 292
+
+Backtrace of Thread 20227:
+libsystem_kernel.dylib          0x184a2be08 mach_msg_trap + 8
+libsystem_kernel.dylib          0x184a2bc80 mach_msg + 72
+CoreFoundation                  0x184f6ee40 <redacted> + 196
+CoreFoundation                  0x184f6c908 <redacted> + 1568
+CoreFoundation                  0x184e8cda8 CFRunLoopRunSpecific + 552
+Foundation                      0x185901674 <redacted> + 304
+Foundation                      0x18590151c <redacted> + 148
+UIKit                           0x18eb527e4 <redacted> + 136
+Foundation                      0x185a11efc <redacted> + 1040
+libsystem_pthread.dylib         0x184bed220 <redacted> + 272
+libsystem_pthread.dylib         0x184bed110 _pthread_start + 292
+
+Backtrace of Thread 25347:
+libsystem_kernel.dylib          0x184a2be08 mach_msg_trap + 8
+libsystem_kernel.dylib          0x184a2bc80 mach_msg + 72
+libsystem_kernel.dylib          0x184a2df34 thread_get_state + 136
+LiveStreaming                   0x10484a61c bs_mach_copyMem + 60
+LiveStreaming                   0x104849d5c _bs_backtraceOfThread + 636
+LiveStreaming                   0x10484a4b4 +[BSBacktraceLogger bs_backtraceOfAllThread] + 220
+LiveStreaming                   0x1042b9cec __40+[IESDebugToolService startStuckMonitor]_block_invoke + 204
+LiveStreaming                   0x1042b716c __36-[IESDebugStuckMonitor startMonitor]_block_invoke_2 + 112
+CoreFoundation                  0x184f5ff38 <redacted> + 76
+LiveStreaming                   0x1042b7064 __36-[IESDebugStuckMonitor startMonitor]_block_invoke + 436
+Foundation                      0x1859eee88 <redacted> + 16
+Foundation                      0x1859308d0 <redacted> + 72
+Foundation                      0x18592fcac <redacted> + 848
+Foundation                      0x1859f076c <redacted> + 404
+libdispatch.dylib               0x1848b8ae4 <redacted> + 16
+libdispatch.dylib               0x1848c0f18 <redacted> + 424
+libdispatch.dylib               0x1848bf850 <redacted> + 604
+libdispatch.dylib               0x1848c5d30 <redacted> + 588
+libdispatch.dylib               0x1848c5a80 <redacted> + 120
+libsystem_pthread.dylib         0x184bebfac _pthread_wqthread + 1176
+
+Backtrace of Thread 38659:
+libsystem_kernel.dylib          0x184a4dd84 __workq_kernreturn + 8
+libsystem_pthread.dylib         0x184bebeb4 _pthread_wqthread + 928
+
+Backtrace of Thread 38147:
+libsystem_kernel.dylib          0x184a4dd84 __workq_kernreturn + 8
+libsystem_pthread.dylib         0x184bebeb4 _pthread_wqthread + 928
+
+Backtrace of Thread 27911:
+libsystem_kernel.dylib          0x184a2be08 mach_msg_trap + 8
+libsystem_kernel.dylib          0x184a2bc80 mach_msg + 72
+CoreFoundation                  0x184f6ee40 <redacted> + 196
+CoreFoundation                  0x184f6c908 <redacted> + 1568
+CoreFoundation                  0x184e8cda8 CFRunLoopRunSpecific + 552
+Foundation                      0x185901674 <redacted> + 304
+Foundation                      0x1859761a8 <redacted> + 88
+LiveStreaming                   0x10330bd2c +[AFURLConnectionOperation networkRequestThreadEntryPoint:] + 308
+Foundation                      0x185a11efc <redacted> + 1040
+libsystem_pthread.dylib         0x184bed220 <redacted> + 272
+libsystem_pthread.dylib         0x184bed110 _pthread_start + 292
+
+Backtrace of Thread 84487:
+libsystem_kernel.dylib          0x184a2be08 mach_msg_trap + 8
+libsystem_kernel.dylib          0x184a2bc80 mach_msg + 72
+CoreFoundation                  0x184f6ee40 <redacted> + 196
+CoreFoundation                  0x184f6c908 <redacted> + 1568
+CoreFoundation                  0x184e8cda8 CFRunLoopRunSpecific + 552
+CFNetwork                       0x18579a4b0 <redacted> + 220
+Foundation                      0x185a11efc <redacted> + 1040
+libsystem_pthread.dylib         0x184bed220 <redacted> + 272
+libsystem_pthread.dylib         0x184bed110 _pthread_start + 292
+
+Backtrace of Thread 53267:
+libsystem_kernel.dylib          0x184a2be08 mach_msg_trap + 8
+libsystem_kernel.dylib          0x184a2bc80 mach_msg + 72
+CoreFoundation                  0x184f6ee40 <redacted> + 196
+CoreFoundation                  0x184f6c908 <redacted> + 1568
+CoreFoundation                  0x184e8cda8 CFRunLoopRunSpecific + 552
+AVFAudio                        0x18a972424 <redacted> + 164
+AVFAudio                        0x18a99c834 <redacted> + 88
+libsystem_pthread.dylib         0x184bed220 <redacted> + 272
+libsystem_pthread.dylib         0x184bed110 _pthread_start + 292
+
+Backtrace of Thread 70931:
+libsystem_kernel.dylib          0x184a2be08 mach_msg_trap + 8
+libsystem_kernel.dylib          0x184a2bc80 mach_msg + 72
+CoreFoundation                  0x184f6ee40 <redacted> + 196
+CoreFoundation                  0x184f6c908 <redacted> + 1568
+CoreFoundation                  0x184e8cda8 CFRunLoopRunSpecific + 552
+CoreFoundation                  0x184edcb28 CFRunLoopRun + 116
+CoreMotion                      0x18a46d9dc CLStartStopAdvertisingBeacon + 231572
+libsystem_pthread.dylib         0x184bed220 <redacted> + 272
+libsystem_pthread.dylib         0x184bed110 _pthread_start + 292
+
+Backtrace of Thread 65043:
+libsystem_kernel.dylib          0x184a2be08 mach_msg_trap + 8
+libsystem_kernel.dylib          0x184a2bc80 mach_msg + 72
+CoreFoundation                  0x184f6ee40 <redacted> + 196
+CoreFoundation                  0x184f6c908 <redacted> + 1568
+CoreFoundation                  0x184e8cda8 CFRunLoopRunSpecific + 552
+GeoServices                     0x18b2356cc <redacted> + 468
+libsystem_pthread.dylib         0x184bed220 <redacted> + 272
+libsystem_pthread.dylib         0x184bed110 _pthread_start + 292
+
+Backtrace of Thread 67899:
+libsystem_kernel.dylib          0x184a2be08 mach_msg_trap + 8
+libsystem_kernel.dylib          0x184a2bc80 mach_msg + 72
+CoreFoundation                  0x184f6ee40 <redacted> + 196
+CoreFoundation                  0x184f6c908 <redacted> + 1568
+CoreFoundation                  0x184e8cda8 CFRunLoopRunSpecific + 552
+Foundation                      0x185901674 <redacted> + 304
+LiveStreaming                   0x104764d40 -[_SRRunLoopThread main] + 360
+Foundation                      0x185a11efc <redacted> + 1040
+libsystem_pthread.dylib         0x184bed220 <redacted> + 272
+libsystem_pthread.dylib         0x184bed110 _pthread_start + 292
+
+Backtrace of Thread 88323:
+libsystem_kernel.dylib          0x184a4d538 select$DARWIN_EXTSN + 8
+CoreFoundation                  0x184f77378 <redacted> + 644
+libsystem_pthread.dylib         0x184bed220 <redacted> + 272
+libsystem_pthread.dylib         0x184bed110 _pthread_start + 292
+
+Backtrace of Thread 49455:
+libsystem_kernel.dylib          0x184a4d0f4 __psynch_cvwait + 8
+libsystem_pthread.dylib         0x184befc90 <redacted> + 644
+libc++.1.dylib                  0x18410425c _ZNSt3__118condition_variable4waitERNS_11unique_lockINS_5mutexEEE + 24
+LiveStreaming                   0x1056b7f9c _ZN3BRC9SyncQueueINSt3__110shared_ptrINS_4TaskEEEE4TakeERS4_ + 80
+LiveStreaming                   0x1056b79fc _ZN3BRC18SingleThreadWorker4workEv + 176
+LiveStreaming                   0x1056b81e0 _ZNSt3__114__thread_proxyINS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEMN3BRC18SingleThreadWorkerEFvvEPS8_EEEEEPvSD_ + 64
+libsystem_pthread.dylib         0x184bed220 <redacted> + 272
+libsystem_pthread.dylib         0x184bed110 _pthread_start + 292
+
+Backtrace of Thread 92427:
+libsystem_kernel.dylib          0x184a4d0f4 __psynch_cvwait + 8
+libsystem_pthread.dylib         0x184befc90 <redacted> + 644
+libc++.1.dylib                  0x18410425c _ZNSt3__118condition_variable4waitERNS_11unique_lockINS_5mutexEEE + 24
+LiveStreaming                   0x1056b7f9c _ZN3BRC9SyncQueueINSt3__110shared_ptrINS_4TaskEEEE4TakeERS4_ + 80
+LiveStreaming                   0x1056b79fc _ZN3BRC18SingleThreadWorker4workEv + 176
+LiveStreaming                   0x1056b81e0 _ZNSt3__114__thread_proxyINS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEMN3BRC18SingleThreadWorkerEFvvEPS8_EEEEEPvSD_ + 64
+libsystem_pthread.dylib         0x184bed220 <redacted> + 272
+libsystem_pthread.dylib         0x184bed110 _pthread_start + 292
+
+Backtrace of Thread 107527:
+libsystem_kernel.dylib          0x184a2be08 mach_msg_trap + 8
+libsystem_kernel.dylib          0x184a2bc80 mach_msg + 72
+LiveStreaming                   0x106394dbc CLSMachExceptionServer + 100
+libsystem_pthread.dylib         0x184bed220 <redacted> + 272
+libsystem_pthread.dylib         0x184bed110 _pthread_start + 292
+
+Backtrace of Thread 151063:
+libsystem_kernel.dylib          0x184a303e4 poll + 8
+ZegoLiveRoom                    0x10b063398 0x10af28000 + 1291160
+ZegoLiveRoom                    0x10b06744c 0x10af28000 + 1307724
+ZegoLiveRoom                    0x10b0671ec 0x10af28000 + 1307116
+ZegoLiveRoom                    0x10b06b5bc 0x10af28000 + 1324476
+libsystem_pthread.dylib         0x184bed220 <redacted> + 272
+libsystem_pthread.dylib         0x184bed110 _pthread_start + 292
+
+Backtrace of Thread 95535:
+libsystem_kernel.dylib          0x184a303e4 poll + 8
+ZegoLiveRoom                    0x10b063398 0x10af28000 + 1291160
+ZegoLiveRoom                    0x10b06744c 0x10af28000 + 1307724
+ZegoLiveRoom                    0x10b0671ec 0x10af28000 + 1307116
+ZegoLiveRoom                    0x10b06b5bc 0x10af28000 + 1324476
+libsystem_pthread.dylib         0x184bed220 <redacted> + 272
+libsystem_pthread.dylib         0x184bed110 _pthread_start + 292
+
+Backtrace of Thread 148091:
+libsystem_kernel.dylib          0x184a303e4 poll + 8
+ZegoLiveRoom                    0x10b063398 0x10af28000 + 1291160
+ZegoLiveRoom                    0x10b06744c 0x10af28000 + 1307724
+ZegoLiveRoom                    0x10b0671ec 0x10af28000 + 1307116
+ZegoLiveRoom                    0x10b06b5bc 0x10af28000 + 1324476
+libsystem_pthread.dylib         0x184bed220 <redacted> + 272
+libsystem_pthread.dylib         0x184bed110 _pthread_start + 292
+
+Backtrace of Thread 140547:
+libsystem_kernel.dylib          0x184a2be08 mach_msg_trap + 8
+libsystem_kernel.dylib          0x184a2bc80 mach_msg + 72
+libdispatch.dylib               0x1848ce8b8 <redacted> + 560
+libdispatch.dylib               0x1848cedb0 <redacted> + 56
+libxpc.dylib                    0x184c288d8 xpc_connection_send_message_with_reply_sync + 196
+Security                        0x185bfd180 securityd_message_with_reply_sync + 168
+Security                        0x185bfd4cc securityd_send_sync_and_do + 80
+Security                        0x185c94034 <redacted> + 424
+Security                        0x185c60cc8 SecOSStatusWith + 52
+Security                        0x185c93e70 <redacted> + 96
+libsystem_trace.dylib           0x184c09c70 <redacted> + 60
+Security                        0x185c93e00 <redacted> + 256
+libdispatch.dylib               0x1848b8ae4 <redacted> + 16
+libdispatch.dylib               0x1848c1640 <redacted> + 56
+Security                        0x185c8fed0 <redacted> + 520
+Security                        0x185c914c8 SecTrustGetCertificateCount + 32
+ZegoLiveRoom                    0x10b09b62c 0x10af28000 + 1521196
+ZegoLiveRoom                    0x10b09a46c 0x10af28000 + 1516652
+ZegoLiveRoom                    0x10b07af7c 0x10af28000 + 1388412
+ZegoLiveRoom                    0x10b08ecf4 0x10af28000 + 1469684
+ZegoLiveRoom                    0x10b090218 0x10af28000 + 1475096
+ZegoLiveRoom                    0x10b090320 0x10af28000 + 1475360
+ZegoLiveRoom                    0x10afd40a8 0x10af28000 + 704680
+ZegoLiveRoom                    0x10afd9ccc 0x10af28000 + 728268
+ZegoLiveRoom                    0x10b063880 0x10af28000 + 1292416
+ZegoLiveRoom                    0x10b06744c 0x10af28000 + 1307724
+ZegoLiveRoom                    0x10b0671ec 0x10af28000 + 1307116
+ZegoLiveRoom                    0x10b06b5bc 0x10af28000 + 1324476
+libsystem_pthread.dylib         0x184bed220 <redacted> + 272
+libsystem_pthread.dylib         0x184bed110 _pthread_start + 292
+
+Backtrace of Thread 140291:
+libsystem_kernel.dylib          0x184a303e4 poll + 8
+ZegoLiveRoom                    0x10b063398 0x10af28000 + 1291160
+ZegoLiveRoom                    0x10b06744c 0x10af28000 + 1307724
+ZegoLiveRoom                    0x10b0671ec 0x10af28000 + 1307116
+ZegoLiveRoom                    0x10b06b5bc 0x10af28000 + 1324476
+libsystem_pthread.dylib         0x184bed220 <redacted> + 272
+libsystem_pthread.dylib         0x184bed110 _pthread_start + 292
+
+Backtrace of Thread 147715:
+libsystem_kernel.dylib          0x184a4dd84 __workq_kernreturn + 8
+libsystem_pthread.dylib         0x184bebeb4 _pthread_wqthread + 928
+
+Backtrace of Thread 123439:
+libsystem_kernel.dylib          0x184a4dd84 __workq_kernreturn + 8
+libsystem_pthread.dylib         0x184bebeb4 _pthread_wqthread + 928
+
+Backtrace of Thread 132643:
+libsystem_kernel.dylib          0x184a4dd84 __workq_kernreturn + 8
+libsystem_pthread.dylib         0x184bebeb4 _pthread_wqthread + 928
+
+Backtrace of Thread 30311:
+CoreFoundation                  0x184f8212c <redacted> + 872
+CoreFoundation                  0x184f81e24 <redacted> + 96
+CoreFoundation                  0x184e886a0 CFStringCreateWithBytes + 44
+Foundation                      0x185984b08 <redacted> + 688
+Foundation                      0x1859841b4 <redacted> + 1528
+Foundation                      0x18598403c <redacted> + 1152
+Foundation                      0x18598424c <redacted> + 1680
+Foundation                      0x18598424c <redacted> + 1680
+Foundation                      0x185934898 <redacted> + 300
+Foundation                      0x185934530 <redacted> + 248
+Foundation                      0x1859343a8 <redacted> + 148
+LiveStreaming                   0x103323c70 -[AFJSONResponseSerializer responseObjectForResponse:data:error:] + 724
+LiveStreaming                   0x103328720 __72-[AFURLSessionManagerTaskDelegate URLSession:task:didCompleteWithError:]_block_invoke.69 + 276
+libdispatch.dylib               0x1848b8b24 <redacted> + 24
+libdispatch.dylib               0x1848b8ae4 <redacted> + 16
+libdispatch.dylib               0x1848c0f18 <redacted> + 424
+libdispatch.dylib               0x1848bf850 <redacted> + 604
+libdispatch.dylib               0x1848c5d30 <redacted> + 588
+libdispatch.dylib               0x1848c5a80 <redacted> + 120
+libsystem_pthread.dylib         0x184bebfac _pthread_wqthread + 1176
+
+Backtrace of Thread 177967:
+libsystem_kernel.dylib          0x184a4dd84 __workq_kernreturn + 8
+libsystem_pthread.dylib         0x184bebeb4 _pthread_wqthread + 928
+
+Backtrace of Thread 90891:
+libsystem_kernel.dylib          0x184a4dd84 __workq_kernreturn + 8
+libsystem_pthread.dylib         0x184bebeb4 _pthread_wqthread + 928
+
+Fail to get information about thread: 106123Fail to get information about thread: 117563Fail to get information about thread: 125471Backtrace of Thread 153863:
+libsystem_kernel.dylib          0x184a2be5c semaphore_timedwait_trap + 8
+libdispatch.dylib               0x1848bb0b0 <redacted> + 60
+libdispatch.dylib               0x1848bb924 <redacted> + 72
+libdispatch.dylib               0x1848c723c <redacted> + 256
+libsystem_pthread.dylib         0x184bed220 <redacted> + 272
+libsystem_pthread.dylib         0x184bed110 _pthread_start + 292
+
+Backtrace of Thread 44375:
+libsystem_kernel.dylib          0x184a2be5c semaphore_timedwait_trap + 8
+libdispatch.dylib               0x1848bb0b0 <redacted> + 60
+libdispatch.dylib               0x1848bb924 <redacted> + 72
+libdispatch.dylib               0x1848c723c <redacted> + 256
+libsystem_pthread.dylib         0x184bed220 <redacted> + 272
+libsystem_pthread.dylib         0x184bed110 _pthread_start + 292
+

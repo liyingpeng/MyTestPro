@@ -1,0 +1,15 @@
+{
+  "protocol" : "h2",
+  "url" : "https:\/\/p1.pstatp.com\/live\/100x100\/477c0001fa41d4745d51.jpg",
+  "dns" : 6,
+  "tls" : 44,
+  "request_duration" : 94,
+  "redirect_count" : 0,
+  "fetch" : 2,
+  "before_fetch" : 1,
+  "connection" : 54,
+  "reused" : false,
+  "request" : 0,
+  "response" : 0,
+  "waiting" : 22
+}

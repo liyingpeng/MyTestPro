@@ -1,0 +1,12 @@
+{
+  "url" : "http:\/\/p9.pstatp.com\/obj\/30ee0007c3d92779eaa3",
+  "fetch" : 2,
+  "dns" : 4,
+  "request_duration" : 15050,
+  "reused" : false,
+  "protocol" : "http\/1.1",
+  "redirect_count" : 0,
+  "before_fetch" : 0,
+  "request" : 0,
+  "connection" : 11
+}

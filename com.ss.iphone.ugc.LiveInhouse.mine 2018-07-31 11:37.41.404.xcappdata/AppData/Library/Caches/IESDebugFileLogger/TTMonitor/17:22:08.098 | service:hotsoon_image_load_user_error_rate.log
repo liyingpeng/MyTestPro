@@ -1,0 +1,12 @@
+{
+  "userId" : 68398478202,
+  "urls" : [
+    ""
+  ],
+  "status" : 1,
+  "errorDesc" : "-1100 未能完成操作。（“NSURLErrorDomain”错误 -1100。）",
+  "useTTNet" : false,
+  "useBDWebImage" : false,
+  "networkType" : "WIFI",
+  "url" : ""
+}

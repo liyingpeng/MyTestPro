@@ -1,0 +1,8 @@
+{
+  "uuid" : "886C2BF9-9F1F-4CB0-88DD-28343F3779E7",
+  "label" : "is_top",
+  "task" : "HTSCloudControlTask",
+  "step" : "PostLaunch",
+  "type" : "delay_fabric",
+  "duration" : 0
+}

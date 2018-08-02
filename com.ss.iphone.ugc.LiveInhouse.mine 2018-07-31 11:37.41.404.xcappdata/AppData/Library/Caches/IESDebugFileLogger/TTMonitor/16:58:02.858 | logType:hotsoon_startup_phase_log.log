@@ -1,0 +1,13 @@
+{
+  "beforeRunLoopIdle" : 832,
+  "nPostLaunch" : 17,
+  "beforeDuringLaunch" : 50,
+  "nPreLaunch" : 49,
+  "preMain" : 458,
+  "beforePreLaunch" : 0,
+  "nDuringLaunch" : 158,
+  "beforePostLaunch" : 812,
+  "uuid" : "F0FE9AEC-0DF8-49E7-8F7A-71985CDD8B8B",
+  "type" : "delay_fabric",
+  "data_loaded" : 2054
+}

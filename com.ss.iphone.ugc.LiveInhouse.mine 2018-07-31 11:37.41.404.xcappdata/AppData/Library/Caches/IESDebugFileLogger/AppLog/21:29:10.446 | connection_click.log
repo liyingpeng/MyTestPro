@@ -1,0 +1,10 @@
+{
+  "event" : "connection_click",
+  "params" : {
+    "connection_type" : "pk",
+    "event_page" : "live_detail",
+    "event_belong" : "live",
+    "room_id" : "6584001600174754563",
+    "event_type" : "click"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "event" : "pk_ended",
+  "params" : {
+    "event_belong" : "live",
+    "event_type" : "other",
+    "channel_id" : "6583974366583720708",
+    "room_id" : "6583982326412217092",
+    "match_type" : "random",
+    "title" : "礼物PK",
+    "event_page" : "live_detail",
+    "end_type" : "initiative",
+    "pk_time" : 120
+  }
+}

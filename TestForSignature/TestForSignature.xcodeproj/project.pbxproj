@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C57368E20ABF3A10061A1DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C57368D20ABF3A10061A1DD /* AppDelegate.m */; };
+		9C57369120ABF3A10061A1DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C57369020ABF3A10061A1DD /* ViewController.m */; };
+		9C57369420ABF3A10061A1DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C57369220ABF3A10061A1DD /* Main.storyboard */; };
+		9C57369620ABF3A30061A1DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C57369520ABF3A30061A1DD /* Assets.xcassets */; };
+		9C57369920ABF3A30061A1DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C57369720ABF3A30061A1DD /* LaunchScreen.storyboard */; };
+		9C57369C20ABF3A30061A1DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C57369B20ABF3A30061A1DD /* main.m */; };
+		9C5736A620ABF3A30061A1DD /* TestForSignatureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5736A520ABF3A30061A1DD /* TestForSignatureTests.m */; };
+		9C5736B120ABF3A30061A1DD /* TestForSignatureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5736B020ABF3A30061A1DD /* TestForSignatureUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C5736A220ABF3A30061A1DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C57368120ABF3A10061A1DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C57368820ABF3A10061A1DD;
+			remoteInfo = TestForSignature;
+		};
+		9C5736AD20ABF3A30061A1DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C57368120ABF3A10061A1DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C57368820ABF3A10061A1DD;
+			remoteInfo = TestForSignature;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C57368920ABF3A10061A1DD /* TestForSignature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestForSignature.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C57368C20ABF3A10061A1DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C57368D20ABF3A10061A1DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C57368F20ABF3A10061A1DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9C57369020ABF3A10061A1DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9C57369320ABF3A10061A1DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C57369520ABF3A30061A1DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C57369820ABF3A30061A1DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C57369A20ABF3A30061A1DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C57369B20ABF3A30061A1DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C5736A120ABF3A30061A1DD /* TestForSignatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestForSignatureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5736A520ABF3A30061A1DD /* TestForSignatureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestForSignatureTests.m; sourceTree = "<group>"; };
+		9C5736A720ABF3A30061A1DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C5736AC20ABF3A30061A1DD /* TestForSignatureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestForSignatureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5736B020ABF3A30061A1DD /* TestForSignatureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestForSignatureUITests.m; sourceTree = "<group>"; };
+		9C5736B220ABF3A30061A1DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C57368620ABF3A10061A1DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C57369E20ABF3A30061A1DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5736A920ABF3A30061A1DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C57368020ABF3A10061A1DD = {
+			isa = PBXGroup;
+			children = (
+				9C57368B20ABF3A10061A1DD /* TestForSignature */,
+				9C5736A420ABF3A30061A1DD /* TestForSignatureTests */,
+				9C5736AF20ABF3A30061A1DD /* TestForSignatureUITests */,
+				9C57368A20ABF3A10061A1DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C57368A20ABF3A10061A1DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C57368920ABF3A10061A1DD /* TestForSignature.app */,
+				9C5736A120ABF3A30061A1DD /* TestForSignatureTests.xctest */,
+				9C5736AC20ABF3A30061A1DD /* TestForSignatureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C57368B20ABF3A10061A1DD /* TestForSignature */ = {
+			isa = PBXGroup;
+			children = (
+				9C57368C20ABF3A10061A1DD /* AppDelegate.h */,
+				9C57368D20ABF3A10061A1DD /* AppDelegate.m */,
+				9C57368F20ABF3A10061A1DD /* ViewController.h */,
+				9C57369020ABF3A10061A1DD /* ViewController.m */,
+				9C57369220ABF3A10061A1DD /* Main.storyboard */,
+				9C57369520ABF3A30061A1DD /* Assets.xcassets */,
+				9C57369720ABF3A30061A1DD /* LaunchScreen.storyboard */,
+				9C57369A20ABF3A30061A1DD /* Info.plist */,
+				9C57369B20ABF3A30061A1DD /* main.m */,
+			);
+			path = TestForSignature;
+			sourceTree = "<group>";
+		};
+		9C5736A420ABF3A30061A1DD /* TestForSignatureTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C5736A520ABF3A30061A1DD /* TestForSignatureTests.m */,
+				9C5736A720ABF3A30061A1DD /* Info.plist */,
+			);
+			path = TestForSignatureTests;
+			sourceTree = "<group>";
+		};
+		9C5736AF20ABF3A30061A1DD /* TestForSignatureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C5736B020ABF3A30061A1DD /* TestForSignatureUITests.m */,
+				9C5736B220ABF3A30061A1DD /* Info.plist */,
+			);
+			path = TestForSignatureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C57368820ABF3A10061A1DD /* TestForSignature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C5736B520ABF3A30061A1DD /* Build configuration list for PBXNativeTarget "TestForSignature" */;
+			buildPhases = (
+				9C57368520ABF3A10061A1DD /* Sources */,
+				9C57368620ABF3A10061A1DD /* Frameworks */,
+				9C57368720ABF3A10061A1DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestForSignature;
+			productName = TestForSignature;
+			productReference = 9C57368920ABF3A10061A1DD /* TestForSignature.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C5736A020ABF3A30061A1DD /* TestForSignatureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C5736B820ABF3A30061A1DD /* Build configuration list for PBXNativeTarget "TestForSignatureTests" */;
+			buildPhases = (
+				9C57369D20ABF3A30061A1DD /* Sources */,
+				9C57369E20ABF3A30061A1DD /* Frameworks */,
+				9C57369F20ABF3A30061A1DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C5736A320ABF3A30061A1DD /* PBXTargetDependency */,
+			);
+			name = TestForSignatureTests;
+			productName = TestForSignatureTests;
+			productReference = 9C5736A120ABF3A30061A1DD /* TestForSignatureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C5736AB20ABF3A30061A1DD /* TestForSignatureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C5736BB20ABF3A30061A1DD /* Build configuration list for PBXNativeTarget "TestForSignatureUITests" */;
+			buildPhases = (
+				9C5736A820ABF3A30061A1DD /* Sources */,
+				9C5736A920ABF3A30061A1DD /* Frameworks */,
+				9C5736AA20ABF3A30061A1DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C5736AE20ABF3A30061A1DD /* PBXTargetDependency */,
+			);
+			name = TestForSignatureUITests;
+			productName = TestForSignatureUITests;
+			productReference = 9C5736AC20ABF3A30061A1DD /* TestForSignatureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C57368120ABF3A10061A1DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "李应鹏";
+				TargetAttributes = {
+					9C57368820ABF3A10061A1DD = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					9C5736A020ABF3A30061A1DD = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 9C57368820ABF3A10061A1DD;
+					};
+					9C5736AB20ABF3A30061A1DD = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 9C57368820ABF3A10061A1DD;
+					};
+				};
+			};
+			buildConfigurationList = 9C57368420ABF3A10061A1DD /* Build configuration list for PBXProject "TestForSignature" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C57368020ABF3A10061A1DD;
+			productRefGroup = 9C57368A20ABF3A10061A1DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C57368820ABF3A10061A1DD /* TestForSignature */,
+				9C5736A020ABF3A30061A1DD /* TestForSignatureTests */,
+				9C5736AB20ABF3A30061A1DD /* TestForSignatureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C57368720ABF3A10061A1DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C57369920ABF3A30061A1DD /* LaunchScreen.storyboard in Resources */,
+				9C57369620ABF3A30061A1DD /* Assets.xcassets in Resources */,
+				9C57369420ABF3A10061A1DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C57369F20ABF3A30061A1DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5736AA20ABF3A30061A1DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C57368520ABF3A10061A1DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C57369120ABF3A10061A1DD /* ViewController.m in Sources */,
+				9C57369C20ABF3A30061A1DD /* main.m in Sources */,
+				9C57368E20ABF3A10061A1DD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C57369D20ABF3A30061A1DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5736A620ABF3A30061A1DD /* TestForSignatureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5736A820ABF3A30061A1DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5736B120ABF3A30061A1DD /* TestForSignatureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C5736A320ABF3A30061A1DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C57368820ABF3A10061A1DD /* TestForSignature */;
+			targetProxy = 9C5736A220ABF3A30061A1DD /* PBXContainerItemProxy */;
+		};
+		9C5736AE20ABF3A30061A1DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C57368820ABF3A10061A1DD /* TestForSignature */;
+			targetProxy = 9C5736AD20ABF3A30061A1DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C57369220ABF3A10061A1DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C57369320ABF3A10061A1DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C57369720ABF3A30061A1DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C57369820ABF3A30061A1DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C5736B320ABF3A30061A1DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9C5736B420ABF3A30061A1DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C5736B620ABF3A30061A1DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = USK8B7Y8Y5;
+				INFOPLIST_FILE = TestForSignature/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hello.TestForSignature;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C5736B720ABF3A30061A1DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = USK8B7Y8Y5;
+				INFOPLIST_FILE = TestForSignature/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hello.TestForSignature;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C5736B920ABF3A30061A1DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestForSignatureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hello.TestForSignatureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestForSignature.app/TestForSignature";
+			};
+			name = Debug;
+		};
+		9C5736BA20ABF3A30061A1DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestForSignatureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hello.TestForSignatureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestForSignature.app/TestForSignature";
+			};
+			name = Release;
+		};
+		9C5736BC20ABF3A30061A1DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestForSignatureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hello.TestForSignatureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestForSignature;
+			};
+			name = Debug;
+		};
+		9C5736BD20ABF3A30061A1DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestForSignatureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hello.TestForSignatureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestForSignature;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C57368420ABF3A10061A1DD /* Build configuration list for PBXProject "TestForSignature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5736B320ABF3A30061A1DD /* Debug */,
+				9C5736B420ABF3A30061A1DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C5736B520ABF3A30061A1DD /* Build configuration list for PBXNativeTarget "TestForSignature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5736B620ABF3A30061A1DD /* Debug */,
+				9C5736B720ABF3A30061A1DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C5736B820ABF3A30061A1DD /* Build configuration list for PBXNativeTarget "TestForSignatureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5736B920ABF3A30061A1DD /* Debug */,
+				9C5736BA20ABF3A30061A1DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C5736BB20ABF3A30061A1DD /* Build configuration list for PBXNativeTarget "TestForSignatureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5736BC20ABF3A30061A1DD /* Debug */,
+				9C5736BD20ABF3A30061A1DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C57368120ABF3A10061A1DD /* Project object */;
+}

@@ -7,18 +7,30 @@
 //
 
 #import "ViewController.h"
+#import "MyView.h"
+#import <Masonry.h>
 
 @interface ViewController ()
-
+@property (nonatomic, strong) MyView *myView;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.myView = MyView.new;
+    [self.view addSubview:self.myView];
+    [self.myView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.center.equalTo(self.view);
+    }];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+//    [self.myView startPerform];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
