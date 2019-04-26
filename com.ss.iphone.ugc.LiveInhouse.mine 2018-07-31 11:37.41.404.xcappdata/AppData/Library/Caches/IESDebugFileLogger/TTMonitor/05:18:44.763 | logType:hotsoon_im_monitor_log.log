@@ -1,5 +1,0 @@
-{
-  "errorDesc" : "Database Read Write",
-  "errorDetail" : "{\n  \"dbTableName\" : \"requestTimestamp\",\n  \"dbOperation\" : \"write\"\n}",
-  "errorCode" : 0
-}

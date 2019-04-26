@@ -1,8 +1,0 @@
-{
-  "uuid" : "D2C6380E-90BB-4AD1-B3F2-56485467FF40",
-  "label" : "is_top",
-  "task" : "HTSMinorControlTask",
-  "step" : "PostLaunch",
-  "type" : "delay_fabric",
-  "duration" : 0
-}

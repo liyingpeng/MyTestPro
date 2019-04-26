@@ -1,9 +1,0 @@
-{
-  "event" : "karaoke_show",
-  "params" : {
-    "event_type" : "show",
-    "event_page" : "my_profile",
-    "event_belong" : "video",
-    "event_module" : "karaoke"
-  }
-}

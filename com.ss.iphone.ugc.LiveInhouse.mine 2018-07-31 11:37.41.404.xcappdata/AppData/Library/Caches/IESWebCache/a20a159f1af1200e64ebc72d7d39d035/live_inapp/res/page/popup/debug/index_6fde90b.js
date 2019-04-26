@@ -1,1 +1,0 @@
-define("page/popup/debug/index",function(e){function u(e){return e&&e.__esModule?e:{"default":e}}e("node_modules/babel-polyfill/lib/index");var n=u(e("node_modules/vue/dist/vue.runtime.common")),d=u(e("page/popup/debug/app.vue"));new n.default({el:"#debug",render:function(e){return e(d.default)}})});

@@ -1,9 +1,0 @@
-{
-  "event" : "my_profile",
-  "params" : {
-    "new_recommend_num" : "3",
-    "event_page" : "my_profile",
-    "event_belong" : "video",
-    "event_type" : "show"
-  }
-}

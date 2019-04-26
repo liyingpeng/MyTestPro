@@ -1,6 +1,0 @@
-{
-  "event" : "live_animate_engine_start",
-  "params" : {
-    "status" : 0
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "uuid" : "798C04B0-BEE8-4515-8DFF-D005F538BB67",
-  "label" : "is_top",
-  "task" : "HTSLiveRoomRuntimeTask",
-  "step" : "DuringLaunch",
-  "type" : "delay_fabric",
-  "duration" : 1
-}

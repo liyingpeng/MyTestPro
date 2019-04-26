@@ -1,6 +1,0 @@
-{
-  "event" : "background_refresh_status",
-  "params" : {
-    "status" : "available"
-  }
-}

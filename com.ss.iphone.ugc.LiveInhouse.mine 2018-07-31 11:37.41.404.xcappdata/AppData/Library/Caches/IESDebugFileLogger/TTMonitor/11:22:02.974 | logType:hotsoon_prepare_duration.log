@@ -1,8 +1,0 @@
-{
-  "service" : "prepare_time",
-  "extra" : {
-    "image_size" : 576,
-    "duration" : 569.62691666185856,
-    "source" : ""
-  }
-}

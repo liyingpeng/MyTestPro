@@ -1,8 +1,0 @@
-{
-  "uuid" : "D076DED7-19AB-4358-8E26-F0A9D05ACB16",
-  "label" : "is_top",
-  "task" : "HTSPreLaunchTask",
-  "step" : "PreLaunch",
-  "type" : "delay_fabric",
-  "duration" : 31
-}

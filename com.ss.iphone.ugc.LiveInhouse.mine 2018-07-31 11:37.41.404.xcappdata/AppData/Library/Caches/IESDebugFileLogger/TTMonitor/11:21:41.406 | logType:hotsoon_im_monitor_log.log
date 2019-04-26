@@ -1,5 +1,0 @@
-{
-  "errorDesc" : "Database Read Write",
-  "errorDetail" : "{\n  \"dbTableName\" : \"session\",\n  \"dbOperation\" : \"read\"\n}",
-  "errorCode" : 0
-}

@@ -1,8 +1,0 @@
-{
-  "uuid" : "E16FCBD0-7012-47B0-B53F-AB6C7C3F851C",
-  "label" : "normal",
-  "task" : "HTSTrackPublishFailedTask",
-  "step" : "RunLoopIdle",
-  "type" : "delay_fabric",
-  "duration" : 0
-}

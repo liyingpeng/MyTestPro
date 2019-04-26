@@ -1,7 +1,0 @@
-{
-  "status" : 1,
-  "errorCode" : -1005,
-  "errorDesc" : "NSURLErrorDomain",
-  "errorDomain" : "api",
-  "mediaType" : "video"
-}

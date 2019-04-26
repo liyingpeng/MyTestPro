@@ -1,1 +1,0 @@
-define("page/flame/notenough/index",function(e){function n(e){return e&&e.__esModule?e:{"default":e}}e("node_modules/babel-polyfill/lib/index");var u=n(e("node_modules/vue/dist/vue.runtime.common")),l=n(e("page/flame/notenough/app.vue"));new u.default({el:"#flameTips",render:function(e){return e(l.default)}})});

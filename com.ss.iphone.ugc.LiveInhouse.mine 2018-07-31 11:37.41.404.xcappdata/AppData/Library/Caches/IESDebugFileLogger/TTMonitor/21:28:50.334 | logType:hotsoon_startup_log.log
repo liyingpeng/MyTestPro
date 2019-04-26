@@ -1,8 +1,0 @@
-{
-  "uuid" : "AB14A04F-44F8-4745-8E69-B4D8819FDB9C",
-  "label" : "normal",
-  "task" : "HTSPermissionTask",
-  "step" : "PostLaunch",
-  "type" : "delay_fabric",
-  "duration" : 12
-}

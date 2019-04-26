@@ -1,1 +1,0 @@
-define("page/red-envelop/app.vue",function(e,t,r){Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var a={data:function(){return{}}};t.default=a;var n;n=t&&t.__esModule&&t.default?t.default:r.exports,n.render=function(){var e=this,t=e.$createElement,r=e._self._c||t;return r("div",{staticClass:"red-envelop-page"},[r("router-view")],1)},n.staticRenderFns=[]});

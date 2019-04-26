@@ -1,8 +1,0 @@
-{
-  "uuid" : "13DBE55B-D47F-4528-91B4-2DCAEEDE1F9D",
-  "label" : "is_top",
-  "task" : "HTSRootViewControllerLaunchTask",
-  "step" : "DuringLaunch",
-  "type" : "delay_fabric,feed_cached",
-  "duration" : 10
-}

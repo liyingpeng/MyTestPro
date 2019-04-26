@@ -1,1 +1,0 @@
-define("page/feedback/app.vue",function(e,t,a){Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var d={};t.default=d;var r;r=t&&t.__esModule&&t.default?t.default:a.exports,r.render=function(){var e=this,t=e.$createElement,a=e._self._c||t;return a("div",{staticClass:"feedback-page"},[a("router-view")],1)},r.staticRenderFns=[]});

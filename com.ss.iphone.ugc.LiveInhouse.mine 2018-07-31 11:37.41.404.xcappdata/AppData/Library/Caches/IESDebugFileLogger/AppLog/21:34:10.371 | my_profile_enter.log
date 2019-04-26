@@ -1,7 +1,0 @@
-{
-  "event" : "my_profile_enter",
-  "params" : {
-    "event_belong" : "tab_click",
-    "event_type" : "click"
-  }
-}

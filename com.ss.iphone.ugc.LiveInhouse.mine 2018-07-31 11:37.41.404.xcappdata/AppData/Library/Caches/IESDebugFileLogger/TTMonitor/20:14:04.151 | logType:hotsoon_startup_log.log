@@ -1,8 +1,0 @@
-{
-  "uuid" : "175E998D-3648-438A-977C-D55BDC2EC98C",
-  "label" : "is_top",
-  "task" : "HTSBlockMonitorTask",
-  "step" : "PostLaunch",
-  "type" : "delay_fabric",
-  "duration" : 7
-}

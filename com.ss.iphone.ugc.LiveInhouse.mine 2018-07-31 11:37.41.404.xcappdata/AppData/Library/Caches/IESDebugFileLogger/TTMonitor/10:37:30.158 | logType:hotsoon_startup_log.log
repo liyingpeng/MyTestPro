@@ -1,8 +1,0 @@
-{
-  "uuid" : "9092B2C1-5EFA-45E1-8C05-AF169743A977",
-  "label" : "is_top",
-  "task" : "HTSTTMonitorTask",
-  "step" : "PostLaunch",
-  "type" : "delay_fabric",
-  "duration" : 0
-}

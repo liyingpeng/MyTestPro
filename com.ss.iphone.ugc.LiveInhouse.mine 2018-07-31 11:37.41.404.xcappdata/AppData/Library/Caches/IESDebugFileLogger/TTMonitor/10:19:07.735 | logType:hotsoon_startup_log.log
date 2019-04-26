@@ -1,8 +1,0 @@
-{
-  "uuid" : "4C039008-2D3E-4D21-BDF6-A760512D39FA",
-  "label" : "normal",
-  "task" : "HTSRegisterAppTask",
-  "step" : "RunLoopIdle",
-  "type" : "delay_fabric",
-  "duration" : 178
-}

@@ -1,8 +1,0 @@
-{
-  "event" : "background_fetch",
-  "params" : {
-    "count" : 3,
-    "type" : "consume",
-    "time" : 18000
-  }
-}
